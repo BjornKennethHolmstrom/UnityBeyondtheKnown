@@ -1,0 +1,511 @@
+{
+  "nav": {
+    "perspectives": "Perspectives",
+    "exploration": "Exploration",
+    "experiments": "Experiments"
+  },
+  "home": {
+    "title": "Unity Beyond the Known",
+    "tagline": "What if humanity redirected its resources from conflict to exploration?",
+    "comparison": {
+      "title": "Annual Global Spending (2023)",
+      "military": "Military & Defense",
+      "space": "Space Exploration",
+      "context": "We spend 22 times more on military than on exploring space. What could we achieve by redirecting these resources?"
+    },
+    "cta": {
+      "explore": "Explore Ideas",
+      "participate": "Join the Discussion"
+    },
+    "intro": {
+      "outer": {
+        "title": "Exploring Outer Space",
+        "content": "From understanding our cosmos to protecting Earth from asteroids, space exploration offers humanity a shared purpose that transcends national boundaries."
+      },
+      "inner": {
+        "title": "Exploring Inner Space",
+        "content": "Through meditation, research, and responsible use of psychedelics, we can map the frontiers of consciousness and discover new ways of being."
+      }
+    }
+  },
+  "footer": {
+    "text": "An invitation to explore humanity's potential beyond conflict"
+  },
+  "perspectives": {
+    "title": "Redirecting Resources",
+    "description": "Explore how redirecting resources from various sectors could transform our world. Click on each area to see potential peaceful applications.",
+    "exploration": "Exploration",
+    "impact": "Impact",
+    "close": "Close",
+    "areas": {
+      "military": {
+        "title": "Military & Defense",
+        "description": "Current global military spending could transform our world through infrastructure, education, healthcare, and environmental protection.",
+        "impact": "Redirecting military spending could fund critical global initiatives from space exploration to poverty elimination, while still maintaining essential defensive capabilities.",
+        "spending": {
+          "amount": "$2.4",
+          "unit": "trillion"
+        },
+        "redirections": [
+          {
+            "to": "Space Exploration",
+            "amount": "$107B",
+            "description": "Current annual space budget"
+          },
+          {
+            "to": "Infrastructure Development",
+            "amount": "$300B",
+            "description": "Basic infrastructure in developing regions"
+          },
+          {
+            "to": "Global Reforestation",
+            "amount": "$50B",
+            "description": "Large-scale tree planting and forest restoration"
+          },
+          {
+            "to": "Education Access",
+            "amount": "$100B",
+            "description": "Quality education systems in developing regions"
+          },
+          {
+            "to": "Clean Energy Transition",
+            "amount": "$200B",
+            "description": "Accelerating renewable energy adoption"
+          },
+          {
+            "to": "Global Healthcare",
+            "amount": "$300B",
+            "description": "Basic healthcare in underserved regions"
+          },
+          {
+            "to": "Scientific Research",
+            "amount": "$200B",
+            "description": "Advanced technology and medical research"
+          },
+          {
+            "to": "Ocean Cleanup",
+            "amount": "$50B",
+            "description": "Ocean plastic removal and ecosystem restoration"
+          }
+        ]
+      },
+      "legal": {
+        "title": "Corporate Legal Battles",
+        "description": "Resources spent on corporate litigation could drive collaborative innovation.",
+        "impact": "Transforming competitive legal spending into cooperative research and development could accelerate technological progress.",
+        "spending": {
+          "amount": "$20",
+          "unit": "billion"
+        },
+        "redirections": [
+          {
+            "to": "Collaborative Innovation",
+            "amount": "$8B",
+            "description": "Joint research initiatives"
+          },
+          {
+            "to": "Conflict Resolution",
+            "amount": "$7B",
+            "description": "Mediation & arbitration systems"
+          },
+          {
+            "to": "Open Source Development",
+            "amount": "$5B",
+            "description": "Shared technological advancement"
+          }
+        ]
+      },
+      "pharma": {
+        "title": "Mental Health & Pharmaceuticals",
+        "description": "Funds currently focused on symptom management could address root causes.",
+        "impact": "By investing in understanding consciousness and preventive care, we could revolutionize mental health treatment and well-being.",
+        "spending": {
+          "amount": "$15",
+          "unit": "billion"
+        },
+        "redirections": [
+          {
+            "to": "Root Cause Research",
+            "amount": "$6B",
+            "description": "Understanding core mental health factors"
+          },
+          {
+            "to": "Preventive Care",
+            "amount": "$5B",
+            "description": "Early intervention programs"
+          },
+          {
+            "to": "Consciousness Research",
+            "amount": "$4B",
+            "description": "Advanced mental health studies"
+          }
+        ]
+      },
+      "intelligence": {
+        "title": "Intelligence Services",
+        "description": "Surveillance and intelligence capabilities could monitor environmental threats.",
+        "impact": "Repurposing intelligence networks for environmental protection and space weather monitoring could help safeguard humanity's future.",
+        "spending": {
+          "amount": "$85",
+          "unit": "billion"
+        },
+        "redirections": [
+          {
+            "to": "Climate Monitoring",
+            "amount": "$30B",
+            "description": "Global environmental tracking"
+          },
+          {
+            "to": "Space Weather",
+            "amount": "$25B",
+            "description": "Solar activity & cosmic threats"
+          },
+          {
+            "to": "Wildlife Protection",
+            "amount": "$30B",
+            "description": "Preserving biodiversity"
+          }
+        ]
+      },
+      "consumption": {
+        "title": "Overconsumption & Waste",
+        "description": "Resources driven by excessive consumption and waste could fund sustainable innovation.",
+        "impact": "Shifting from overconsumption to sustainable production and efficient resource use could ensure humanity's long-term prosperity.",
+        "spending": {
+          "amount": "$27",
+          "unit": "trillion"
+        },
+        "redirections": [
+          {
+            "to": "Sustainable Production",
+            "amount": "$10T",
+            "description": "Eco-friendly manufacturing"
+          },
+          {
+            "to": "Food Waste Reduction",
+            "amount": "$1T",
+            "description": "Saving 1.3 billion tons of food annually"
+          },
+          {
+            "to": "Space Resources",
+            "amount": "$8T",
+            "description": "Asteroid mining & space manufacturing"
+          },
+          {
+            "to": "Circular Economy",
+            "amount": "$8T",
+            "description": "Zero-waste systems"
+          }
+        ]
+      }
+    }
+  },
+  "exploration": {
+    "title": "Paths of Exploration",
+    "description": "Discover ways to engage with both outer space and inner consciousness exploration, and learn how these parallel journeys can transform our understanding of existence.",
+    "tabs": {
+      "outer": "Space Exploration",
+      "inner": "Consciousness Exploration"
+    },
+    "learnMore": "Learn More",
+    "close": "Close",
+    "resources": {
+      "links": "Useful Links"
+    },
+    "outer": {
+      "overview": {
+        "title": "Exploring the Cosmos",
+        "description": "Space exploration represents humanity's physical journey into the unknown, offering unprecedented opportunities for global cooperation and scientific advancement.",
+        "keyPoints": {
+          "title": "Why Space Exploration Matters",
+          "items": [
+            "Drives technological innovation and scientific discovery",
+            "Provides perspective on Earth's uniqueness and fragility",
+            "Creates opportunities for international collaboration",
+            "Helps prepare for potential cosmic challenges",
+            "Inspires new generations of explorers and scientists"
+          ]
+        }
+      },
+      "resources": {
+        "title": "Space Exploration Resources",
+        "items": [
+          {
+            "title": "Citizen Science Projects",
+            "summary": "Participate in real space research from your computer.",
+            "content": [
+              "You don't need to be a professional astronomer to contribute to space exploration. Citizen science projects allow anyone with an internet connection to help analyze data from telescopes, identify new celestial objects, and contribute to our understanding of the cosmos.",
+              "Projects range from galaxy classification to exoplanet hunting, and many have made significant scientific discoveries through public participation."
+            ],
+            "links": [
+              {
+                "text": "Zooniverse Space Projects",
+                "url": "https://www.zooniverse.org/projects?discipline=astronomy"
+              },
+              {
+                "text": "SETI@home",
+                "url": "https://setiathome.berkeley.edu/"
+              }
+            ]
+          },
+          {
+            "title": "Amateur Astronomy",
+            "summary": "Start your own journey of cosmic discovery.",
+            "content": [
+              "Amateur astronomy is a rewarding way to explore the cosmos firsthand. With modern technology, even modest telescopes can reveal stunning details of planets, stars, and galaxies.",
+              "Getting started requires minimal investment, and local astronomy clubs often provide mentorship and equipment sharing opportunities."
+            ],
+            "links": [
+              {
+                "text": "Getting Started in Astronomy",
+                "url": "https://astronomy.com/observing"
+              }
+            ]
+          },
+          {
+            "title": "Space Data & Research",
+            "summary": "Access open data from space agencies and research institutions.",
+            "content": [
+              "Space agencies worldwide are making their data publicly available, allowing anyone to explore and analyze information from satellites, telescopes, and space missions.",
+              "This democratization of space data enables independent research and innovation."
+            ],
+            "links": [
+              {
+                "text": "NASA Open Data Portal",
+                "url": "https://data.nasa.gov/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "inner": {
+      "overview": {
+        "title": "Exploring Consciousness",
+        "description": "Inner exploration involves understanding the nature of consciousness and experience through various practices and methodologies, from meditation to scientific research.",
+        "keyPoints": {
+          "title": "Why Consciousness Exploration Matters",
+          "items": [
+            "Deepens understanding of human experience and potential",
+            "Provides tools for mental health and well-being",
+            "Offers insights into the nature of reality and perception",
+            "Supports personal growth and self-discovery",
+            "Helps develop new approaches to human challenges"
+          ]
+        }
+      },
+      "resources": {
+        "title": "Consciousness Exploration Resources",
+        "items": [
+          {
+            "title": "Meditation & Mindfulness",
+            "summary": "Simple practices for exploring consciousness.",
+            "content": [
+              "Meditation is a direct way to explore consciousness and develop awareness. While there are many approaches and traditions, you can start with these simple practices:",
+              "1. Basic Breath Awareness (5-10 minutes):\n- Sit comfortably with your back straight\n- Bring your attention to the natural flow of your breath\n- Notice the sensation of breathing at your nostrils or belly\n- When your mind wanders, gently return attention to the breath\n- There's no need to control the breath; simply observe it",
+              "2. Open Awareness Practice (5-10 minutes):\n- Start with breath awareness for a few minutes\n- Gradually expand your attention to include all sensations\n- Notice sounds, physical feelings, thoughts as they arise\n- Don't follow or resist any experience; simply observe\n- If you get caught up in thinking, return to the breath as an anchor",
+              "Tips:\n- Start with short sessions (5 minutes)\n- Practice regularly rather than long irregular sessions\n- Be kind to yourself when your mind wanders\n- There's no need to stop thoughts; simply observe them\n- No special posture is required; just be comfortable and alert",
+              "Remember: There's no 'goal' to achieve or special state to reach. The practice is simply to observe your experience as it is, moment by moment."
+            ],
+            "links": [
+              {
+                "text": "Scientific Research on Meditation",
+                "url": "https://news.harvard.edu/gazette/story/2018/04/harvard-researchers-study-how-mindfulness-may-change-the-brain-in-depressed-patients/"
+              },
+              {
+                "text": "Center for Healthy Minds",
+                "url": "https://centerhealthyminds.org/"
+              }
+            ]
+          },
+          {
+            "title": "Consciousness Research",
+            "summary": "Learn about scientific studies of consciousness.",
+            "content": [
+              "Modern science is making significant strides in understanding consciousness through neuroscience, psychology, and interdisciplinary approaches.",
+              "Research ranges from studying neural correlates of consciousness to investigating altered states and peak experiences."
+            ],
+            "links": [
+              {
+                "text": "Center for Consciousness Studies",
+                "url": "https://consciousness.arizona.edu/"
+              }
+            ]
+          },
+          {
+            "title": "Responsible Psychedelic Research",
+            "summary": "Understand the current state of psychedelic science.",
+            "content": [
+              "Scientific research into psychedelics is experiencing a renaissance, with studies investigating their potential for mental health treatment and understanding consciousness.",
+              "This research is conducted in controlled, legal settings with proper oversight and ethical guidelines."
+            ],
+            "links": [
+              {
+                "text": "MAPS Research",
+                "url": "https://maps.org/research/"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "experiments": {
+    "title": "Thought Experiments",
+    "description": "Explore different ways of thinking about resource allocation and human potential through interactive thought experiments. Each experiment invites you to consider new possibilities and reflect on their implications.",
+    "reflected": "You've reflected on this",
+    "close": "Close",
+    "reflection": {
+      "title": "Your Reflection",
+      "prompt": "Take a moment to consider your thoughts and insights about this experiment.",
+      "placeholder": "Share your reflections here...",
+      "save": "Save Reflection"
+    },
+    "items": [
+      {
+        "id": "personal-skills",
+        "type": "personal",
+        "title": "Reimagining Your Skills",
+        "summary": "How could your skills and expertise contribute to exploration rather than conflict?",
+        "content": [
+          {
+            "title": "Consider Your Current Role",
+            "text": "Think about your skills, knowledge, and experience. These might include technical abilities, problem-solving, leadership, communication, or specialized knowledge."
+          },
+          {
+            "title": "Imagine the Transition",
+            "text": "How could these same skills be applied to exploring space, consciousness, or other frontiers? For example, project management skills could coordinate research missions, or engineering expertise could develop exploration tools."
+          },
+          {
+            "title": "Explore the Impact",
+            "text": "What positive changes might result from redirecting your expertise toward exploration? Consider both personal fulfillment and broader societal benefits."
+          },
+          {
+            "title": "Real-World Example",
+            "text": "Dr. Alison Gopnik transitioned from military AI research to studying consciousness and child development. Her work now helps us understand how humans learn and explore naturally. Similarly, numerous NASA scientists previously worked in defense-related fields before contributing to space exploration."
+          }
+        ]
+      },
+      {
+        "id": "community-resources",
+        "type": "community",
+        "title": "Local Resources Redirect",
+        "summary": "What if your community redirected its security budget toward exploration and innovation?",
+        "content": [
+          {
+            "title": "Current Allocation",
+            "text": "Consider your local community's spending on security, policing, and conflict management. What percentage of resources goes to these areas?"
+          },
+          {
+            "title": "Alternative Uses",
+            "text": "Imagine redirecting 25% of these resources to exploration initiatives: local research centers, citizen science programs, meditation spaces, or innovation hubs."
+          },
+          {
+            "title": "Community Impact",
+            "text": "How might this shift affect community well-being, engagement, and development? What new opportunities might emerge?"
+          },
+          {
+            "title": "Real-World Example",
+            "text": "The city of Medellín, Colombia transformed from one of the world's most dangerous cities by redirecting resources from security to public innovation. They built libraries, parks, and a science center, reducing violence while fostering education and exploration. The city now hosts Latin America's largest science festival."
+          }
+        ]
+      },
+      {
+        "id": "global-priorities",
+        "type": "global",
+        "title": "Global Priorities Shift",
+        "summary": "Envision a world where exploration replaces conflict as humanity's primary focus.",
+        "content": [
+          {
+            "title": "Current State",
+            "text": "Consider how much of human attention, resources, and innovation currently focuses on conflict and defense versus exploration and discovery."
+          },
+          {
+            "title": "Systematic Change",
+            "text": "Imagine a 10-year global transition where nations gradually shift military and defense resources toward space programs, consciousness research, and peaceful innovation."
+          },
+          {
+            "title": "Long-term Vision",
+            "text": "How might this change humanity's trajectory? Consider technological advancement, international cooperation, and human consciousness evolution."
+          },
+          {
+            "title": "Real-World Example",
+            "text": "The International Space Station demonstrates how former adversaries can cooperate for exploration. Despite political tensions, the US and Russia have maintained peaceful collaboration in space for decades, sharing resources and expertise for scientific advancement."
+          }
+        ]
+      },
+      {
+        "id": "technology-purpose",
+        "type": "global",
+        "title": "Repurposing Technology",
+        "summary": "How could current military technology be adapted for exploration?",
+        "content": [
+          {
+            "title": "Current Technologies",
+            "text": "Think about advanced technologies currently used primarily for military purposes: satellites, drones, AI systems, communications networks."
+          },
+          {
+            "title": "Peaceful Applications",
+            "text": "How could these technologies be modified to serve exploration? For example, surveillance systems could monitor climate change or space weather."
+          },
+          {
+            "title": "Innovation Pathway",
+            "text": "What new technologies might emerge when brilliant minds focus on exploration rather than conflict?"
+          },
+          {
+            "title": "Real-World Example",
+            "text": "GPS technology, originally developed for military purposes, was made freely available for civilian use in 2000. This led to countless peaceful applications from navigation to farming. Similarly, NASA's earth observation satellites, derived from military technology, now track climate change and natural disasters."
+          }
+        ]
+      },
+      {
+        "id": "consciousness-development",
+        "type": "personal",
+        "title": "Expanding Awareness",
+        "summary": "What if we invested as much in understanding consciousness as we do in external technology?",
+        "content": [
+          {
+            "title": "Current Investment",
+            "text": "Consider how much society invests in external technology versus understanding consciousness and human potential."
+          },
+          {
+            "title": "Balance Shift",
+            "text": "Imagine redirecting significant resources toward consciousness research, meditation programs, and tools for inner exploration."
+          },
+          {
+            "title": "Personal Practice",
+            "text": "How might your own life change if you dedicated as much time to inner exploration as to external activities?"
+          },
+          {
+            "title": "Real-World Example",
+            "text": "After years of research at DARPA, Dr. Willoughby Britton now studies meditation at Brown University. Her work shows how contemplative practices can be studied with scientific rigor. Similarly, the Mind & Life Institute brings together scientists and contemplative practitioners, showing how inner and outer exploration can complement each other."
+          }
+        ]
+      },
+      {
+        "id": "education-transformation",
+        "type": "community",
+        "title": "Reimagining Education",
+        "summary": "How could education systems prioritize exploration over competition?",
+        "content": [
+          {
+            "title": "Current Model",
+            "text": "Reflect on how current education systems often emphasize competition, standardized testing, and preparation for existing job markets."
+          },
+          {
+            "title": "Exploration-Based Learning",
+            "text": "Imagine schools that balance outer exploration (science, space, nature) with inner exploration (meditation, consciousness, creativity)."
+          },
+          {
+            "title": "Societal Impact",
+            "text": "How might this educational shift affect future generations' approach to global challenges and human development?"
+          },
+          {
+            "title": "Real-World Example",
+            "text": "Finland's education system emphasizes exploration over testing, dedicating resources to hands-on learning and personal development. Their students consistently rank among the world's best while reporting higher well-being. The system includes both scientific exploration and 'phenomenon-based learning' where students investigate real-world issues across disciplines."
+          }
+        ]
+      }
+    ]
+  }
+}

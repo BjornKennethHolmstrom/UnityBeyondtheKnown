@@ -1,0 +1,542 @@
+{
+  "nav": {
+    "perspectives": "Perspektiv",
+    "exploration": "Utforskning",
+    "experiments": "Experiment"
+  },
+  "home": {
+    "title": "Enighet Bortom det Kända",
+    "tagline": "Tänk om mänskligheten omdirigerade sina resurser från konflikt till utforskning?",
+    "comparison": {
+      "title": "Global Årlig Utgift (2023)",
+      "military": "Militär & Försvar",
+      "space": "Rymdutforskning",
+      "context": "Vi spenderar 22 gånger mer på militär än på att utforska rymden. Vad skulle vi kunna åstadkomma genom att omdirigera dessa resurser?"
+    },
+    "cta": {
+      "explore": "Utforska Idéer",
+      "participate": "Delta i Diskussionen"
+    },
+    "intro": {
+      "outer": {
+        "title": "Utforska Yttre Rymden",
+        "content": "Från att förstå vår kosmos till att skydda jorden från asteroider, rymdutforskning ger mänskligheten ett gemensamt syfte som överskrider nationella gränser."
+      },
+      "inner": {
+        "title": "Utforska Inre Rymden",
+        "content": "Genom meditation, forskning och ansvarsfull användning av psykedelika kan vi kartlägga medvetandets gränser och upptäcka nya sätt att vara."
+      }
+    }
+  },
+  "footer": {
+    "text": "En inbjudan att utforska mänsklighetens potential bortom konflikt"
+  },
+  "perspectives": {
+    "title": "Omdirigera Resurser",
+    "description": "Utforska hur omdirigering av resurser från olika sektorer skulle kunna förändra vår värld. Klicka på varje område för att se potentiella fredliga tillämpningar.",
+    "areas": {
+      "military": {
+        "title": "Militär & Försvar",
+        "description": "Nuvarande globala militärutgifter skulle kunna finansiera årtionden av rymdutforskning och vetenskaplig forskning.",
+        "impact": "Att omdirigera bara en bråkdel av militärutgifterna skulle kunna revolutionera vår förståelse av rymden och påskynda tekniska innovationer för fredliga ändamål."
+      },
+      "legal": {
+        "title": "Företagsjuridiska Strider",
+        "description": "Resurser som läggs på företagstvister skulle kunna driva samarbetsinriktad innovation.",
+        "impact": "Att förvandla konkurrenskraftiga juridiska utgifter till samarbetsinriktad forskning och utveckling skulle kunna påskynda tekniska framsteg."
+      },
+      "pharma": {
+        "title": "Mental Hälsa & Läkemedel",
+        "description": "Medel som för närvarande fokuserar på symtomhantering skulle kunna åtgärda grundorsakerna.",
+        "impact": "Genom att investera i förståelse för medvetandet och förebyggande vård skulle vi kunna revolutionera behandling av psykisk hälsa och välbefinnande."
+      },
+      "intelligence": {
+        "title": "Underrättelsetjänster",
+        "description": "Övervaknings- och underrättelsekapacitet skulle kunna övervaka miljöhot.",
+        "impact": "Att ställa om underrättelsesnätverk för miljöskydd och rymdväderövervakning skulle kunna hjälpa till att säkra mänsklighetens framtid."
+      },
+      "consumption": {
+        "title": "Överkonsumtion",
+        "description": "Resurser drivna av överdriven konsumtion skulle kunna finansiera hållbar innovation.",
+        "impact": "Att skifta från överkonsumtion till hållbar produktion och rymdresursutnyttjande skulle kunna säkerställa mänsklighetens långsiktiga välstånd."
+      }
+    }
+  },
+  "perspectives": {
+    "title": "Omdirigera Resurser",
+    "description": "Utforska hur omdirigering av resurser från olika sektorer skulle kunna förändra vår värld. Klicka på varje område för att se potentiella fredliga tillämpningar.",
+    "exploration": "Utforskning",
+    "impact": "Påverkan",
+    "close": "Stäng",
+    "areas": {
+      "military": {
+        "title": "Militär & Försvar",
+        "description": "Nuvarande globala militärutgifter skulle kunna omvandla vår värld genom infrastruktur, utbildning, sjukvård och miljöskydd.",
+        "impact": "Att omdirigera militärutgifter skulle kunna finansiera kritiska globala initiativ från rymdutforskning till fattigdomsbekämpning, samtidigt som väsentliga försvarsförmågor bibehålls.",
+        "spending": {
+          "amount": "$2,4",
+          "unit": "biljoner"
+        },
+        "redirections": [
+          {
+            "to": "Rymdutforskning",
+            "amount": "$107B",
+            "description": "Nuvarande årliga rymdbudget"
+          },
+          {
+            "to": "Infrastrukturutveckling",
+            "amount": "$300B",
+            "description": "Grundläggande infrastruktur i utvecklingsregioner"
+          },
+          {
+            "to": "Global Återbeskogning",
+            "amount": "$50B",
+            "description": "Storskalig trädplantering och skogsrestaurering"
+          },
+          {
+            "to": "Utbildningstillgång",
+            "amount": "$100B",
+            "description": "Kvalitetsutbildningssystem i utvecklingsregioner"
+          },
+          {
+            "to": "Övergång till Ren Energi",
+            "amount": "$200B",
+            "description": "Påskynda övergången till förnybar energi"
+          },
+          {
+            "to": "Global Sjukvård",
+            "amount": "$300B",
+            "description": "Grundläggande sjukvård i underförsörjda regioner"
+          },
+          {
+            "to": "Vetenskaplig Forskning",
+            "amount": "$200B",
+            "description": "Avancerad teknologi och medicinsk forskning"
+          },
+          {
+            "to": "Havssanering",
+            "amount": "$50B",
+            "description": "Storskalig rening av hav och återställning av ekosystem"
+          }
+        ]
+      },
+      "legal": {
+        "title": "Företagsjuridiska Strider",
+        "description": "Resurser som läggs på företagstvister skulle kunna driva samarbetsinriktad innovation.",
+        "impact": "Att förvandla konkurrenskraftiga juridiska utgifter till samarbetsinriktad forskning och utveckling skulle kunna påskynda tekniska framsteg.",
+        "spending": {
+          "amount": "$20",
+          "unit": "miljarder"
+        },
+        "redirections": [
+          {
+            "to": "Samarbetsinriktad Innovation",
+            "amount": "$8B",
+            "description": "Gemensamma forskningsinitiativ"
+          },
+          {
+            "to": "Konfliktlösning",
+            "amount": "$7B",
+            "description": "Medlings- och skiljedomssystem"
+          },
+          {
+            "to": "Utveckling av Öppen Källkod",
+            "amount": "$5B",
+            "description": "Delad teknologisk utveckling"
+          }
+        ]
+      },
+      "pharma": {
+        "title": "Mental Hälsa & Läkemedel",
+        "description": "Medel som för närvarande fokuserar på symtomhantering skulle kunna åtgärda grundorsakerna.",
+        "impact": "Genom att investera i förståelse för medvetandet och förebyggande vård skulle vi kunna revolutionera behandling av psykisk hälsa och välbefinnande.",
+        "spending": {
+          "amount": "$15",
+          "unit": "miljarder"
+        },
+        "redirections": [
+          {
+            "to": "Grundorsaksforskning",
+            "amount": "$6B",
+            "description": "Förstå grundläggande faktorer för mental hälsa"
+          },
+          {
+            "to": "Förebyggande Vård",
+            "amount": "$5B",
+            "description": "Program för tidig intervention"
+          },
+          {
+            "to": "Medvetandeforskning",
+            "amount": "$4B",
+            "description": "Avancerade studier av mental hälsa"
+          }
+        ]
+      },
+      "intelligence": {
+        "title": "Underrättelsetjänster",
+        "description": "Övervaknings- och underrättelsekapacitet skulle kunna övervaka miljöhot.",
+        "impact": "Att ställa om underrättelsesnätverk för miljöskydd och rymdväderövervakning skulle kunna hjälpa till att säkra mänsklighetens framtid.",
+        "spending": {
+          "amount": "$85",
+          "unit": "miljarder"
+        },
+        "redirections": [
+          {
+            "to": "Klimatövervakning",
+            "amount": "$30B",
+            "description": "Global miljöövervakning"
+          },
+          {
+            "to": "Rymdväder",
+            "amount": "$25B",
+            "description": "Solaktivitet & kosmiska hot"
+          },
+          {
+            "to": "Naturskydd",
+            "amount": "$30B",
+            "description": "Bevarande av biologisk mångfald"
+          }
+        ]
+      },
+      "consumption": {
+        "title": "Överkonsumtion & Avfall",
+        "description": "Resurser drivna av överdriven konsumtion och avfall skulle kunna finansiera hållbar innovation.",
+        "impact": "Att skifta från överkonsumtion till hållbar produktion och effektiv resursanvändning skulle kunna säkerställa mänsklighetens långsiktiga välstånd.",
+        "spending": {
+          "amount": "$27",
+          "unit": "biljoner"
+        },
+        "redirections": [
+          {
+            "to": "Hållbar Produktion",
+            "amount": "$10T",
+            "description": "Miljövänlig tillverkning"
+          },
+          {
+            "to": "Minskning av Matsvinn",
+            "amount": "$1T",
+            "description": "Spara 1,3 miljarder ton mat årligen"
+          },
+          {
+            "to": "Rymdresurser",
+            "amount": "$8T",
+            "description": "Asteroidutvinning & rymdtillverkning"
+          },
+          {
+            "to": "Cirkulär Ekonomi",
+            "amount": "$8T",
+            "description": "System för nollsvinn"
+          }
+        ]
+      }
+    }
+  },
+  "exploration": {
+    "title": "Utforskningens Vägar",
+    "description": "Upptäck sätt att engagera dig i utforskning av både yttre rymden och inre medvetande, och lär dig hur dessa parallella resor kan förändra vår förståelse av existensen.",
+    "tabs": {
+      "outer": "Rymdutforskning",
+      "inner": "Medvetandeutforskning"
+    },
+    "learnMore": "Läs Mer",
+    "close": "Stäng",
+    "resources": {
+      "links": "Användbara Länkar"
+    },
+    "outer": {
+      "overview": {
+        "title": "Utforska Kosmos",
+        "description": "Rymdutforskning representerar mänsklighetens fysiska resa in i det okända och erbjuder enastående möjligheter till globalt samarbete och vetenskapliga framsteg.",
+        "keyPoints": {
+          "title": "Varför Rymdutforskning Är Viktigt",
+          "items": [
+            "Driver teknologisk innovation och vetenskapliga upptäckter",
+            "Ger perspektiv på jordens unikhet och sårbarhet",
+            "Skapar möjligheter för internationellt samarbete",
+            "Hjälper oss förbereda för potentiella kosmiska utmaningar",
+            "Inspirerar nya generationer av utforskare och forskare"
+          ]
+        }
+      },
+      "resources": {
+        "title": "Resurser för Rymdutforskning",
+        "items": [
+          {
+            "title": "Medborgarforskningsprojekt",
+            "summary": "Delta i riktig rymdforskning från din dator.",
+            "content": [
+              "Du behöver inte vara professionell astronom för att bidra till rymdutforskning. Medborgarforskningsprojekt låter vem som helst med internetuppkoppling hjälpa till att analysera data från teleskop, identifiera nya himmelsobjekt och bidra till vår förståelse av kosmos.",
+              "Projekten sträcker sig från galaxklassificering till jakt på exoplaneter, och många har gjort betydande vetenskapliga upptäckter genom allmänhetens deltagande."
+            ],
+            "links": [
+              {
+                "text": "Zooniverse Rymdprojekt",
+                "url": "https://www.zooniverse.org/projects?discipline=astronomy"
+              },
+              {
+                "text": "SETI@home",
+                "url": "https://setiathome.berkeley.edu/"
+              }
+            ]
+          },
+          {
+            "title": "Amatörastronomi",
+            "summary": "Påbörja din egen resa av kosmiska upptäckter.",
+            "content": [
+              "Amatörastronomi är ett givande sätt att utforska kosmos på första hand. Med modern teknologi kan även mindre teleskop visa häpnadsväckande detaljer av planeter, stjärnor och galaxer.",
+              "Att komma igång kräver minimal investering, och lokala astronomiklubbar erbjuder ofta mentorskap och möjlighet att dela utrustning."
+            ],
+            "links": [
+              {
+                "text": "Kom Igång med Astronomi",
+                "url": "https://astronomy.com/observing"
+              }
+            ]
+          },
+          {
+            "title": "Rymddata & Forskning",
+            "summary": "Få tillgång till öppen data från rymdorganisationer och forskningsinstitutioner.",
+            "content": [
+              "Rymdorganisationer världen över gör sin data offentligt tillgänglig, vilket låter vem som helst utforska och analysera information från satelliter, teleskop och rymduppdrag.",
+              "Denna demokratisering av rymddata möjliggör oberoende forskning och innovation."
+            ],
+            "links": [
+              {
+                "text": "NASA:s Öppna Dataportal",
+                "url": "https://data.nasa.gov/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "inner": {
+      "overview": {
+        "title": "Utforska Medvetandet",
+        "description": "Inre utforskning handlar om att förstå medvetandets och upplevelsens natur genom olika praktiker och metoder, från meditation till vetenskaplig forskning.",
+        "keyPoints": {
+          "title": "Varför Medvetandeutforskning Är Viktigt",
+          "items": [
+            "Fördjupar förståelsen av mänsklig upplevelse och potential",
+            "Ger verktyg för mental hälsa och välbefinnande",
+            "Erbjuder insikter om verklighetens och perceptionens natur",
+            "Stödjer personlig utveckling och självupptäckt",
+            "Hjälper utveckla nya sätt att möta mänskliga utmaningar"
+          ]
+        }
+      },
+      "resources": {
+        "title": "Resurser för Medvetandeutforskning",
+        "items": [
+          {
+            "title": "Meditation & Mindfulness",
+            "summary": "Enkla övningar för att utforska medvetandet.",
+            "content": [
+              "Meditation är ett direkt sätt att utforska medvetandet och utveckla medvetenhet. Medan det finns många metoder och traditioner kan du börja med dessa enkla övningar:",
+              "1. Grundläggande Andningsmedvetenhet (5-10 minuter):\n- Sitt bekvämt med rak rygg\n- Rikta din uppmärksamhet mot ditt naturliga andningsflöde\n- Notera förnimmelsen av andningen vid näsborrarna eller magen\n- När ditt sinne vandrar, för varsamt tillbaka uppmärksamheten till andningen\n- Du behöver inte kontrollera andningen; observera den bara",
+              "2. Öppen Medvetenhet (5-10 minuter):\n- Börja med andningsmedvetenhet i några minuter\n- Utvidga gradvis din uppmärksamhet till att inkludera alla förnimmelser\n- Notera ljud, fysiska känslor, tankar när de uppstår\n- Följ inte efter eller gör motstånd mot någon upplevelse; observera bara\n- Om du fastnar i tankar, återvänd till andningen som ett ankare",
+              "Tips:\n- Börja med korta pass (5 minuter)\n- Öva regelbundet hellre än långa oregelbundna pass\n- Var vänlig mot dig själv när ditt sinne vandrar\n- Du behöver inte stoppa tankar; observera dem bara\n- Ingen speciell ställning krävs; var bara bekväm och alert",
+              "Kom ihåg: Det finns inget 'mål' att uppnå eller speciellt tillstånd att nå. Övningen är helt enkelt att observera din upplevelse som den är, ögonblick för ögonblick."
+            ],
+            "links": [
+              {
+                "text": "Vetenskaplig Forskning om Meditation",
+                "url": "https://news.harvard.edu/gazette/story/2018/04/harvard-researchers-study-how-mindfulness-may-change-the-brain-in-depressed-patients/"
+              },
+              {
+                "text": "Center for Healthy Minds",
+                "url": "https://centerhealthyminds.org/"
+              }
+            ]
+          },
+          {
+            "title": "Medvetandeforskning",
+            "summary": "Lär dig om vetenskapliga studier av medvetandet.",
+            "content": [
+              "Modern vetenskap gör betydande framsteg i förståelsen av medvetandet genom neurovetenskap, psykologi och tvärvetenskapliga metoder.",
+              "Forskningen sträcker sig från studier av medvetandets neurala korrelat till undersökning av förändrade medvetandetillstånd och toppupplevelser."
+            ],
+            "links": [
+              {
+                "text": "Center for Consciousness Studies",
+                "url": "https://consciousness.arizona.edu/"
+              }
+            ]
+          },
+          {
+            "title": "Ansvarsfull Psykedelisk Forskning",
+            "summary": "Förstå det aktuella läget inom psykedelisk vetenskap.",
+            "content": [
+              "Vetenskaplig forskning om psykedeliska ämnen upplever en renässans, med studier som undersöker deras potential för behandling av mental hälsa och förståelse av medvetandet.",
+              "Denna forskning utförs i kontrollerade, lagliga miljöer med lämplig övervakning och etiska riktlinjer."
+            ],
+            "links": [
+              {
+                "text": "MAPS Forskning",
+                "url": "https://maps.org/research/"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "experiments": {
+    "title": "Tankeexperiment",
+    "description": "Utforska olika sätt att tänka kring resursfördelning och mänsklig potential genom interaktiva tankeexperiment. Varje experiment inbjuder dig att överväga nya möjligheter och reflektera över deras konsekvenser.",
+    "reflected": "Du har reflekterat över detta",
+    "close": "Stäng",
+    "reflection": {
+      "title": "Din Reflektion",
+      "prompt": "Ta en stund att fundera över dina tankar och insikter om detta experiment.",
+      "placeholder": "Dela dina reflektioner här...",
+      "save": "Spara Reflektion"
+    },
+    "items": [
+      {
+        "id": "personal-skills",
+        "type": "personal",
+        "title": "Omforma Dina Färdigheter",
+        "summary": "Hur skulle dina färdigheter och expertis kunna bidra till utforskning istället för konflikt?",
+        "content": [
+          {
+            "title": "Fundera På Din Nuvarande Roll",
+            "text": "Tänk på dina färdigheter, kunskaper och erfarenheter. Dessa kan inkludera teknisk förmåga, problemlösning, ledarskap, kommunikation eller specialiserad kunskap."
+          },
+          {
+            "title": "Föreställ Dig Övergången",
+            "text": "Hur skulle dessa samma färdigheter kunna användas för att utforska rymden, medvetandet eller andra gränser? Till exempel skulle projektledningskunskaper kunna samordna forskningsuppdrag, eller ingenjörskunskaper kunna utveckla utforskningsverktyg."
+          },
+          {
+            "title": "Utforska Påverkan",
+            "text": "Vilka positiva förändringar skulle kunna uppstå genom att omdirigera din expertis mot utforskning? Överväg både personlig tillfredsställelse och bredare samhällsfördelar."
+          },
+          {
+            "title": "Verkligt Exempel",
+            "text": "Dr. Alison Gopnik övergick från militär AI-forskning till att studera medvetande och barns utveckling. Hennes arbete hjälper oss nu att förstå hur människor lär sig och utforskar naturligt. På liknande sätt har många NASA-forskare tidigare arbetat inom försvarsrelaterade områden innan de bidrog till rymdutforskning."
+          }
+        ]
+      },
+      {
+        "id": "community-resources",
+        "type": "community",
+        "title": "Omdirigering av Lokala Resurser",
+        "summary": "Tänk om din kommun omdirigerade sin säkerhetsbudget mot utforskning och innovation?",
+        "content": [
+          {
+            "title": "Nuvarande Fördelning",
+            "text": "Fundera över din kommuns utgifter för säkerhet, polisväsende och konflikthantering. Hur stor andel av resurserna går till dessa områden?"
+          },
+          {
+            "title": "Alternativa Användningsområden",
+            "text": "Föreställ dig att omdirigera 25% av dessa resurser till utforskningsinitiativ: lokala forskningscentrum, medborgarvetenskapsprogram, meditationsutrymmen eller innovationshubbar."
+          },
+          {
+            "title": "Samhällspåverkan",
+            "text": "Hur skulle denna förändring kunna påverka samhällets välbefinnande, engagemang och utveckling? Vilka nya möjligheter skulle kunna uppstå?"
+          },
+          {
+            "title": "Verkligt Exempel",
+            "text": "Staden Medellín i Colombia förvandlades från en av världens farligaste städer genom att omdirigera resurser från säkerhet till offentlig innovation. De byggde bibliotek, parker och ett vetenskapscenter, vilket minskade våldet samtidigt som det främjade utbildning och utforskning. Staden är nu värd för Latinamerikas största vetenskapsfestival."
+          }
+        ]
+      },
+      {
+        "id": "global-priorities",
+        "type": "global",
+        "title": "Förändring av Globala Prioriteringar",
+        "summary": "Föreställ dig en värld där utforskning ersätter konflikt som mänsklighetens primära fokus.",
+        "content": [
+          {
+            "title": "Nuvarande Tillstånd",
+            "text": "Fundera över hur mycket av mänsklig uppmärksamhet, resurser och innovation som för närvarande fokuserar på konflikt och försvar jämfört med utforskning och upptäckt."
+          },
+          {
+            "title": "Systematisk Förändring",
+            "text": "Föreställ dig en 10-årig global övergång där nationer gradvis flyttar militära och försvarsresurser mot rymdprogram, medvetandeforskning och fredlig innovation."
+          },
+          {
+            "title": "Långsiktig Vision",
+            "text": "Hur skulle detta kunna förändra mänsklighetens bana? Överväg teknologisk utveckling, internationellt samarbete och medvetandets evolution."
+          },
+          {
+            "title": "Verkligt Exempel",
+            "text": "Den Internationella Rymdstationen visar hur tidigare motståndare kan samarbeta för utforskning. Trots politiska spänningar har USA och Ryssland upprätthållit fredligt samarbete i rymden i årtionden, där de delar resurser och expertis för vetenskapliga framsteg."
+          }
+        ]
+      },
+      {
+        "id": "technology-purpose",
+        "type": "global",
+        "title": "Omformning av Teknologi",
+        "summary": "Hur skulle nuvarande militär teknologi kunna anpassas för utforskning?",
+        "content": [
+          {
+            "title": "Nuvarande Teknologier",
+            "text": "Tänk på avancerad teknik som för närvarande främst används för militära ändamål: satelliter, drönare, AI-system, kommunikationsnätverk."
+          },
+          {
+            "title": "Fredliga Tillämpningar",
+            "text": "Hur skulle dessa teknologier kunna modifieras för att tjäna utforskning? Till exempel skulle övervakningssystem kunna övervaka klimatförändringar eller rymdväder."
+          },
+          {
+            "title": "Innovationsväg",
+            "text": "Vilka nya teknologier skulle kunna uppstå när briljanta sinnen fokuserar på utforskning istället för konflikt?"
+          },
+          {
+            "title": "Verkligt Exempel",
+            "text": "GPS-teknologi, som ursprungligen utvecklades för militära ändamål, gjordes fritt tillgänglig för civil användning år 2000. Detta ledde till otaliga fredliga tillämpningar från navigation till jordbruk. På liknande sätt spårar NASA:s jordobservationssatelliter, som härstammar från militär teknologi, nu klimatförändringar och naturkatastrofer."
+          }
+        ]
+      },
+      {
+        "id": "consciousness-development",
+        "type": "personal",
+        "title": "Expanderande Medvetenhet",
+        "summary": "Tänk om vi investerade lika mycket i att förstå medvetandet som vi gör i extern teknologi?",
+        "content": [
+          {
+            "title": "Nuvarande Investering",
+            "text": "Fundera över hur mycket samhället investerar i extern teknologi jämfört med förståelse av medvetandet och mänsklig potential."
+          },
+          {
+            "title": "Balansförskjutning",
+            "text": "Föreställ dig att omdirigera betydande resurser mot medvetandeforskning, meditationsprogram och verktyg för inre utforskning."
+          },
+          {
+            "title": "Personlig Praktik",
+            "text": "Hur skulle ditt eget liv kunna förändras om du ägnade lika mycket tid åt inre utforskning som åt externa aktiviteter?"
+          },
+          {
+            "title": "Verkligt Exempel",
+            "text": "Efter år av forskning vid DARPA studerar Dr. Willoughby Britton nu meditation vid Brown University. Hennes arbete visar hur kontemplativa praktiker kan studeras med vetenskaplig stringens. På liknande sätt för Mind & Life Institute samman forskare och kontemplativa utövare, vilket visar hur inre och yttre utforskning kan komplettera varandra."
+          }
+        ]
+      },
+      {
+        "id": "education-transformation",
+        "type": "community",
+        "title": "Omforma Utbildning",
+        "summary": "Hur skulle utbildningssystem kunna prioritera utforskning framför konkurrens?",
+        "content": [
+          {
+            "title": "Nuvarande Modell",
+            "text": "Reflektera över hur nuvarande utbildningssystem ofta betonar konkurrens, standardiserade prov och förberedelse för existerande arbetsmarknader."
+          },
+          {
+            "title": "Utforskningsbaserat Lärande",
+            "text": "Föreställ dig skolor som balanserar yttre utforskning (vetenskap, rymden, natur) med inre utforskning (meditation, medvetande, kreativitet)."
+          },
+          {
+            "title": "Samhällspåverkan",
+            "text": "Hur skulle denna utbildningsförändring kunna påverka framtida generationers sätt att närma sig globala utmaningar och mänsklig utveckling?"
+          },
+          {
+            "title": "Verkligt Exempel",
+            "text": "Finlands utbildningssystem betonar utforskning framför provskrivning och ägnar resurser åt praktiskt lärande och personlig utveckling. Deras elever rankas konsekvent bland världens bästa samtidigt som de rapporterar högre välbefinnande. Systemet inkluderar både vetenskaplig utforskning och 'fenomenbaserat lärande' där elever undersöker verkliga problem över ämnesgränser."
+          }
+        ]
+      }
+    ]
+  }
+}
