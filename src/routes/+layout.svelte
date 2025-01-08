@@ -1,6 +1,7 @@
 <!-- src/routes/+layout.svelte -->
 <script>
   import '../app.css';
+  import { base } from '$app/paths';
   import { page } from '$app/stores';
   import '$lib/i18n';
   import { locale, t, waitLocale } from 'svelte-i18n';
@@ -21,19 +22,19 @@
   <div class="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white">
     <header class="fixed w-full bg-slate-900/80 backdrop-blur-sm z-50">
       <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="/" class="text-2xl font-light tracking-wider">
+        <a href="{base}/" class="text-2xl font-light tracking-wider">
           Unity Beyond the Known
         </a>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center space-x-8">
-          <a href="/perspectives" class="hover:text-blue-400 transition-colors">
+          <a href="{base}/perspectives" class="hover:text-blue-400 transition-colors">
             {$t('nav.perspectives')}
           </a>
-          <a href="/exploration" class="hover:text-blue-400 transition-colors">
+          <a href="{base}/exploration" class="hover:text-blue-400 transition-colors">
             {$t('nav.exploration')}
           </a>
-          <a href="/experiments" class="hover:text-blue-400 transition-colors">
+          <a href="{base}/experiments" class="hover:text-blue-400 transition-colors">
             {$t('nav.experiments')}
           </a>
           <LanguageSelector />
@@ -60,21 +61,21 @@
         <div class="md:hidden bg-slate-800 py-4">
           <div class="flex flex-col space-y-4 px-4">
             <a 
-              href="/perspectives" 
+              href="{base}/perspectives" 
               class="hover:text-blue-400 transition-colors"
               on:click={() => isMenuOpen = false}
             >
               {$t('nav.perspectives')}
             </a>
             <a 
-              href="/exploration" 
+              href="{base}/exploration" 
               class="hover:text-blue-400 transition-colors"
               on:click={() => isMenuOpen = false}
             >
               {$t('nav.exploration')}
             </a>
             <a 
-              href="/experiments" 
+              href="{base}/experiments" 
               class="hover:text-blue-400 transition-colors"
               on:click={() => isMenuOpen = false}
             >
