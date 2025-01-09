@@ -77,16 +77,16 @@
     </div>
 
     <!-- Call to Action -->
-    <div class="space-x-4">
+    <div class="flex flex-col sm:flex-row gap-4">
       <a 
         href="{base}/perspectives" 
-        class="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
+        class="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors text-center"
       >
         {$t('home.cta.explore')}
       </a>
       <a 
         href="{base}/experiments" 
-        class="inline-block px-8 py-3 bg-slate-700 hover:bg-slate-600 rounded-lg transition-colors"
+        class="px-8 py-3 bg-slate-700 hover:bg-slate-600 rounded-lg transition-colors text-center"
       >
         {$t('home.cta.participate')}
       </a>
