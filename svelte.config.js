@@ -11,7 +11,7 @@ const config = {
       strict: false // Disable strict mode
     }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/UnityBeyondtheKnown' : ''
+      base: ''
     },
     prerender: {
       entries: ['*'] // Pre-render all routes
