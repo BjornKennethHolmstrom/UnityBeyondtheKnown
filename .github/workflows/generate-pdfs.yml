@@ -1,0 +1,36 @@
+name: Generate PDFs
+
+on:
+  push:
+    branches: [ main ]
+    paths: 
+      - 'src/content/blueprints/**'
+      - 'src/lib/i18n/locales/**'
+  workflow_dispatch:
+
+jobs:
+  generate-pdfs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Generate PDFs
+      run: npm run generate-pdfs
+    
+    - name: Commit and push PDFs
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add static/downloads/
+        git diff --staged --quiet || git commit -m "Auto-generate PDFs [skip ci]"
+        git push

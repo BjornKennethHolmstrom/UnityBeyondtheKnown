@@ -1,6 +1,7 @@
 <!-- src/routes/tools/community-projects/+page.svelte -->
 <script>
   import { t } from 'svelte-i18n';
+  import { locale } from 'svelte-i18n';
   import { base } from '$app/paths';
   import ShareButtons from '$lib/components/ShareButtons.svelte';
   import CommunicationToolkit from '$lib/components/CommunicationToolkit.svelte';
@@ -10,51 +11,24 @@
   let showPreview = false;
 
   const sections = [
-    { id: 'overview', title: 'Overview', icon: '🌱' },
-    { id: 'communication', title: 'Communication', icon: '🗣️' },
-    { id: 'implementation', title: 'Roadmap', icon: '📋' },
-    { id: 'resources', title: 'Resources', icon: '📚' }
+    { id: 'overview', title: $t('communityProjects.nav.overview'), icon: '🌱' },
+    { id: 'communication', title: $t('communityProjects.nav.communication'), icon: '🗣️' },
+    { id: 'implementation', title: $t('communityProjects.nav.roadmap'), icon: '📋' },
+    { id: 'resources', title: $t('communityProjects.nav.resources'), icon: '📚' }
   ];
 
   function downloadBlueprint() {
-    // This would trigger PDF download
-    // For now, we'll create a data URL with basic content
-    const pdfContent = `
-# Food Forest Blueprint - Community Unity Project
-
-## Introduction
-This comprehensive guide helps you create a food forest that brings your community together across political divides.
-
-## The Bridge-Builder's Approach
-- For Conservatives: Emphasize food security, tradition, and self-reliance
-- For Progressives: Focus on climate justice and environmental restoration
-- For Officials: Highlight economic development and educational benefits
-
-## Implementation Steps
-1. Community Listening Phase (Month 1-2)
-2. Site & Partnerships (Month 2-4)
-3. Design & Planning (Month 3-6)
-4. Implementation (Month 6-12)
-
-## Plant Selection Guidelines
-[Detailed plant lists for different climate zones]
-
-## Maintenance & Governance
-[Community management structures and schedules]
-
-## Success Stories
-[Real examples from communities worldwide]
-
-For the complete interactive version, visit: ${window.location.origin}${base}/tools/community-projects
-    `;
+    const currentLocale = $locale || 'en';
+    const pdfUrl = `${base}/downloads/food-forest-blueprint/${currentLocale}/food-forest-blueprint-${currentLocale}.pdf`;
     
-    const blob = new Blob([pdfContent], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
+    // Create download link
     const a = document.createElement('a');
-    a.href = url;
-    a.download = 'food-forest-blueprint.txt';
+    a.href = pdfUrl;
+    a.download = `food-forest-blueprint-${currentLocale}.pdf`;
+    a.target = '_blank';
+    document.body.appendChild(a);
     a.click();
-    URL.revokeObjectURL(url);
+    document.body.removeChild(a);
   }
 </script>
 
@@ -106,7 +80,7 @@ For the complete interactive version, visit: ${window.location.origin}${base}/to
               <p class="text-lg text-green-200 mb-6">{$t('communityProjects.foodForest.description')}</p>
               
               <div class="mb-6">
-                <h3 class="text-lg font-medium mb-3 text-white">What's Included:</h3>
+                <h3 class="text-lg font-medium mb-3 text-white">{$t('communityProjects.foodForest.whatsIncluded')}</h3>
                 <div class="grid gap-2">
                   {#each $t('communityProjects.foodForest.features') as feature}
                     <div class="flex items-center gap-3 text-slate-300">
@@ -137,10 +111,10 @@ For the complete interactive version, visit: ${window.location.origin}${base}/to
             <div class="bg-slate-800/50 rounded-xl p-8 border border-slate-600/50 flex items-center justify-center">
               <div class="text-center">
                 <div class="text-6xl mb-4">🌳🍎🥕🌻</div>
-                <p class="text-slate-300 text-lg">From Empty Lot to Abundant Community</p>
+                <p class="text-slate-300 text-lg">{$t('communityProjects.visual.before')}</p>
                 <div class="mt-6 text-4xl">⬇️</div>
                 <div class="mt-4 text-5xl">🤝🏡🌱</div>
-                <p class="text-slate-300 mt-4">United Neighbors, Shared Harvest</p>
+                <p class="text-slate-300 mt-4">{$t('communityProjects.visual.after')}</p>
               </div>
             </div>
           </div>
@@ -153,7 +127,7 @@ For the complete interactive version, visit: ${window.location.origin}${base}/to
                 <div class="bg-slate-700/30 rounded-lg p-6 border border-slate-600/50">
                   <h4 class="text-lg font-medium mb-2 text-white">{project.title}</h4>
                   <p class="text-slate-300 mb-3">{project.description}</p>
-                  <p class="text-sm text-blue-400">ETA: {project.eta}</p>
+                  <p class="text-sm text-blue-400">{$t('communityProjects.comingSoon.eta')}: {project.eta}</p>
                 </div>
               {/each}
             </div>
@@ -175,7 +149,7 @@ For the complete interactive version, visit: ${window.location.origin}${base}/to
               <div class="bg-slate-700/30 rounded-lg p-6 border border-slate-600/50">
                 <h3 class="text-xl mb-3 text-white">{resource.title}</h3>
                 <p class="text-slate-300">{resource.description}</p>
-                <div class="mt-4 text-sm text-blue-400">Available in full blueprint</div>
+                <div class="mt-4 text-sm text-blue-400">{$t('communityProjects.resources.availabilityNote')}</div>
               </div>
             {/each}
           </div>
@@ -207,11 +181,11 @@ For the complete interactive version, visit: ${window.location.origin}${base}/to
 
       <!-- Share Section -->
       <div>
-        <p class="text-green-200 mb-4">Share these community-building tools:</p>
+        <p class="text-green-200 mb-4">{$t('communityProjects.share.description')}</p>
         <ShareButtons 
-          title="Community Unity Projects - Food Forest Blueprint"
-          description="Practical tools for creating projects that unite communities across political divides. Download the free Food Forest Blueprint!"
-          hashtags="CommunityUnity,FoodForest,LocalAction,BridgeBuilding,UnityBeyondTheKnown"
+          title={$t('communityProjects.share.title')}
+          description={$t('communityProjects.share.shareDescription')}
+          hashtags={$t('communityProjects.share.hashtags')}
           size="medium"
         />
       </div>
@@ -226,7 +200,7 @@ For the complete interactive version, visit: ${window.location.origin}${base}/to
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
         </svg>
-        Back to Tools
+        {$t('communityProjects.nav.backToTools')}
       </a>
     </div>
   </div>
@@ -237,7 +211,7 @@ For the complete interactive version, visit: ${window.location.origin}${base}/to
   <div class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
     <div class="bg-slate-800 rounded-2xl p-8 max-w-4xl w-full max-h-[90vh] overflow-y-auto border border-slate-600">
       <div class="flex justify-between items-center mb-6">
-        <h3 class="text-2xl text-white">Blueprint Preview</h3>
+        <h3 class="text-2xl text-white">{$t('communityProjects.preview.title')}</h3>
         <button 
           on:click={() => showPreview = false}
           class="text-slate-400 hover:text-white"
@@ -249,24 +223,24 @@ For the complete interactive version, visit: ${window.location.origin}${base}/to
       </div>
       
       <div class="prose prose-slate prose-invert max-w-none">
-        <h4>Food Forest Blueprint - Community Unity Project</h4>
-        <p>This comprehensive guide helps you create a food forest that brings your community together across political divides.</p>
+        <h4>{$t('communityProjects.preview.sampleTitle')}</h4>
+        <p>{$t('communityProjects.preview.sampleIntro')}</p>
         
-        <h5>The Bridge-Builder's Approach</h5>
+        <h5>{$t('communityProjects.preview.bridgeApproach')}</h5>
         <ul>
-          <li><strong>For Conservatives:</strong> Emphasize food security, tradition, and self-reliance</li>
-          <li><strong>For Progressives:</strong> Focus on climate justice and environmental restoration</li>
-          <li><strong>For Officials:</strong> Highlight economic development and educational benefits</li>
+          <li><strong>{$t('communityProjects.preview.conservatives')}</strong> {$t('communityProjects.preview.conservativesDesc')}</li>
+          <li><strong>{$t('communityProjects.preview.progressives')}</strong> {$t('communityProjects.preview.progressivesDesc')}</li>
+          <li><strong>{$t('communityProjects.preview.officials')}</strong> {$t('communityProjects.preview.officialsDesc')}</li>
         </ul>
         
-        <p class="text-slate-300">The full blueprint includes detailed implementation steps, plant selection guides, legal considerations, and real success stories from communities worldwide.</p>
+        <p class="text-slate-300">{$t('communityProjects.preview.fullContent')}</p>
         
         <div class="mt-6">
           <button 
             on:click={downloadBlueprint}
             class="px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg text-white transition-all"
           >
-            Download Complete Blueprint
+            {$t('communityProjects.preview.downloadComplete')}
           </button>
         </div>
       </div>

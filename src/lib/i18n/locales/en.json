@@ -593,17 +593,55 @@
     "description": "Practical tools to help bridge divides, spark curiosity, and build the unity needed for humanity's greatest adventures.",
     "curiosityCards": {
       "title": "Butterfly Curiosity Cards",
-      "shortTitle": "Butterfly Curiosity Cards",
-      "try": "Try it now →",
       "description": "Thought-provoking questions that help you see beyond left and right, us and them. Perfect for sparking meaningful conversations.",
-      "comingSoon": "Coming Soon"
+      "try": "Try it now →",
+      "features": "Interactive • Social sharing • Personal reflection"
     },
     "communityProjects": {
-      "title": "Community Unity Projects", 
-      "description": "Blueprints for local projects that naturally bring people together across political divides."
+      "title": "Community Unity Projects",
+      "description": "Practical blueprints for local projects that naturally bring people together across political divides.",
+      "available": "Available Now",
+      "cta": "Get the blueprint →",
+      "availableNote": "Free PDF download"
     },
-    "share": "Share These Tools",
-    "help": "Help others discover new ways to bridge divides and find common ground."
+    "howTheyWork": {
+      "title": "How These Tools Work Together",
+      "step1": {
+        "title": "1. Shift Thinking",
+        "description": "Use curiosity cards to help yourself and others see beyond left/right divisions"
+      },
+      "step2": {
+        "title": "2. Build Bridges", 
+        "description": "Apply communication strategies to connect with people across the political spectrum"
+      },
+      "step3": {
+        "title": "3. Create Together",
+        "description": "Start local projects that naturally unite your community around shared abundance"
+      },
+      "bottomText": "When people work together on something beautiful that benefits everyone, political divisions naturally fade away."
+    },
+    "comingSoon": {
+      "title": "More Tools Coming Soon",
+      "toolLibraries": {
+        "title": "Community Tool Libraries",
+        "description": "Share resources while building neighborhood connections and reducing waste"
+      },
+      "repairCafes": {
+        "title": "Repair Cafes & Skill Shares",
+        "description": "Fix things together while learning from each other across generations"
+      },
+      "storyGardens": {
+        "title": "Story Gardens", 
+        "description": "Intergenerational spaces where elders and youth connect through shared projects"
+      },
+      "q2": "Q2 2026",
+      "q3": "Q3 2026"
+    },
+    "share": {
+      "title": "Share These Tools",
+      "description": "Help others discover practical ways to bridge divides and create unity in their own communities. Every shared tool is a seed for positive change.",
+      "subtitle": "🦋 Pollinate the world with tools for transformation 🌱"
+    }
   },
   "curiosityCards": {
     "title": "🦋 Butterfly Curiosity Cards",
@@ -718,6 +756,306 @@
       "systems": "Systems",
       "bridge": "Bridge Building", 
       "perspective": "New Perspective"
+    }
+  },
+  "communityProjects": {
+    "title": "🌱 Community Unity Projects",
+    "subtitle": "Practical blueprints for creating projects that naturally unite your community around shared abundance and stewardship.",
+    "intro": "The most powerful way to transcend political divides is to work together on something beautiful that benefits everyone. These projects create common ground—literally and figuratively.",
+    "nav": {
+      "overview": "Overview",
+      "communication": "Communication", 
+      "roadmap": "Roadmap",
+      "resources": "Resources",
+      "backToTools": "Back to Tools"
+    },
+    "foodForest": {
+      "title": "The Food Forest Blueprint",
+      "subtitle": "A Complete Guide to Community Food Forests",
+      "description": "Transform vacant lots into abundant ecosystems that feed bodies, build community, and heal the earth.",
+      "whatsIncluded": "What's Included:",
+      "downloadButton": "📥 Download Complete Blueprint (PDF)",
+      "previewButton": "👀 Preview Guide",
+      "features": [
+        "Step-by-step implementation guide",
+        "Communication strategies for different audiences", 
+        "Plant selection for your climate",
+        "Funding and partnership strategies",
+        "Maintenance and governance models",
+        "Success stories and case studies"
+      ]
+    },
+    "visual": {
+      "before": "From Empty Lot to Abundant Community",
+      "after": "United Neighbors, Shared Harvest"
+    },
+    "comingSoon": {
+      "title": "🚀 Coming Soon",
+      "eta": "ETA",
+      "projects": [
+        {
+          "title": "Community Tool Libraries",
+          "description": "Share resources while building neighborhood connections",
+          "eta": "Next Quarter"
+        },
+        {
+          "title": "Repair Cafes & Skill Shares", 
+          "description": "Fix things together while learning from each other across generations",
+          "eta": "Next Quarter"
+        },
+        {
+          "title": "Intergenerational Story Gardens",
+          "description": "Spaces where elders and youth connect through shared projects",
+          "eta": "2026"
+        }
+      ]
+    },
+    "resources": {
+      "title": "📚 Additional Resources",
+      "availabilityNote": "Available in full blueprint",
+      "items": [
+        {
+          "title": "Plant Selection Database",
+          "description": "Climate-appropriate food forest plants for your region"
+        },
+        {
+          "title": "Funding Strategy Guide", 
+          "description": "Grants, donations, and creative financing approaches"
+        },
+        {
+          "title": "Legal & Insurance Toolkit",
+          "description": "Sample agreements, liability waivers, and insurance guidance"
+        },
+        {
+          "title": "Success Story Collection",
+          "description": "Real examples from communities that built food forests together"
+        }
+      ]
+    },
+    "getStarted": {
+      "title": "Ready to Start Building Unity?",
+      "description": "Every community can create projects that bring people together. Start with one small step.",
+      "cta": "Download the Food Forest Blueprint",
+      "secondary": "Join our community of bridge-builders"
+    },
+    "share": {
+      "description": "Share these community-building tools:",
+      "title": "Community Unity Projects - Food Forest Blueprint",
+      "shareDescription": "Practical tools for creating projects that unite communities across political divides. Download the free Food Forest Blueprint!",
+      "hashtags": "CommunityUnity,FoodForest,LocalAction,BridgeBuilding,UnityBeyondTheKnown"
+    },
+    "preview": {
+      "title": "Blueprint Preview",
+      "sampleTitle": "Food Forest Blueprint - Community Unity Project",
+      "sampleIntro": "This comprehensive guide helps you create a food forest that brings your community together across political divides.",
+      "bridgeApproach": "The Bridge-Builder's Approach",
+      "conservatives": "For Conservatives:",
+      "conservativesDesc": "Emphasize food security, tradition, and self-reliance",
+      "progressives": "For Progressives:",
+      "progressivesDesc": "Focus on climate justice and environmental restoration", 
+      "officials": "For Officials:",
+      "officialsDesc": "Highlight economic development and educational benefits",
+      "fullContent": "The full blueprint includes detailed implementation steps, plant selection guides, legal considerations, and real success stories from communities worldwide.",
+      "downloadComplete": "Download Complete Blueprint"
+    },
+    "yellowCommunication": {
+      "title": "🗣️ The Bridge-Builder's Communication Toolkit",
+      "description": "How to talk about your project so everyone feels included and excited to participate.",
+      "keyMessages": "Key Messages:",
+      "sampleConversation": "Sample Conversation Starter:",
+      "proTips": "Pro Tips:",
+      "audiences": {
+        "conservative": {
+          "title": "Speaking to Conservatives",
+          "frame": "Food Security & Tradition",
+          "points": [
+            "Emphasize food security and local resilience",
+            "Connect to traditional farming and heritage varieties",
+            "Highlight self-reliance and community preparedness", 
+            "Frame as preserving skills for future generations",
+            "Show economic benefits and property value increases"
+          ]
+        },
+        "progressive": {
+          "title": "Speaking to Progressives", 
+          "frame": "Climate Justice You Can Taste",
+          "points": [
+            "Emphasize environmental restoration and carbon sequestration",
+            "Highlight food justice and community access",
+            "Connect to indigenous land practices and wisdom",
+            "Show biodiversity benefits and ecosystem services",
+            "Frame as climate action with immediate local impact"
+          ]
+        },
+        "officials": {
+          "title": "Speaking to Local Officials",
+          "frame": "Economic Development & Tourism Asset",
+          "points": [
+            "Present as innovative economic development",
+            "Highlight educational and tourism potential",
+            "Show reduced maintenance costs compared to grass",
+            "Emphasize community engagement and social cohesion",
+            "Provide liability and insurance considerations"
+          ]
+        },
+        "general": {
+          "title": "Universal Appeals",
+          "frame": "Shared Benefits Everyone Can Embrace",
+          "points": [
+            "Fresh, free food for families",
+            "Beautiful spaces that bring neighbors together",
+            "Educational opportunities for children",
+            "Increased property values and community pride",
+            "Practical solutions to food costs and availability"
+          ]
+        }
+      },
+      "conversations": {
+        "conservative": "I've been thinking about food security and how we can make our community more self-reliant. What if we created a space where families could grow traditional foods together? It would teach our kids valuable skills and strengthen our neighborhood bonds...",
+        "progressive": "I've been learning about food justice and how communities can take climate action right in their own neighborhood. There's this amazing approach called food forests that helps restore ecosystems while providing fresh food for everyone. Want to explore creating one together?",
+        "officials": "I'd like to propose an innovative community development project that could increase property values, provide educational opportunities, and create a unique attraction for our town. Food forests are becoming popular economic development tools in cities nationwide...",
+        "general": "What if we could create a beautiful space where neighbors could get fresh food, kids could learn about nature, and we could all work together on something positive? I've been researching community food forests and think our neighborhood would be perfect..."
+      },
+      "tips": {
+        "conservative": [
+          "• Lead with shared values: family, tradition, preparedness",
+          "• Emphasize learning from elders and passing on skills",
+          "• Mention property value benefits and community safety"
+        ],
+        "progressive": [
+          "• Connect to larger environmental and social justice movements",
+          "• Emphasize Indigenous land practices and climate solutions",
+          "• Highlight equitable access and community empowerment"
+        ],
+        "officials": [
+          "• Come with data on successful projects in similar communities",
+          "• Address liability concerns upfront with solutions",
+          "• Propose pilot project with clear success metrics"
+        ],
+        "general": [
+          "• Focus on immediate, tangible benefits everyone can enjoy",
+          "• Invite people to visit existing food forests if possible",
+          "• Start small and let success build momentum"
+        ]
+      },
+      "universalPrinciples": {
+        "title": "🌉 Universal Bridge-Building Principles",
+        "listenFirst": {
+          "title": "Listen First",
+          "description": "Understand their concerns before sharing your vision"
+        },
+        "commonGround": {
+          "title": "Find Common Ground",
+          "description": "Start with what you both care about"
+        },
+        "startSmall": {
+          "title": "Start Small",
+          "description": "Propose a pilot or small test project first"
+        }
+      }
+    },
+    "implementation": {
+      "title": "📋 Implementation Roadmap",
+      "description": "A step-by-step journey from idea to thriving community space",
+      "phaseLabel": "Phase",
+      "keySteps": "Key Steps:",
+      "tipsForSuccess": "Tips for Success:",
+      "previous": "← Previous",
+      "next": "Next →",
+      "phases": [
+        {
+          "title": "Phase 1: Community Listening (Month 1-2)",
+          "description": "Build relationships and understand local needs",
+          "steps": [
+            "Identify key community stakeholders across political spectrum",
+            "Host informal coffee chats using Bridge-Builder techniques",
+            "Map existing community assets and potential sites",
+            "Form initial core team of 3-5 committed individuals"
+          ]
+        },
+        {
+          "title": "Phase 2: Site & Partnerships (Month 2-4)", 
+          "description": "Secure location and build institutional support",
+          "steps": [
+            "Identify and secure appropriate site (schools, parks, vacant lots)",
+            "Develop partnerships with local organizations",
+            "Create simple governance structure and agreements",
+            "Begin permit process and address any regulatory needs"
+          ]
+        },
+        {
+          "title": "Phase 3: Design & Planning (Month 3-6)",
+          "description": "Collaborative design that incorporates all voices",
+          "steps": [
+            "Host community design workshops using inclusive facilitation",
+            "Create plant list appropriate for local climate and culture",
+            "Develop maintenance schedule and responsibility sharing",
+            "Plan launch event and ongoing programming"
+          ]
+        },
+        {
+          "title": "Phase 4: Implementation (Month 6-12)",
+          "description": "Plant, grow, and celebrate together",
+          "steps": [
+            "Organize community planting days as social events",
+            "Establish regular maintenance gatherings with food/music",
+            "Create educational programming and harvest celebrations",
+            "Document and share success stories"
+          ]
+        }
+      ],
+      "phaseTips": {
+        "labels": {
+          "goal": "🎯 Goal:",
+          "tip": "💡 Tip:",
+          "avoid": "⚠️ Avoid:",
+          "success": "✅ Success Metric:"
+        },
+        "phase1": {
+          "goal": "Build trust and understand community needs",
+          "tip": "Use the Bridge-Builder communication strategies for different audiences",
+          "avoid": "Leading with your solution - listen first, then adapt",
+          "extraLabel": "📅 Timeline:",
+          "extraContent": "Don't rush - relationship building takes time",
+          "success": "3-5 committed core team members from diverse backgrounds"
+        },
+        "phase2": {
+          "goal": "Secure location and institutional support",
+          "tip": "Present to officials with economic development framing",
+          "avoid": "Overwhelming partners with too many asks too quickly",
+          "extraLabel": "📋 Documents:",
+          "extraContent": "Simple MOU templates available in full blueprint",
+          "success": "Site secured with appropriate permissions"
+        },
+        "phase3": {
+          "goal": "Collaborative design that includes all voices",
+          "tip": "Use visual design workshops - everyone can participate",
+          "avoid": "Expert-driven design that excludes community input",
+          "extraLabel": "🌱 Plants:",
+          "extraContent": "Choose varieties meaningful to different cultural groups",
+          "success": "Design that reflects community input and needs"
+        },
+        "phase4": {
+          "goal": "Create ongoing community connection through the project",
+          "tip": "Make work days social events with food and music",
+          "avoid": "Burnout - distribute responsibilities widely",
+          "extraLabel": "🎉 Celebrate:",
+          "extraContent": "Regular harvest festivals and community meals",
+          "success": "Self-sustaining community participation"
+        }
+      },
+      "timelineOverview": {
+        "title": "🗓️ Typical Timeline Overview",
+        "months1to2": "Months 1-2",
+        "months2to4": "Months 2-4",
+        "months3to6": "Months 3-6",
+        "months6to12": "Months 6-12",
+        "phase1Short": "Community Listening",
+        "phase2Short": "Site & Partnerships",
+        "phase3Short": "Design & Planning",
+        "phase4Short": "Implementation",
+        "note": "* Phases can overlap • Adapt timeline to your community's pace • Some projects move faster, others need more time"
+      }
     }
   }
 }

@@ -624,17 +624,55 @@
     "description": "Praktiska verktyg som hjälper till att överbrygga klyftor, väcka nyfikenhet och bygga den enighet som behövs för mänsklighetens största äventyr.",
     "curiosityCards": {
       "title": "Fjärilens Nyfikenhetskort",
-      "shortTitle": "Fjärilens Nyfikenhetskort",
-      "try": "Prova nu →",
       "description": "Tänkvärda frågor som hjälper dig att se bortom höger och vänster, oss och dem. Perfekta för att starta meningsfulla samtal.",
-      "comingSoon": "Kommer Snart"
+      "try": "Prova nu →",
+      "features": "Interaktivt • Social delning • Personlig reflektion"
     },
     "communityProjects": {
       "title": "Projekt för Gemenskap",
-      "description": "Ritningar för lokala projekt som naturligt för samman människor över politiska skiljelinjer."
+      "description": "Praktiska ritningar för lokala projekt som naturligt för samman människor över politiska skiljelinjer.",
+      "available": "Tillgänglig Nu",
+      "cta": "Hämta ritningen →",
+      "availableNote": "Gratis PDF-nedladdning"
     },
-    "share": "Dela Dessa Verktyg",
-    "help": "Hjälp andra att upptäcka nya sätt att överbrygga klyftor och hitta en gemensam grund."
+    "howTheyWork": {
+      "title": "Hur Dessa Verktyg Fungerar Tillsammans",
+      "step1": {
+        "title": "1. Förändra Tänkandet",
+        "description": "Använd nyfikenhetskorten för att hjälpa dig själv och andra att se bortom höger/vänster-uppdelningar"
+      },
+      "step2": {
+        "title": "2. Bygg Broar",
+        "description": "Tillämpa kommunikationsstrategier för att skapa kontakt med människor över hela det politiska spektrumet"
+      },
+      "step3": {
+        "title": "3. Skapa Tillsammans",
+        "description": "Starta lokala projekt som naturligt förenar ditt samhälle kring gemensamt överflöd"
+      },
+      "bottomText": "När människor arbetar tillsammans på något vackert som gynnar alla, bleknar politiska skiljelinjer bort naturligt."
+    },
+    "comingSoon": {
+      "title": "Fler Verktyg Kommer Snart",
+      "toolLibraries": {
+        "title": "Lokala Verktygsbibliotek",
+        "description": "Dela resurser samtidigt som ni bygger grannskapskontakter och minskar avfall"
+      },
+      "repairCafes": {
+        "title": "Reparationskaféer & Kunskapsutbyten",
+        "description": "Laga saker tillsammans samtidigt som ni lär av varandra över generationerna"
+      },
+      "storyGardens": {
+        "title": "Berättarträdgårdar",
+        "description": "Platser över generationerna där äldre och unga möts genom gemensamma projekt"
+      },
+      "q2": "K2 2026",
+      "q3": "K3 2026"
+    },
+    "share": {
+      "title": "Dela Dessa Verktyg",
+      "description": "Hjälp andra att upptäcka praktiska sätt att överbrygga klyftor och skapa enighet i sina egna samhällen. Varje delat verktyg är ett frö till positiv förändring.",
+      "subtitle": "🦋 Pollinera världen med verktyg för omvandling 🌱"
+    }
   },
   "curiosityCards": {
     "title": "🦋 Fjärilens Nyfikenhetskort",
@@ -749,6 +787,306 @@
       "systems": "System",
       "bridge": "Brobyggande",
       "perspective": "Nytt Perspektiv"
+    }
+  },
+  "communityProjects": {
+    "title": "🌱 Projekt för gemenskap och sammanhållning",
+    "subtitle": "Praktiska mallar för att skapa projekt som på ett naturligt sätt förenar er lokala gemenskap kring delat överflöd och förvaltarskap.",
+    "intro": "Det mest kraftfulla sättet att överbrygga politiska klyftor är att arbeta tillsammans med något vackert som alla har nytta av. Dessa projekt skapar en gemensam grund – bokstavligen och bildligt talat.",
+    "nav": {
+      "overview": "Översikt",
+      "communication": "Kommunikation",
+      "roadmap": "Färdplan",
+      "resources": "Resurser",
+      "backToTools": "Tillbaka till verktyg"
+    },
+    "foodForest": {
+      "title": "Mallen för skogsträdgårdar",
+      "subtitle": "En komplett guide till gemensamma skogsträdgårdar",
+      "description": "Förvandla tomma tomter till rika ekosystem som ger mat, bygger gemenskap och läker jorden.",
+      "whatsIncluded": "Vad som ingår:",
+      "downloadButton": "📥 Ladda ner hela mallen (PDF)",
+      "previewButton": "👀 Förhandsgranska guiden",
+      "features": [
+        "Steg-för-steg-guide för implementering",
+        "Kommunikationsstrategier för olika målgrupper",
+        "Växtval anpassat till ditt klimat",
+        "Strategier för finansiering och partnerskap",
+        "Modeller för underhåll och styrning",
+        "Framgångshistorier och fallstudier"
+      ]
+    },
+    "visual": {
+      "before": "Från tom tomt till blomstrande gemenskap",
+      "after": "Förenade grannar, delad skörd"
+    },
+    "comingSoon": {
+      "title": "🚀 Kommer snart",
+      "eta": "Beräknat",
+      "projects": [
+        {
+          "title": "Gemensamma verktygsbibliotek",
+          "description": "Dela resurser och bygg samtidigt relationer i grannskapet",
+          "eta": "Nästa kvartal"
+        },
+        {
+          "title": "Reparationskaféer & kunskapsutbyte",
+          "description": "Laga saker tillsammans och lär av varandra över generationsgränserna",
+          "eta": "Nästa kvartal"
+        },
+        {
+          "title": "Berättarträdgårdar för alla åldrar",
+          "description": "Platser där äldre och unga möts genom gemensamma projekt",
+          "eta": "2026"
+        }
+      ]
+    },
+    "resources": {
+      "title": "📚 Ytterligare resurser",
+      "availabilityNote": "Tillgänglig i den kompletta mallen",
+      "items": [
+        {
+          "title": "Databas för växtval",
+          "description": "Klimatanpassade skogsträdgårdsväxter för din region"
+        },
+        {
+          "title": "Guide för finansieringsstrategier",
+          "description": "Bidrag, donationer och kreativa finansieringsmetoder"
+        },
+        {
+          "title": "Verktygslåda för juridik & försäkringar",
+          "description": "Exempelavtal, ansvarsfriskrivningar och vägledning om försäkringar"
+        },
+        {
+          "title": "Samling med framgångshistorier",
+          "description": "Verkliga exempel från lokalsamhällen som byggt skogsträdgårdar tillsammans"
+        }
+      ]
+    },
+    "getStarted": {
+      "title": "Redo att börja bygga gemenskap?",
+      "description": "Varje lokalsamhälle kan skapa projekt som för människor samman. Börja med ett litet steg.",
+      "cta": "Ladda ner mallen för skogsträdgårdar",
+      "secondary": "Gå med i vår gemenskap av brobyggare"
+    },
+    "share": {
+      "description": "Dela dessa verktyg för att bygga gemenskap:",
+      "title": "Projekt för gemenskap - Mallen för skogsträdgårdar",
+      "shareDescription": "Praktiska verktyg för att skapa projekt som förenar lokalsamhällen över politiska klyftor. Ladda ner den kostnadsfria mallen för skogsträdgårdar!",
+      "hashtags": "GemenskapSammanhållning,Skogsträdgård,LokaltEngagemang,Brobyggande,EnighetBortomDetKända"
+    },
+    "preview": {
+      "title": "Förhandsgranskning av mallen",
+      "sampleTitle": "Mall för skogsträdgård - Projekt för gemenskap och sammanhållning",
+      "sampleIntro": "Denna omfattande guide hjälper dig att skapa en skogsträdgård som för din lokala gemenskap samman över politiska klyftor.",
+      "bridgeApproach": "Brobyggarens tillvägagångssätt",
+      "conservatives": "För konservativa:",
+      "conservativesDesc": "Betona matsäkerhet, tradition och självförsörjning",
+      "progressives": "För progressiva:",
+      "progressivesDesc": "Fokusera på klimaträttvisa och återställande av miljö",
+      "officials": "För tjänstemän:",
+      "officialsDesc": "Lyft fram ekonomisk utveckling och utbildningsfördelar",
+      "fullContent": "Den kompletta mallen innehåller detaljerade implementeringssteg, guider för växtval, juridiska överväganden och verkliga framgångshistorier från lokalsamhällen världen över.",
+      "downloadComplete": "Ladda ner den kompletta mallen"
+    },
+    "yellowCommunication": {
+      "title": "🗣️ Brobyggarens kommunikationsverktyg",
+      "description": "Hur du pratar om ditt projekt så att alla känner sig inkluderade och entusiastiska över att delta.",
+      "keyMessages": "Huvudbudskap:",
+      "sampleConversation": "Exempel på konversationsstartare:",
+      "proTips": "Proffstips:",
+      "audiences": {
+        "conservative": {
+          "title": "Att tala med konservativa",
+          "frame": "Matsäkerhet & tradition",
+          "points": [
+            "Betona matsäkerhet och lokal motståndskraft",
+            "Koppla till traditionellt jordbruk och kulturarvssorter",
+            "Lyft fram självförsörjning och krisberedskap i lokalsamhället",
+            "Rama in det som ett sätt att bevara kunskaper för framtida generationer",
+            "Visa på ekonomiska fördelar och ökade fastighetsvärden"
+          ]
+        },
+        "progressive": {
+          "title": "Att tala med progressiva",
+          "frame": "Klimaträttvisa du kan smaka",
+          "points": [
+            "Betona återställande av miljö och koldioxidinlagring",
+            "Lyft fram maträttvisa och tillgång för hela lokalsamhället",
+            "Koppla till urfolks markanvändning och visdom",
+            "Visa på fördelar för biologisk mångfald och ekosystemtjänster",
+            "Rama in det som en klimatåtgärd med omedelbar lokal påverkan"
+          ]
+        },
+        "officials": {
+          "title": "Att tala med lokala tjänstemän",
+          "frame": "Ekonomisk utveckling & en tillgång för turism",
+          "points": [
+            "Presentera det som innovativ ekonomisk utveckling",
+            "Lyft fram potentialen för utbildning och turism",
+            "Visa på minskade underhållskostnader jämfört med gräsmatta",
+            "Betona engagemang från lokalsamhället och social sammanhållning",
+            "Presentera överväganden kring ansvar och försäkringar"
+          ]
+        },
+        "general": {
+          "title": "Universella argument",
+          "frame": "Gemensamma fördelar som alla kan uppskatta",
+          "points": [
+            "Färsk, gratis mat för familjer",
+            "Vackra platser som för grannar samman",
+            "Utbildningsmöjligheter för barn",
+            "Ökade fastighetsvärden och stolthet i lokalsamhället",
+            "Praktiska lösningar på matkostnader och tillgänglighet"
+          ]
+        }
+      },
+      "conversations": {
+        "conservative": "Jag har funderat på matsäkerhet och hur vi kan göra vårt lokalsamhälle mer självförsörjande. Tänk om vi skapade en plats där familjer kunde odla traditionella grödor tillsammans? Det skulle lära våra barn värdefulla färdigheter och stärka banden i grannskapet...",
+        "progressive": "Jag har läst på om maträttvisa och hur lokalsamhällen kan vidta klimatåtgärder direkt i sitt eget grannskap. Det finns ett fantastiskt koncept som kallas skogsträdgårdar som hjälper till att återställa ekosystem samtidigt som det ger färsk mat till alla. Vill du utforska möjligheten att skapa en tillsammans?",
+        "officials": "Jag skulle vilja föreslå ett innovativt projekt för lokal utveckling som kan öka fastighetsvärden, erbjuda utbildningsmöjligheter och skapa en unik attraktion för vår stad. Skogsträdgårdar håller på att bli populära verktyg för ekonomisk utveckling i städer över hela landet...",
+        "general": "Tänk om vi kunde skapa en vacker plats där grannar kan få färsk mat, barn kan lära sig om naturen och vi alla kan arbeta tillsammans med något positivt? Jag har undersökt gemensamma skogsträdgårdar och tror att vårt grannskap skulle vara perfekt..."
+      },
+      "tips": {
+        "conservative": [
+          "• Inled med gemensamma värderingar: familj, tradition, beredskap",
+          "• Betona lärande från äldre och att föra vidare kunskaper",
+          "• Nämn fördelar som ökat fastighetsvärde och trygghet i lokalsamhället"
+        ],
+        "progressive": [
+          "• Koppla till större rörelser för miljö och social rättvisa",
+          "• Betona urfolks metoder för markanvändning och klimatlösningar",
+          "• Lyft fram rättvis tillgång och egenmakt i lokalsamhället"
+        ],
+        "officials": [
+          "• Kom med data från framgångsrika projekt i liknande samhällen",
+          "• Ta upp ansvarsfrågor direkt och presentera lösningar",
+          "• Föreslå ett pilotprojekt med tydliga framgångsmått"
+        ],
+        "general": [
+          "• Fokusera på omedelbara, påtagliga fördelar som alla kan ta del av",
+          "• Bjud in människor att besöka befintliga skogsträdgårdar om möjligt",
+          "• Börja i liten skala och låt framgången bygga momentum"
+        ]
+      },
+      "universalPrinciples": {
+        "title": "🌉 Universella principer för brobyggande",
+        "listenFirst": {
+          "title": "Lyssna först",
+          "description": "Förstå deras farhågor innan du delar din vision"
+        },
+        "commonGround": {
+          "title": "Hitta en gemensam grund",
+          "description": "Börja med det ni båda bryr er om"
+        },
+        "startSmall": {
+          "title": "Börja i liten skala",
+          "description": "Föreslå ett pilotprojekt eller ett litet testprojekt först"
+        }
+      }
+    },
+    "implementation": {
+      "title": "📋 Färdplan för implementering",
+      "description": "En steg-för-steg-resa från idé till blomstrande gemensam plats",
+      "phaseLabel": "Fas",
+      "keySteps": "Huvudsteg:",
+      "tipsForSuccess": "Tips för framgång:",
+      "previous": "← Föregående",
+      "next": "Nästa →",
+      "phases": [
+        {
+          "title": "Fas 1: Lyssna på lokalsamhället (Månad 1-2)",
+          "description": "Bygg relationer och förstå lokala behov",
+          "steps": [
+            "Identifiera viktiga intressenter i lokalsamhället över hela det politiska spektrumet",
+            "Håll informella fikaträffar med hjälp av brobyggartekniker",
+            "Kartlägg befintliga tillgångar och potentiella platser i lokalsamhället",
+            "Bilda en första kärngrupp med 3-5 engagerade personer"
+          ]
+        },
+        {
+          "title": "Fas 2: Plats & partnerskap (Månad 2-4)",
+          "description": "Säkra en plats och bygg institutionellt stöd",
+          "steps": [
+            "Identifiera och säkra en lämplig plats (skolor, parker, tomma tomter)",
+            "Utveckla partnerskap med lokala organisationer",
+            "Skapa en enkel styrningsstruktur och avtal",
+            "Påbörja tillståndsprocessen och hantera eventuella regulatoriska krav"
+          ]
+        },
+        {
+          "title": "Fas 3: Design & planering (Månad 3-6)",
+          "description": "Samarbetsdesign som inkluderar allas röster",
+          "steps": [
+            "Håll designworkshops för lokalsamhället med inkluderande facilitering",
+            "Skapa en växtlista som passar det lokala klimatet och kulturen",
+            "Utveckla ett underhållsschema och ansvarsfördelning",
+            "Planera ett lanseringsevenemang och löpande aktiviteter"
+          ]
+        },
+        {
+          "title": "Fas 4: Implementering (Månad 6-12)",
+          "description": "Plantera, odla och fira tillsammans",
+          "steps": [
+            "Organisera planteringsdagar för lokalsamhället som sociala evenemang",
+            "Inför regelbundna underhållsträffar med mat och musik",
+            "Skapa utbildningsprogram och skördefester",
+            "Dokumentera och dela framgångshistorier"
+          ]
+        }
+      ],
+      "phaseTips": {
+        "labels": {
+          "goal": "🎯 Mål:",
+          "tip": "💡 Tips:",
+          "avoid": "⚠️ Undvik:",
+          "success": "✅ Framgångsmått:"
+        },
+        "phase1": {
+          "goal": "Bygg förtroende och förstå lokalsamhällets behov",
+          "tip": "Använd brobyggarens kommunikationsstrategier för olika målgrupper",
+          "avoid": "Att leda med din lösning – lyssna först, anpassa sedan",
+          "extraLabel": "📅 Tidslinje:",
+          "extraContent": "Skynda inte – relationsbyggande tar tid",
+          "success": "En kärngrupp med 3-5 engagerade medlemmar med olika bakgrund"
+        },
+        "phase2": {
+          "goal": "Säkra en plats och institutionellt stöd",
+          "tip": "Presentera för tjänstemän med inramningen ekonomisk utveckling",
+          "avoid": "Att överväldiga partners med för många förfrågningar för snabbt",
+          "extraLabel": "📋 Dokument:",
+          "extraContent": "Enkla mallar för samförståndsavtal finns i den kompletta mallen",
+          "success": "Plats säkrad med nödvändiga tillstånd"
+        },
+        "phase3": {
+          "goal": "Samarbetsdesign som inkluderar allas röster",
+          "tip": "Använd visuella designworkshops – alla kan delta",
+          "avoid": "Expertdriven design som exkluderar input från lokalsamhället",
+          "extraLabel": "🌱 Växter:",
+          "extraContent": "Välj sorter som är meningsfulla för olika kulturella grupper",
+          "success": "En design som speglar lokalsamhällets input och behov"
+        },
+        "phase4": {
+          "goal": "Skapa löpande gemenskap genom projektet",
+          "tip": "Gör arbetsdagar till sociala evenemang med mat och musik",
+          "avoid": "Utbrändhet – fördela ansvaret brett",
+          "extraLabel": "🎉 Fira:",
+          "extraContent": "Regelbundna skördefester och gemensamma måltider",
+          "success": "Självgående deltagande från lokalsamhället"
+        }
+      },
+      "timelineOverview": {
+        "title": "🗓️ Översikt över en typisk tidslinje",
+        "months1to2": "Månad 1-2",
+        "months2to4": "Månad 2-4",
+        "months3to6": "Månad 3-6",
+        "months6to12": "Månad 6-12",
+        "phase1Short": "Lyssna på lokalsamhället",
+        "phase2Short": "Plats & partnerskap",
+        "phase3Short": "Design & planering",
+        "phase4Short": "Implementering",
+        "note": "* Faser kan överlappa • Anpassa tidslinjen till ert lokalsamhälles takt • Vissa projekt går snabbare, andra behöver mer tid"
+      }
     }
   }
 }

@@ -18,7 +18,7 @@
   <div class="text-center mb-8">
     <h2 class="text-3xl mb-4 text-white">{$t('communityProjects.implementation.title')}</h2>
     <p class="text-xl text-slate-300 max-w-2xl mx-auto">
-      A step-by-step journey from idea to thriving community space
+      {$t('communityProjects.implementation.description')}
     </p>
   </div>
 
@@ -33,7 +33,7 @@
           on:click={() => activePhase = index}
         >
           <div class="text-2xl">{phaseIcons[index]}</div>
-          <div class="text-sm font-medium text-center">Phase {index + 1}</div>
+          <div class="text-sm font-medium text-center">{$t('communityProjects.implementation.phaseLabel')} {index + 1}</div>
           <div class="text-xs text-center opacity-80">{phase.title.split(':')[0]}</div>
         </button>
       {/each}
@@ -53,7 +53,7 @@
         <div class="grid md:grid-cols-2 gap-6">
           <!-- Steps -->
           <div>
-            <h4 class="text-lg font-medium mb-4 text-white">Key Steps:</h4>
+            <h4 class="text-lg font-medium mb-4 text-white">{$t('communityProjects.implementation.keySteps')}</h4>
             <div class="space-y-3">
               {#each phase.steps as step, stepIndex}
                 <div class="flex items-start gap-3 bg-slate-800/30 rounded-lg p-3">
@@ -68,45 +68,15 @@
 
           <!-- Tips & Resources -->
           <div>
-            <h4 class="text-lg font-medium mb-4 text-white">Tips for Success:</h4>
+            <h4 class="text-lg font-medium mb-4 text-white">{$t('communityProjects.implementation.tipsForSuccess')}</h4>
             <div class="bg-slate-800/50 rounded-lg p-4 border border-slate-600/30">
-              {#if index === 0}
-                <!-- Phase 1 Tips -->
-                <div class="space-y-3 text-sm text-slate-300">
-                  <p><strong>🎯 Goal:</strong> Build trust and understand community needs</p>
-                  <p><strong>💡 Tip:</strong> Use the Bridge-Builder communication strategies for different audiences</p>
-                  <p><strong>⚠️ Avoid:</strong> Leading with your solution - listen first, then adapt</p>
-                  <p><strong>📅 Timeline:</strong> Don't rush - relationship building takes time</p>
-                  <p><strong>✅ Success Metric:</strong> 3-5 committed core team members from diverse backgrounds</p>
-                </div>
-              {:else if index === 1}
-                <!-- Phase 2 Tips -->
-                <div class="space-y-3 text-sm text-slate-300">
-                  <p><strong>🎯 Goal:</strong> Secure location and institutional support</p>
-                  <p><strong>💡 Tip:</strong> Present to officials with economic development framing</p>
-                  <p><strong>⚠️ Avoid:</strong> Overwhelming partners with too many asks too quickly</p>
-                  <p><strong>📋 Documents:</strong> Simple MOU templates available in full blueprint</p>
-                  <p><strong>✅ Success Metric:</strong> Site secured with appropriate permissions</p>
-                </div>
-              {:else if index === 2}
-                <!-- Phase 3 Tips -->
-                <div class="space-y-3 text-sm text-slate-300">
-                  <p><strong>🎯 Goal:</strong> Collaborative design that includes all voices</p>
-                  <p><strong>💡 Tip:</strong> Use visual design workshops - everyone can participate</p>
-                  <p><strong>⚠️ Avoid:</strong> Expert-driven design that excludes community input</p>
-                  <p><strong>🌱 Plants:</strong> Choose varieties meaningful to different cultural groups</p>
-                  <p><strong>✅ Success Metric:</strong> Design that reflects community input and needs</p>
-                </div>
-              {:else}
-                <!-- Phase 4 Tips -->
-                <div class="space-y-3 text-sm text-slate-300">
-                  <p><strong>🎯 Goal:</strong> Create ongoing community connection through the project</p>
-                  <p><strong>💡 Tip:</strong> Make work days social events with food and music</p>
-                  <p><strong>⚠️ Avoid:</strong> Burnout - distribute responsibilities widely</p>
-                  <p><strong>🎉 Celebrate:</strong> Regular harvest festivals and community meals</p>
-                  <p><strong>✅ Success Metric:</strong> Self-sustaining community participation</p>
-                </div>
-              {/if}
+              <div class="space-y-3 text-sm text-slate-300">
+                <p><strong>{$t('communityProjects.implementation.phaseTips.labels.goal')}</strong> {$t(`communityProjects.implementation.phaseTips.phase${index + 1}.goal`)}</p>
+                <p><strong>{$t('communityProjects.implementation.phaseTips.labels.tip')}</strong> {$t(`communityProjects.implementation.phaseTips.phase${index + 1}.tip`)}</p>
+                <p><strong>{$t('communityProjects.implementation.phaseTips.labels.avoid')}</strong> {$t(`communityProjects.implementation.phaseTips.phase${index + 1}.avoid`)}</p>
+                <p><strong>{$t(`communityProjects.implementation.phaseTips.phase${index + 1}.extraLabel`)}</strong> {$t(`communityProjects.implementation.phaseTips.phase${index + 1}.extraContent`)}</p>
+                <p><strong>{$t('communityProjects.implementation.phaseTips.labels.success')}</strong> {$t(`communityProjects.implementation.phaseTips.phase${index + 1}.success`)}</p>
+              </div>
             </div>
 
             <!-- Phase Navigation -->
@@ -116,7 +86,7 @@
                   on:click={() => activePhase = index - 1}
                   class="px-3 py-2 bg-slate-600 hover:bg-slate-500 rounded text-white text-sm transition-all"
                 >
-                  ← Previous
+                  {$t('communityProjects.implementation.previous')}
                 </button>
               {/if}
               {#if index < 3}
@@ -124,7 +94,7 @@
                   on:click={() => activePhase = index + 1}
                   class="px-3 py-2 bg-gradient-to-r {phaseColors[index + 1] || phaseColors[0]} hover:opacity-80 rounded text-white text-sm transition-all"
                 >
-                  Next →
+                  {$t('communityProjects.implementation.next')}
                 </button>
               {/if}
             </div>
@@ -136,27 +106,27 @@
 
   <!-- Timeline Overview -->
   <div class="mt-8 bg-gradient-to-r from-slate-800/20 to-blue-800/20 rounded-xl p-6 border border-slate-700/30">
-    <h4 class="text-lg font-medium mb-4 text-white text-center">🗓️ Typical Timeline Overview</h4>
+    <h4 class="text-lg font-medium mb-4 text-white text-center">{$t('communityProjects.implementation.timelineOverview.title')}</h4>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm">
       <div>
-        <div class="text-blue-400 font-medium">Months 1-2</div>
-        <div class="text-slate-300">Community Listening</div>
+        <div class="text-blue-400 font-medium">{$t('communityProjects.implementation.timelineOverview.months1to2')}</div>
+        <div class="text-slate-300">{$t('communityProjects.implementation.timelineOverview.phase1Short')}</div>
       </div>
       <div>
-        <div class="text-green-400 font-medium">Months 2-4</div>
-        <div class="text-slate-300">Site & Partnerships</div>
+        <div class="text-green-400 font-medium">{$t('communityProjects.implementation.timelineOverview.months2to4')}</div>
+        <div class="text-slate-300">{$t('communityProjects.implementation.timelineOverview.phase2Short')}</div>
       </div>
       <div>
-        <div class="text-yellow-400 font-medium">Months 3-6</div>
-        <div class="text-slate-300">Design & Planning</div>
+        <div class="text-yellow-400 font-medium">{$t('communityProjects.implementation.timelineOverview.months3to6')}</div>
+        <div class="text-slate-300">{$t('communityProjects.implementation.timelineOverview.phase3Short')}</div>
       </div>
       <div>
-        <div class="text-purple-400 font-medium">Months 6-12</div>
-        <div class="text-slate-300">Implementation</div>
+        <div class="text-purple-400 font-medium">{$t('communityProjects.implementation.timelineOverview.months6to12')}</div>
+        <div class="text-slate-300">{$t('communityProjects.implementation.timelineOverview.phase4Short')}</div>
       </div>
     </div>
     <p class="text-slate-400 text-xs text-center mt-4">
-      * Phases can overlap • Adapt timeline to your community's pace • Some projects move faster, others need more time
+      {$t('communityProjects.implementation.timelineOverview.note')}
     </p>
   </div>
 </div>
