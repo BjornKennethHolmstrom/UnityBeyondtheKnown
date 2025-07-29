@@ -3,9 +3,11 @@
     "perspectives": "Perspektiv",
     "exploration": "Utforskning",
     "experiments": "Experiment",
+    "tools": "Verktyg",
     "frameworks": "Ramverken"
   },
   "share": {
+    "share": "Dela:",
     "ready": "Redo att utforska möjligheterna?",
     "join": "Gå med i den växande rörelsen av människor som omformar mänsklighetens potential bortom konflikter.",
     "start": "Börja Utforska",
@@ -616,5 +618,137 @@
         ]
       }
     ]
+  },
+  "tools": {
+    "title": "Verktyg för Omvandling",
+    "description": "Praktiska verktyg som hjälper till att överbrygga klyftor, väcka nyfikenhet och bygga den enighet som behövs för mänsklighetens största äventyr.",
+    "curiosityCards": {
+      "title": "Fjärilens Nyfikenhetskort",
+      "shortTitle": "Fjärilens Nyfikenhetskort",
+      "try": "Prova nu →",
+      "description": "Tänkvärda frågor som hjälper dig att se bortom höger och vänster, oss och dem. Perfekta för att starta meningsfulla samtal.",
+      "comingSoon": "Kommer Snart"
+    },
+    "communityProjects": {
+      "title": "Projekt för Gemenskap",
+      "description": "Ritningar för lokala projekt som naturligt för samman människor över politiska skiljelinjer."
+    },
+    "share": "Dela Dessa Verktyg",
+    "help": "Hjälp andra att upptäcka nya sätt att överbrygga klyftor och hitta en gemensam grund."
+  },
+  "curiosityCards": {
+    "title": "🦋 Fjärilens Nyfikenhetskort",
+    "subtitle": "Enkla frågor som fladdrar in i ditt sinne och hjälper dig att se världen annorlunda. Inga rätta svar, bara nyfiket utforskande.",
+    "startPrompt": "Redo att utforska en fråga som kan förändra hur du ser på saker?",
+    "drawQuestion": "Dra en Fråga",
+    "newQuestion": "🦋 Ny Fråga",
+    "reflectOnThis": "💭 Reflektera över Detta",
+    "yourReflection": "Din Reflektion",
+    "saveReflection": "Spara Reflektion",
+    "close": "Stäng",
+    "yourGarden": "Din Frågeträdgård",
+    "pollinateWorld": "Pollinera världen med nyfikenhet:",
+    "reflectionPlaceholder": "Vilka tankar eller insikter väcker den här frågan hos dig?",
+    "shareTitle": "Fjärilsfråga: {question}",
+    "shareDescription": "Den här frågan fick mig att stanna upp och tänka... Vad skulle ditt svar vara? 🦋",
+    "hashtags": "Fjärilsfrågor,Nyfikenhetskort,Tänkvärt,EnighetBortomDetKända",
+    "questions": [
+      {
+        "id": "small-change",
+        "text": "Vad är något litet som skulle kunna förändra allt?",
+        "type": "transformation",
+        "color": "blue"
+      },
+      {
+        "id": "ecosystem-community",
+        "text": "Hur är ett samhälle som ett ekosystem?",
+        "type": "systems",
+        "color": "green"
+      },
+      {
+        "id": "both-sides",
+        "text": "Vad är ett problem där båda sidor har en poäng?",
+        "type": "bridge",
+        "color": "purple"
+      },
+      {
+        "id": "trees-vote",
+        "text": "Om träd kunde rösta, vad skulle de bry sig om?",
+        "type": "perspective",
+        "color": "green"
+      },
+      {
+        "id": "invisible-connections",
+        "text": "Vilka osynliga kopplingar får ditt grannskap att blomstra?",
+        "type": "systems",
+        "color": "blue"
+      },
+      {
+        "id": "fragile-resilient",
+        "text": "Vad är något 'ömtåligt' som egentligen är motståndskraftigt?",
+        "type": "perspective",
+        "color": "orange"
+      },
+      {
+        "id": "disagree-better",
+        "text": "Hur skulle vi kunna vara oense på ett bättre sätt?",
+        "type": "bridge",
+        "color": "purple"
+      },
+      {
+        "id": "win-win",
+        "text": "Vad är en win-win-lösning som ingen pratar om?",
+        "type": "bridge",
+        "color": "yellow"
+      },
+      {
+        "id": "butterfly-government",
+        "text": "Hur skulle en fjärilsregering se ut?",
+        "type": "transformation",
+        "color": "rainbow"
+      },
+      {
+        "id": "unexpected-listen",
+        "text": "Vem är någon oväntad som vi borde lyssna mer på?",
+        "type": "perspective",
+        "color": "pink"
+      },
+      {
+        "id": "changed-mind",
+        "text": "Vad är en sak du brukade tro på... tills du ändrade dig?",
+        "type": "transformation",
+        "color": "blue"
+      },
+      {
+        "id": "pollinator-ideas",
+        "text": "Om du vore en pollinatör, vilken typ av idéer skulle du sprida?",
+        "type": "transformation",
+        "color": "yellow"
+      },
+      {
+        "id": "nature-problems",
+        "text": "Hur löser naturen problem utan höger eller vänster?",
+        "type": "systems",
+        "color": "green"
+      },
+      {
+        "id": "listening-earth",
+        "text": "Vad skulle förändras om vi lyssnade på jorden?",
+        "type": "perspective",
+        "color": "green"
+      },
+      {
+        "id": "cooperation-competition",
+        "text": "När är samarbete starkare än konkurrens?",
+        "type": "bridge",
+        "color": "purple"
+      }
+    ],
+    "types": {
+      "transformation": "Omvandling",
+      "systems": "System",
+      "bridge": "Brobyggande",
+      "perspective": "Nytt Perspektiv"
+    }
   }
 }

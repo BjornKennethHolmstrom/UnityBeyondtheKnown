@@ -1,6 +1,7 @@
 <!-- src/lib/components/ShareButtons.svelte -->
 <script>
   import { browser } from '$app/environment';
+  import { t } from 'svelte-i18n';
   
   export let url = '';
   export let title = 'Unity Beyond the Known';
@@ -202,7 +203,7 @@
     <!-- Default and minimal variants -->
     <div class="flex flex-row items-center gap-3">
       {#if variant !== 'minimal' && showLabels}
-        <span class="text-sm text-slate-300 font-medium">Share:</span>
+        <span class="text-sm text-slate-300 font-medium">{$t('share.share')}</span>
       {/if}
       
       <!-- Native Share (Mobile) -->

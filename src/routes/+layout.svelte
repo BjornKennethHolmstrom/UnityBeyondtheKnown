@@ -45,6 +45,9 @@
           <a href="{base}/experiments" class="hover:text-blue-400 transition-colors">
             {$t('nav.experiments')}
           </a>
+          <a href="{base}/tools" class="hover:text-blue-400 transition-colors">
+            {$t('nav.tools')}
+          </a>
           <!-- The Frameworks Link -->
           <a 
             href="https://www.globalgovernanceframeworks.org?ref=ubtk" 
@@ -100,6 +103,13 @@
               on:click={() => isMenuOpen = false}
             >
               {$t('nav.experiments')}
+            </a>
+            <a 
+              href="{base}/tools" 
+              class="hover:text-blue-400 transition-colors"
+              on:click={() => isMenuOpen = false}
+            >
+              {$t('nav.tools')}
             </a>
             <!-- The Frameworks Link for Mobile -->
             <a 

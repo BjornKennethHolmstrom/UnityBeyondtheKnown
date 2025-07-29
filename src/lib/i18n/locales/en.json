@@ -3,9 +3,11 @@
     "perspectives": "Perspectives",
     "exploration": "Exploration",
     "experiments": "Experiments",
+    "tools": "Tools",
     "frameworks": "The Frameworks"
   },
   "share": {
+    "share": "Share:",
     "ready": "Ready to Explore the Possibilities?",
     "join": "Join the growing movement of people reimagining humanity's potential beyond conflict.",
     "start": "Start Exploring",
@@ -585,5 +587,137 @@
         ]
       }
     ]
+  },
+  "tools": {
+    "title": "Tools for Transformation",
+    "description": "Practical tools to help bridge divides, spark curiosity, and build the unity needed for humanity's greatest adventures.",
+    "curiosityCards": {
+      "title": "Butterfly Curiosity Cards",
+      "shortTitle": "Butterfly Curiosity Cards",
+      "try": "Try it now →",
+      "description": "Thought-provoking questions that help you see beyond left and right, us and them. Perfect for sparking meaningful conversations.",
+      "comingSoon": "Coming Soon"
+    },
+    "communityProjects": {
+      "title": "Community Unity Projects", 
+      "description": "Blueprints for local projects that naturally bring people together across political divides."
+    },
+    "share": "Share These Tools",
+    "help": "Help others discover new ways to bridge divides and find common ground."
+  },
+  "curiosityCards": {
+    "title": "🦋 Butterfly Curiosity Cards",
+    "subtitle": "Simple questions that flutter into your mind and help you see the world differently. No right answers, just curious exploration.",
+    "startPrompt": "Ready to explore a question that might change how you see things?",
+    "drawQuestion": "Draw a Question",
+    "newQuestion": "🦋 New Question",
+    "reflectOnThis": "💭 Reflect on This",
+    "yourReflection": "Your Reflection",
+    "saveReflection": "Save Reflection",
+    "close": "Close",
+    "yourGarden": "Your Question Garden",
+    "pollinateWorld": "Pollinate the world with curiosity:",
+    "reflectionPlaceholder": "What thoughts or insights does this question spark for you?",
+    "shareTitle": "Butterfly Question: {question}",
+    "shareDescription": "This question made me pause and think... What would your answer be? 🦋",
+    "hashtags": "ButterflyQuestions,CuriosityCards,ThoughtProvoking,UnityBeyondTheKnown",
+    "questions": [
+      {
+        "id": "small-change",
+        "text": "What's something small that could change everything?",
+        "type": "transformation",
+        "color": "blue"
+      },
+      {
+        "id": "ecosystem-community",
+        "text": "How is a community like an ecosystem?",
+        "type": "systems", 
+        "color": "green"
+      },
+      {
+        "id": "both-sides",
+        "text": "What's a problem where both sides have a point?",
+        "type": "bridge",
+        "color": "purple"
+      },
+      {
+        "id": "trees-vote",
+        "text": "If trees could vote, what would they care about?",
+        "type": "perspective",
+        "color": "green"
+      },
+      {
+        "id": "invisible-connections",
+        "text": "What invisible connections make your neighborhood thrive?",
+        "type": "systems",
+        "color": "blue"
+      },
+      {
+        "id": "fragile-resilient",
+        "text": "What's something 'fragile' that's actually resilient?",
+        "type": "perspective",
+        "color": "orange"
+      },
+      {
+        "id": "disagree-better",
+        "text": "How could we disagree better?",
+        "type": "bridge",
+        "color": "purple"
+      },
+      {
+        "id": "win-win",
+        "text": "What's a win-win solution no one's talking about?",
+        "type": "bridge",
+        "color": "yellow"
+      },
+      {
+        "id": "butterfly-government",
+        "text": "What would a butterfly government look like?",
+        "type": "transformation",
+        "color": "rainbow"
+      },
+      {
+        "id": "unexpected-listen",
+        "text": "Who's someone unexpected we should listen to more?",
+        "type": "perspective",
+        "color": "pink"
+      },
+      {
+        "id": "changed-mind",
+        "text": "What's one thing you used to believe... until you changed your mind?",
+        "type": "transformation",
+        "color": "blue"
+      },
+      {
+        "id": "pollinator-ideas",
+        "text": "If you were a pollinator, what kind of ideas would you spread?",
+        "type": "transformation",
+        "color": "yellow"
+      },
+      {
+        "id": "nature-problems",
+        "text": "How does nature solve problems without left or right?",
+        "type": "systems",
+        "color": "green"
+      },
+      {
+        "id": "listening-earth",
+        "text": "What would change if we listened to the Earth?",
+        "type": "perspective",
+        "color": "green"
+      },
+      {
+        "id": "cooperation-competition",
+        "text": "When is cooperation stronger than competition?",
+        "type": "bridge",
+        "color": "purple"
+      }
+    ],
+    "types": {
+      "transformation": "Transformation",
+      "systems": "Systems",
+      "bridge": "Bridge Building", 
+      "perspective": "New Perspective"
+    }
   }
 }
