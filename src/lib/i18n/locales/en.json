@@ -5,6 +5,16 @@
     "experiments": "Experiments",
     "frameworks": "The Frameworks"
   },
+  "share": {
+    "ready": "Ready to Explore the Possibilities?",
+    "join": "Join the growing movement of people reimagining humanity's potential beyond conflict.",
+    "start": "Start Exploring",
+    "try": "Try Experiments",
+    "vision": "Share the vision:",
+    "exploration": "Found this inspiring?",
+    "perspectives": "Inspired by this vision? Share it with others:",
+    "experiments": "Your insights could inspire others. Share this thought experiment:"
+  },
   "home": {
     "title": "Unity Beyond the Known",
     "tagline": "What if humanity redirected its resources from conflict to exploration?",

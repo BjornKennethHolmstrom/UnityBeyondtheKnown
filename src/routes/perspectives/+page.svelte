@@ -2,6 +2,8 @@
 <script>
   import { t } from 'svelte-i18n';
   import { onMount } from 'svelte';
+  import ShareButtons from '$lib/components/ShareButtons.svelte';
+  import { base } from '$app/paths';
 
   let selectedArea = null;
   let isTransitionVisible = false;
@@ -19,6 +21,21 @@
     selectedArea = areaId;
     isTransitionVisible = true;
   };
+
+  function getShareData(areaId) {
+    const baseUrl = typeof window !== 'undefined' ? window.location.origin + base : '';
+    const areaTitle = $t(`perspectives.areas.${areaId}.title`);
+    const spendingAmount = $t(`perspectives.areas.${areaId}.spending.amount`);
+    const spendingUnit = $t(`perspectives.areas.${areaId}.spending.unit`);
+    const impact = $t(`perspectives.areas.${areaId}.impact`);
+    
+    return {
+      url: `${baseUrl}/perspectives#${areaTitle.toLowerCase().replace(/\s+/g, '-')}`,
+      title: `Redirecting ${areaTitle} Spending`,
+      description: `What if we redirected ${spendingAmount}${spendingUnit} from ${areaTitle.toLowerCase()} to peaceful exploration? ${impact}`,
+      hashtags: 'RedirectResources,PeacefulFuture,UnityBeyondTheKnown'
+    };
+  }
 </script>
 
 <div class="max-w-6xl mx-auto px-4 py-12">
@@ -101,6 +118,23 @@
         <div class="mt-8 text-slate-300">
           <h3 class="text-xl mb-4">{$t('perspectives.impact')}</h3>
           <p>{$t(`perspectives.areas.${selectedArea}.impact`)}</p>
+        </div>
+
+        <!-- STRATEGIC SHARE PLACEMENT -->
+        <div class="mt-8 pt-6 border-t border-slate-700">
+          <div class="text-center mb-4">
+            <p class="text-slate-300 text-sm mb-3">
+              {$t('share.perspectives')}
+            </p>
+            <ShareButtons 
+              url={getShareData(selectedArea).url}
+              title={getShareData(selectedArea).title}
+              description={getShareData(selectedArea).description}
+              hashtags={getShareData(selectedArea).hashtags}
+              size="medium"
+              showLabels={false}
+            />
+          </div>
         </div>
 
         <button 

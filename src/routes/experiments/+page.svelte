@@ -2,10 +2,13 @@
 <script>
   import { t } from 'svelte-i18n';
   import { onMount } from 'svelte';
+  import ShareButtons from '$lib/components/ShareButtons.svelte';
+  import { base } from '$app/paths';
 
   let activeExperiment = null;
   let userResponses = {};
   let reflectionInput = '';
+  let showShareAfterReflection = false;
 
   onMount(() => {
     // Load saved reflections from localStorage
@@ -22,15 +25,32 @@
     }
     // Load existing reflection into input if it exists
     reflectionInput = userResponses[id].reflection || '';
+    // Reset share state when opening new experiment
+    showShareAfterReflection = false;
   };
 
-  const saveReflection = () => {
+  const handleReflectionSave = () => {
     if (activeExperiment && reflectionInput.trim()) {
       userResponses[activeExperiment].reflection = reflectionInput;
       // Save to localStorage
       localStorage.setItem('unityBeyondKnown_reflections', JSON.stringify(userResponses));
+      
+      // Show share buttons after successful save
+      showShareAfterReflection = activeExperiment;
+      setTimeout(() => showShareAfterReflection = false, 10000); // Hide after 10 seconds
     }
   };
+
+  function getExperimentShareData(experiment) {
+    const baseUrl = typeof window !== 'undefined' ? window.location.origin + base : '';
+    
+    return {
+      url: `${baseUrl}/experiments#${experiment.id}`,
+      title: `Thought Experiment: ${experiment.title}`,
+      description: `${experiment.summary} Join me in reimagining how we could redirect resources from conflict to exploration.`,
+      hashtags: `ThoughtExperiment,${experiment.type === 'personal' ? 'PersonalGrowth' : experiment.type === 'community' ? 'CommunityChange' : 'GlobalTransformation'},UnityBeyondTheKnown`
+    };
+  }
 </script>
 
 <div class="max-w-6xl mx-auto px-4 py-12">
@@ -112,21 +132,47 @@
                 bind:value={reflectionInput}
               ></textarea>
 
-              <button 
-                class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
-                on:click={saveReflection}
-              >
-                {$t('experiments.reflection.save')}
-              </button>
+              <div class="flex justify-between items-center">
+                <button 
+                  class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
+                  on:click={handleReflectionSave}
+                >
+                  {$t('experiments.reflection.save')}
+                </button>
+                
+                <button 
+                  class="px-6 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg transition-colors"
+                  on:click={() => activeExperiment = null}
+                >
+                  {$t('experiments.close')}
+                </button>
+              </div>
+
+              <!-- SHARE AFTER SAVING -->
+              {#if showShareAfterReflection === activeExperiment}
+                <div class="mt-6 p-4 bg-green-900/20 border border-green-700/50 rounded-lg">
+                  <div class="text-center">
+                    <div class="mb-3">
+                      <svg class="w-8 h-8 mx-auto text-green-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                      <p class="text-green-300 font-medium">Reflection saved!</p>
+                      <p class="text-sm text-green-400 mb-4">
+                        {$t('share.experiments')}
+                      </p>
+                    </div>
+                    <ShareButtons 
+                      url={getExperimentShareData(experiment).url}
+                      title={getExperimentShareData(experiment).title}
+                      description={getExperimentShareData(experiment).description}
+                      hashtags={getExperimentShareData(experiment).hashtags}
+                      size="small" 
+                    />
+                  </div>
+                </div>
+              {/if}
             </div>
           </div>
-
-          <button 
-            class="mt-8 px-6 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg transition-colors"
-            on:click={() => activeExperiment = null}
-          >
-            {$t('experiments.close')}
-          </button>
         {/if}
       </div>
     </div>

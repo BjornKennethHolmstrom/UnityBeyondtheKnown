@@ -1,6 +1,9 @@
 <!-- src/routes/exploration/+page.svelte -->
 <script>
   import { t } from 'svelte-i18n';
+  import ShareButtons from '$lib/components/ShareButtons.svelte';
+  import { base } from '$app/paths';
+  
   let activeTab = 'outer';
   let selectedResource = null;
   
@@ -12,6 +15,27 @@
   const showResource = (resource) => {
     selectedResource = resource;
   };
+  
+  function getExplorationShareData(tab) {
+    const baseUrl = typeof window !== 'undefined' ? window.location.origin + base : '';
+    
+    const titles = {
+      outer: 'Space Exploration for Global Unity',
+      inner: 'Consciousness Exploration and Human Potential'
+    };
+    
+    const descriptions = {
+      outer: 'Discover how space exploration can unite humanity in a shared mission beyond conflict. From citizen science to the Earth Defense Force.',
+      inner: 'Explore consciousness through meditation, research, and systematic inner development. Transform inner work into outer transformation.'
+    };
+    
+    return {
+      url: `${baseUrl}/exploration#${tab}`,
+      title: titles[tab],
+      description: descriptions[tab],
+      hashtags: tab === 'outer' ? 'SpaceExploration,Unity,EarthDefenseForce' : 'Consciousness,Meditation,InnerDevelopment'
+    };
+  }
 </script>
 
 <div class="max-w-6xl mx-auto px-4 py-12">
@@ -187,6 +211,21 @@
               </ul>
             </div>
           {/if}
+        </div>
+
+        <!-- STRATEGIC SHARE PLACEMENT -->
+        <div class="mt-6 pt-4 border-t border-slate-700">
+          <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
+            <span class="text-sm text-slate-400">{$t('share.exploration')}</span>
+            <ShareButtons 
+              url={getExplorationShareData(activeTab).url}
+              title={getExplorationShareData(activeTab).title}
+              description={getExplorationShareData(activeTab).description}
+              hashtags={getExplorationShareData(activeTab).hashtags}
+              size="small" 
+              variant="minimal" 
+            />
+          </div>
         </div>
 
         <button 

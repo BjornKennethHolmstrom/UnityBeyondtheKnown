@@ -22,8 +22,16 @@
   <div class="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white">
     <header class="fixed w-full bg-slate-900/80 backdrop-blur-sm z-50">
       <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="{base}/" class="text-2xl font-light tracking-wider">
-          Unity Beyond the Known
+        <a href="{base}/" class="flex items-center gap-3 text-2xl font-light tracking-wider">
+          <!-- Logo -->
+          <img 
+            src="{base}/favicon-32.png" 
+            alt="Unity Beyond the Known" 
+            class="w-8 h-8"
+            loading="eager"
+          />
+          <span class="hidden sm:inline">Unity Beyond the Known</span>
+          <span class="sm:hidden">UBTK</span>
         </a>
 
         <!-- Desktop Navigation -->
@@ -37,7 +45,7 @@
           <a href="{base}/experiments" class="hover:text-blue-400 transition-colors">
             {$t('nav.experiments')}
           </a>
-          <!-- NEW: The Frameworks Link -->
+          <!-- The Frameworks Link -->
           <a 
             href="https://www.globalgovernanceframeworks.org?ref=ubtk" 
             target="_blank"
@@ -93,7 +101,7 @@
             >
               {$t('nav.experiments')}
             </a>
-            <!-- NEW: The Frameworks Link for Mobile -->
+            <!-- The Frameworks Link for Mobile -->
             <a 
               href="https://www.globalgovernanceframeworks.org?ref=ubtk" 
               target="_blank"
@@ -107,24 +115,7 @@
               </svg>
             </a>
             <div class="flex space-x-2">
-              <button 
-                on:click={() => {
-                  changeLanguage('en');
-                  isMenuOpen = false;
-                }}
-                class="px-2 py-1 rounded hover:bg-slate-700 transition-colors"
-              >
-                EN
-              </button>
-              <button 
-                on:click={() => {
-                  changeLanguage('sv');
-                  isMenuOpen = false;
-                }}
-                class="px-2 py-1 rounded hover:bg-slate-700 transition-colors"
-              >
-                SV
-              </button>
+              <LanguageSelector />
             </div>
           </div>
         </div>
@@ -137,12 +128,27 @@
 
     <footer class="bg-slate-900 mt-20 py-8">
       <div class="max-w-6xl mx-auto px-4 text-center text-slate-400">
+        <div class="flex items-center justify-center gap-2 mb-4">
+          <img 
+            src="{base}/favicon-32.png" 
+            alt="Unity Beyond the Known" 
+            class="w-6 h-6 opacity-60"
+          />
+          <span class="text-lg">Unity Beyond the Known</span>
+        </div>
         <p>{$t('footer.text')}</p>
       </div>
     </footer>
   </div>
 {:else}
   <div class="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white flex items-center justify-center">
-    <div class="animate-pulse">Loading...</div>
+    <div class="animate-pulse flex items-center gap-2">
+      <img 
+        src="{base}/favicon-32.png" 
+        alt="Loading" 
+        class="w-8 h-8 logo-pulse"
+      />
+      <span>Loading...</span>
+    </div>
   </div>
 {/if}

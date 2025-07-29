@@ -3,6 +3,7 @@
   import { onMount } from 'svelte';
   import { t } from 'svelte-i18n';
   import { base } from '$app/paths';
+  import ShareButtons from '$lib/components/ShareButtons.svelte';
 
   let militarySpending = 0;
   let spaceSpending = 0;
@@ -167,6 +168,31 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
           </svg>
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-20 text-center">
+    <h2 class="text-3xl mb-6">{$t('share.ready')}</h2>
+    <p class="text-slate-300 mb-8 max-w-2xl mx-auto">
+      {$t('share.join')}
+    </p>
+    
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+      <div class="flex gap-4">
+        <a href="{base}/perspectives" class="btn-primary">{$t('share.start')}</a>
+        <a href="{base}/experiments" class="btn-secondary">{$t('share.try')}</a>
+      </div>
+      
+      <div class="flex items-center gap-3">
+        <span class="text-sm text-slate-400">{$t('share.vision')}</span>
+        <ShareButtons 
+          title="Unity Beyond the Known - Redirecting Humanity's Resources"
+          description="What if humanity redirected its resources from conflict to exploration? Discover the possibilities for space exploration, consciousness development, and global cooperation."
+          hashtags="UnityBeyondTheKnown,SpaceExploration,Consciousness,Peace,Future"
+          size="small"
+          showLabels={false}
+        />
       </div>
     </div>
   </section>

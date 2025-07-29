@@ -5,6 +5,16 @@
     "experiments": "Experiment",
     "frameworks": "Ramverken"
   },
+  "share": {
+    "ready": "Redo att utforska möjligheterna?",
+    "join": "Gå med i den växande rörelsen av människor som omformar mänsklighetens potential bortom konflikter.",
+    "start": "Börja Utforska",
+    "try": "Prova Experimenten",
+    "vision": "Dela visionen:",
+    "exploration": "Inspirerande?",
+    "perspectives": "Inspirerad av den här visionen? Dela den med andra:",
+    "experiments": "Dina insikter kan inspirera andra. Dela detta tankeexperiment:"
+  },
   "home": {
     "title": "Enighet bortom det kända",
     "tagline": "Tänk om mänskligheten omdirigerade sina resurser från konflikt till utforskning?",
