@@ -81,6 +81,61 @@
     </div>
   </div>
 
+  <!-- NEW: GGF Connection Section -->
+  <div class="ggf-connection-section mb-12">
+    <div class="bg-gradient-to-r from-slate-800/50 to-blue-900/30 backdrop-blur-sm rounded-xl p-8 border border-blue-500/30">
+      <div class="flex items-start gap-6">
+        <div class="flex-shrink-0">
+          <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+        </div>
+        
+        <div class="flex-1">
+          <h3 class="text-2xl font-semibold mb-3 text-blue-100">
+            {$t(`exploration.${activeTab}.ggfConnection.title`)}
+          </h3>
+          <p class="text-blue-200 mb-4 text-lg">
+            {$t(`exploration.${activeTab}.ggfConnection.intro`)}
+          </p>
+          <p class="text-slate-300 mb-6">
+            {$t(`exploration.${activeTab}.ggfConnection.description`)}
+          </p>
+          
+          <!-- Mission/Aspect Cards -->
+          <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-4 mb-6">
+            {#each $t(`exploration.${activeTab}.ggfConnection.${activeTab === 'outer' ? 'missions' : 'aspects'}`) as item}
+              <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                <h4 class="font-semibold mb-2 text-blue-100">{item.title}</h4>
+                <p class="text-sm text-slate-300 mb-2">{item.description}</p>
+                <p class="text-xs text-blue-200 italic">{item.connection}</p>
+              </div>
+            {/each}
+          </div>
+          
+          <div class="flex flex-col sm:flex-row gap-4 items-start">
+            <a 
+              href="{$t(`exploration.${activeTab}.ggfConnection.ctaUrl`)}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-lg transition-all text-white font-semibold"
+            >
+              {$t(`exploration.${activeTab}.ggfConnection.cta`)}
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+            <p class="text-sm text-slate-400 italic self-center">
+              {$t(`exploration.${activeTab}.ggfConnection.subtitle`)}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Resources Grid -->
   <h2 class="text-3xl mb-8">{$t(`exploration.${activeTab}.resources.title`)}</h2>
   
@@ -100,7 +155,7 @@
   <!-- Resource Modal -->
   {#if selectedResource}
     <div 
-      class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
+      class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50"
       on:click={() => selectedResource = null}
     >
       <div 
@@ -144,3 +199,34 @@
     </div>
   {/if}
 </div>
+
+<style>
+  .ggf-connection-section {
+    position: relative;
+  }
+  
+  .ggf-connection-section::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #3b82f6, #8b5cf6, #06b6d4, #3b82f6);
+    border-radius: 0.75rem;
+    z-index: -1;
+    opacity: 0.3;
+    animation: borderGlow 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes borderGlow {
+    0% { opacity: 0.3; }
+    100% { opacity: 0.6; }
+  }
+  
+  @media (max-width: 768px) {
+    .ggf-connection-section .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

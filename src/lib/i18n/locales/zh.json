@@ -299,6 +299,31 @@
             ]
           }
         ]
+      },
+      "ggfConnection": {
+        "title": "从愿景到使命：地球防御部队",
+        "intro": "通过全球治理框架，您对太空探索的兴趣可以成为现实。",
+        "description": "《庇护协议》将2.7万亿美元的军事预算转化为资助人类最伟大的太空任务。",
+        "missions": [
+          {
+            "title": "🛡️ 行星防御",
+            "description": "保护地球的小行星探测和偏转系统",
+            "connection": "我们目前用于武器的开销，可以用来打造宇宙之盾"
+          },
+          {
+            "title": "🌌 深空探索",
+            "description": "前往木卫二、土卫二及更远星球，寻找生命的任务",
+            "connection": "在终极前沿，国际合作取代了竞争"
+          },
+          {
+            "title": "🏗️ 太空基础设施",
+            "description": "太阳能卫星和太空制造设施",
+            "connection": "服务于人类而非毁灭人类的工程技术"
+          }
+        ],
+        "cta": "了解地球防御部队",
+        "ctaUrl": "https://www.globalgovernanceframeworks.org/frameworks/aegis-protocol",
+        "subtitle": "见证您的太空探索梦想如何成为人类的共同使命"
       }
     },
     "inner": {
@@ -365,6 +390,31 @@
             ]
           }
         ]
+      },
+      "ggfConnection": {
+        "title": "系统的内在发展",
+        "intro": "您的冥想练习与一个全面的人类意识进化框架相连接。",
+        "description": "《内在发展与领导力协议》为您提供了您一直在寻求的系统性意识探索方法。",
+        "aspects": [
+          {
+            "title": "🧠 科学融合",
+            "description": "严谨的研究与沉思的智慧相结合",
+            "connection": "您的个人实践为人类的理解做出贡献"
+          },
+          {
+            "title": "🌍 全球实施",
+            "description": "将意识发展融入治理和决策之中",
+            "connection": "内在的修行成为外在的变革"
+          },
+          {
+            "title": "🤝 集体觉醒",
+            "description": "个人发展支持物种层面的意识进化",
+            "connection": "您的成长服务于全人类的觉醒"
+          }
+        ],
+        "cta": "探索意识与内在发展",
+        "ctaUrl": "https://www.globalgovernanceframeworks.org/frameworks/consciousness-and-inner-development",
+        "subtitle": "发现个人实践如何成为集体变革"
       }
     }
   },

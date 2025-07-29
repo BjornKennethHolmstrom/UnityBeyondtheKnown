@@ -295,6 +295,31 @@
             ]
           }
         ]
+      },
+      "ggfConnection": {
+        "title": "From Vision to Mission: The Earth Defense Force",
+        "intro": "Your interest in space exploration can become reality through the Global Governance Frameworks.",
+        "description": "The Aegis Protocol transforms the $2.7 trillion military budget into funding for humanity's greatest space missions.",
+        "missions": [
+          {
+            "title": "🛡️ Planetary Defense",
+            "description": "Asteroid detection and deflection systems protecting Earth",
+            "connection": "What we currently spend on weapons, we could spend on cosmic shields"
+          },
+          {
+            "title": "🌌 Deep Space Exploration", 
+            "description": "Missions to Europa, Enceladus, and beyond in search of life",
+            "connection": "International cooperation replaces competition in the ultimate frontier"
+          },
+          {
+            "title": "🏗️ Space Infrastructure",
+            "description": "Solar power satellites and space manufacturing facilities",
+            "connection": "Engineering that serves humanity rather than destroys it"
+          }
+        ],
+        "cta": "Discover the Earth Defense Force",
+        "ctaUrl": "https://www.globalgovernanceframeworks.org/frameworks/aegis-protocol",
+        "subtitle": "See how your space exploration dreams become humanity's shared mission"
       }
     },
     "inner": {
@@ -365,6 +390,31 @@
             ]
           }
         ]
+      },
+      "ggfConnection": {
+        "title": "Systematic Inner Development",
+        "intro": "Your meditation practice connects to a comprehensive framework for human consciousness evolution.",
+        "description": "The Inner Development & Leadership Protocol provides the systematic approach to consciousness exploration you've been seeking.",
+        "aspects": [
+          {
+            "title": "🧠 Scientific Integration",
+            "description": "Rigorous research combined with contemplative wisdom",
+            "connection": "Your personal practice contributes to humanity's understanding"
+          },
+          {
+            "title": "🌍 Global Implementation",
+            "description": "Consciousness development integrated into governance and decision-making",
+            "connection": "Inner work becomes outer transformation"
+          },
+          {
+            "title": "🤝 Collective Awakening",
+            "description": "Individual development supporting species-level consciousness evolution",
+            "connection": "Your growth serves the awakening of all humanity"
+          }
+        ],
+        "cta": "Explore Consciousness & Inner Development",
+        "ctaUrl": "https://www.globalgovernanceframeworks.org/frameworks/consciousness-and-inner-development",
+        "subtitle": "Discover how personal practice becomes collective transformation"
       }
     }
   },
