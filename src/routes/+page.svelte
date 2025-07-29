@@ -172,6 +172,24 @@
     </div>
   </section>
 
+  <section class="max-w-4xl mx-auto px-4 py-16 text-center">
+    <div class="bg-slate-800/20 rounded-xl p-8 backdrop-blur-sm border border-slate-700/30">
+      <h3 class="text-2xl mb-4">{$t('home.philosophy.title')}</h3>
+      <p class="text-slate-300 mb-6 max-w-2xl mx-auto">
+        {$t('home.philosophy.description')}
+      </p>
+      <a 
+        href="{base}/philosophy" 
+        class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
+      >
+        {$t('home.philosophy.cta')}
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
   <section class="max-w-4xl mx-auto px-4 py-20 text-center">
     <h2 class="text-3xl mb-6">{$t('share.ready')}</h2>
     <p class="text-slate-300 mb-8 max-w-2xl mx-auto">

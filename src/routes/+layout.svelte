@@ -136,17 +136,42 @@
       <slot />
     </main>
 
-    <footer class="bg-slate-900 mt-20 py-8">
-      <div class="max-w-6xl mx-auto px-4 text-center text-slate-400">
-        <div class="flex items-center justify-center gap-2 mb-4">
-          <img 
-            src="{base}/favicon-32.png" 
-            alt="Unity Beyond the Known" 
-            class="w-6 h-6 opacity-60"
-          />
-          <span class="text-lg">Unity Beyond the Known</span>
+    <footer class="bg-slate-900 mt-20 py-12">
+      <div class="max-w-6xl mx-auto px-4">
+        <!-- NEW: Philosophy Bridge Section -->
+        <div class="border-t border-slate-700 pt-8 mt-8">
+          <div class="text-center mb-6">
+            <h3 class="text-xl text-slate-300 mb-3">{$t('nav.philosophy.bridge.title')}</h3>
+            <p class="text-slate-400 max-w-2xl mx-auto">
+              {$t('nav.philosophy.bridge.description')}
+            </p>
+          </div>
+          
+          <div class="flex justify-center">
+            <a 
+              href="{base}/philosophy" 
+              class="inline-flex items-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors text-slate-300 hover:text-white"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+              {$t('nav.philosophy.bridge.cta')}
+            </a>
+          </div>
         </div>
-        <p>{$t('footer.text')}</p>
+
+        <!-- Existing footer content -->
+        <div class="border-t border-slate-700 pt-8 mt-8">
+          <div class="flex items-center justify-center gap-2 mb-4">
+            <img 
+              src="{base}/favicon-32.png" 
+              alt="Unity Beyond the Known" 
+              class="w-6 h-6 opacity-60"
+            />
+            <span class="text-lg">Unity Beyond the Known</span>
+          </div>
+          <p class="text-center text-slate-400">{$t('footer.text')}</p>
+        </div>
       </div>
     </footer>
   </div>

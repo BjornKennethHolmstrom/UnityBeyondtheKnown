@@ -4,7 +4,14 @@
     "exploration": "Utforskning",
     "experiments": "Experiment",
     "tools": "Verktyg",
-    "frameworks": "Ramverken"
+    "frameworks": "Ramverken",
+    "philosophy": {
+      "bridge": {
+        "title": "Förstå vår ansats",
+        "description": "Varför tror vi att mänskligheten kan överskrida konflikter? Vår filosofi hämtar inspiration från naturens mönster och medvetandets utveckling.",
+        "cta": "Utforska vår filosofi"
+      }
+    }
   },
   "share": {
     "share": "Dela:",
@@ -25,6 +32,11 @@
       "military": "Militär och försvar",
       "space": "Rymdutforskning",
       "context": "Vi spenderar 22 gånger mer på militär än på att utforska rymden. Vad skulle vi kunna åstadkomma genom att omdirigera dessa resurser?"
+    },
+    "philosophy": {
+      "title": "Tankarna bakom visionen",
+      "description": "Nyfiken på varför vi tror att mänsklighetens naturliga nästa steg är att styra om från konflikt till utforskning? Vår filosofi utforskar hur medvetandet naturligt utvecklas bortom uppdelning.",
+      "cta": "Upptäck vår filosofi"
     },
     "cta": {
       "explore": "Utforska idéer",
@@ -1088,5 +1100,179 @@
         "note": "* Faser kan överlappa • Anpassa tidslinjen till ert lokalsamhälles takt • Vissa projekt går snabbare, andra behöver mer tid"
       }
     }
+  },
+  "philosophy": {
+    "title": "Vår filosofi",
+    "description": "Förståelse för hur mänskligheten naturligt kan utvecklas bortom konflikter genom medvetenhetsutveckling och sammankoppling.",
+    "subtitle": "Naturen visar oss att hälsosamma system överskrider enkla uppdelningar. Precis som skogar behöver mångfald för att blomstra, behöver mänskligheten alla perspektiv för att frodas – förenade genom en djupare förståelse.",
+    "intro": {
+      "title": "Den naturliga vägen bortom uppdelning",
+      "paragraph1": "Genom historien har mänskligheten stått inför en återkommande utmaning: hur tar vi oss bortom de oändliga cyklerna av 'vi mot dem' som verkar definiera vår politik, våra konflikter och till och med våra personliga relationer? Svaret kan vara enklare än vi tror – och det står skrivet i naturens egna mönster runt omkring oss.",
+      "paragraph2": "Precis som en fjäril representerar förvandlingen från en livsform till en annan, utvecklas det mänskliga medvetandet naturligt genom förutsägbara stadier. Att förstå dessa stadier hjälper oss att se att att överskrida politiska uppdelningar inte handlar om att överge våra värderingar – det handlar om att utvidga vår omsorgscirkel till att omfatta mer av livet självt."
+    },
+    "concepts": {
+      "title": "Kärnförståelse",
+      "forest": {
+        "title": "Politik som en skog",
+        "summary": "Hälsosamma politiska system, likt skogar, behöver att alla delar samverkar – från rötter till krontak."
+      },
+      "metamorphosis": {
+        "title": "Fjärilens väg",
+        "summary": "Det mänskliga medvetandet förvandlas naturligt, likt en larv som blir en fjäril."
+      },
+      "expandingSelf": {
+        "title": "Det expanderande jaget",
+        "summary": "Det vi betraktar som 'egenintresse' växer från mig, till oss, till allt liv."
+      },
+      "beyondLeftRight": {
+        "title": "Bortom höger och vänster",
+        "summary": "Att överskrida politiska uppdelningar genom att integrera gåvorna från alla perspektiv."
+      },
+      "naturalEvolution": {
+        "title": "Naturlig evolution",
+        "summary": "Medvetenhetsutveckling följer naturliga mönster som återfinns överallt i livet."
+      },
+      "unityField": {
+        "title": "Enhetsfältet",
+        "summary": "Det utrymme där yttre utforskning och inre utveckling sammanstrålar i ett enat syfte."
+      }
+    },
+    "detailed": {
+      "forest": {
+        "intro": "En frisk skog består inte bara av träd som tävlar om solljus – det är ett komplext nätverk av samarbete där varje skikt tjänar helheten. Politik kan fungera på samma sätt, när vi förstår att uppenbara motsatser ofta behöver varandra för att skapa något större än vad någon av dem kunde åstadkomma på egen hand.",
+        "components": {
+          "title": "Skogens skikt",
+          "roots": {
+            "title": "Rötterna (grundläggande värderingar)",
+            "description": "Djupa principer som trygghet, rättvisa och frihet som ger näring åt allt ovanför. Olika politiska grupper kan betona olika rötter, men alla behövs för stabilitet."
+          },
+          "trunk": {
+            "title": "Stammen (institutioner)",
+            "description": "Strukturerna som transporterar näring mellan rötter och grenar – lagar, regeringar och sociala system som måste vara starka men ändå flexibla."
+          },
+          "canopy": {
+            "title": "Krontaket (synlig politik)",
+            "description": "Debatterna och politiken vi ser i media – viktiga för att bearbeta ljus och energi, men beroende av det osynliga nätverket nedanför."
+          },
+          "mycelium": {
+            "title": "Mycelet (sammankoppling)",
+            "description": "Svamprot-nätverket som kopplar samman alla delar och delar resurser och information. Detta är medvetenheten som ser hur alla perspektiv tjänar helhetens hälsa."
+          }
+        },
+        "conclusion": "När vi förstår politik som ett ekosystem snarare än ett slagfält, kan vi börja se hur bevarande av det som fungerar och utveckling av det som behövs inte är motsatser – de är kompletterande funktioner i ett levande system."
+      },
+      "metamorphosis": {
+        "intro": "Fjärilens förvandling är inte bara en vacker metafor – det är en mall för hur medvetandet naturligt utvecklas. Precis som en larv inte blir en 'bättre larv' utan förvandlas till en helt annan sorts varelse, kan det mänskliga medvetandet överskrida sina nuvarande begränsningar.",
+        "stages": {
+          "title": "Stadier av politiskt medvetande",
+          "caterpillar": {
+            "title": "Larvstadiet (överlevnadstänkande)",
+            "description": "Fokus på att konsumera resurser och skydda territorium. Politik handlar om att 'vinna' över den andra sidan, ackumulera makt och försvara låsta positioner."
+          },
+          "chrysalis": {
+            "title": "Puppstadiet (upplösning och återuppbyggnad)",
+            "description": "En period av förvirring där gamla sanningar bryts ner. Detta kan kännas kaotiskt – likt vårt nuvarande politiska klimat – men det är nödvändigt för förvandlingen."
+          },
+          "butterfly": {
+            "title": "Fjärilsstadiet (integrerande medvetande)",
+            "description": "En ny form av medvetenhet som kan 'pollinera' mellan olika blommor. Politik handlar om att skapa förutsättningar för allt liv att blomstra, inte bara om att en grupp ska vinna."
+          }
+        },
+        "conclusion": "Vi försöker inte få larver att bete sig som fjärilar – vi inser att puppstadiet, oavsett hur stökigt det är, är där den verkliga förvandlingen sker. Vårt nuvarande politiska kaos kan vara exakt denna process i praktiken."
+      },
+      "expandingSelf": {
+        "intro": "En av de djupaste insikterna om mänsklig utveckling är att det vi kallar 'egoism' inte försvinner när vi mognar – den expanderar. Cirkeln av vem och vad vi betraktar som en del av 'oss' blir bredare och inkluderar naturligt mer av livet i vår omsorg.",
+        "circles": {
+          "title": "De expanderande cirklarna",
+          "individual": {
+            "title": "Jag (individuell överlevnad)",
+            "description": "Egenintresse innebär personlig säkerhet, bekvämlighet och framgång. Politik handlar om vad som är bra för mig och mina omedelbara behov."
+          },
+          "tribe": {
+            "title": "Vi (gruppidentitet)",
+            "description": "Egenintresset expanderar till att inkludera familj, gemenskap eller nation. Politik handlar om att skydda och främja 'vårt folk' mot 'dem'."
+          },
+          "nation": {
+            "title": "Vårt land (nationell identitet)",
+            "description": "Egenintresset inkluderar nationens välstånd och säkerhet. Politik fokuserar på nationell konkurrenskraft och suveränitet."
+          },
+          "humanity": {
+            "title": "Alla människor (artidentitet)",
+            "description": "Egenintresset omfattar alla människor. Politik handlar om globalt samarbete, mänskliga rättigheter och gemensamma utmaningar som klimatförändringar."
+          },
+          "planet": {
+            "title": "Allt liv (planetär identitet)",
+            "description": "Egenintresset inkluderar ekosystemens hälsa och livets väv. Politik blir regenerativ och tjänar hela det levande systemets blomstring."
+          }
+        },
+        "conclusion": "Det handlar inte om att bli 'mindre egoistisk' – det handlar om att bli mer intelligent egoistisk. När vi inser att vi är en del av större levande system, blir omsorg om helheten den smartaste formen av egenvård."
+      },
+      "beyondLeftRight": {
+        "intro": "Vänster-höger-skalan tjänade oss väl för att organisera industrisamhällen, men den blir otillräcklig för de komplexa, sammankopplade utmaningar vi står inför idag. Att röra sig bortom denna uppdelning handlar inte om att hitta en luddig medelväg – det handlar om att upptäcka en helt ny dimension.",
+        "synthesis": {
+          "title": "Gåvorna från varje sida",
+          "conservative": {
+            "title": "Konservativa gåvor",
+            "gifts": "Stabilitet, tradition, praktisk visdom, individuellt ansvar, beprövade institutioner.",
+            "shadow": "Kan bli stelbent, exkluderande eller motståndskraftig mot nödvändig förändring."
+          },
+          "progressive": {
+            "title": "Progressiva gåvor",
+            "gifts": "Innovation, inkludering, rättvisa, anpassning, omsorg om de marginaliserade.",
+            "shadow": "Kan bli kaotisk, orealistisk eller intolerant mot oenighet."
+          }
+        },
+        "integration": {
+          "title": "Integrationen",
+          "description": "Sann syntes hedrar både behovet av stabilitet och behovet av tillväxt. Den frågar: Hur bevarar vi det som tjänar livet samtidigt som vi omvandlar det som inte gör det? Hur hedrar vi tradition samtidigt som vi omfamnar nödvändig utveckling?"
+        },
+        "conclusion": "Bortom höger och vänster finns en politik som är både/och snarare än antingen/eller – rotad i visdomstraditioner men ändå innovativ, lokalt förankrad men ändå globalt medveten, som bevarar det som fungerar samtidigt som den modigt förändrar det som inte gör det."
+      },
+      "naturalEvolution": {
+        "intro": "Medvetandets evolution är inte en mänsklig uppfinning – det är en naturlig process vi kan observera i hela naturen. Från enkla celler till komplexa ekosystem, från individuellt medvetande till kollektiv intelligens, verkar universum naturligt utveckla mer sofistikerade former av organisation och medvetenhet.",
+        "examples": {
+          "title": "Naturliga mönster",
+          "cooperation": {
+            "title": "Från tävlan till samarbete",
+            "description": "Evolutionen visar oss att medan tävlan driver den initiala utvecklingen, skapar samarbete de banbrytande innovationerna – som när celler bildar flercelliga organismer."
+          },
+          "adaptation": {
+            "title": "Från stelbent till anpassningsbar",
+            "description": "De mest framgångsrika systemen i naturen är inte de starkaste eller mest stelbenta, utan de mest anpassningsbara – kapabla att reagera kreativt på förändrade förhållanden."
+          },
+          "emergence": {
+            "title": "Från delar till helheter",
+            "description": "Naturen skapar ständigt nya organisationsnivåer där helheten blir mer än summan av sina delar – som hur enskilda nervceller skapar medvetande."
+          }
+        },
+        "conclusion": "Politisk evolution följer samma mönster. Vi rör oss från konkurrerande nationalstater mot kooperativ global styrning, från stelbenta ideologier mot anpassningsbar visdom, från fragmenterat tänkande mot integrerad förståelse. Det är inte önsketänkande – det är en naturlag."
+      },
+      "unityField": {
+        "intro": "Enhetsfältet är där alla våra utforskningar sammanstrålar – yttre rymden och inre medvetandet, individuell utveckling och kollektiv evolution, uråldrig visdom och banbrytande vetenskap. Det är insikten att allt är sammankopplat i ett levande, utvecklande kosmos.",
+        "dimensions": {
+          "title": "Enhetens tre dimensioner",
+          "outer": {
+            "title": "Yttre enhet",
+            "description": "Rymdutforskning avslöjar vår planet som ett enda levande system som svävar i ett vidsträckt, sammankopplat kosmos."
+          },
+          "inner": {
+            "title": "Inre enhet",
+            "description": "Medvetenhetsutforskning avslöjar att gränserna mellan jaget och andra är mer flytande än vi antagit."
+          },
+          "between": {
+            "title": "Relationell enhet",
+            "description": "Utrymmet mellan oss – våra relationer, kulturer och gemensamma meningsskapande – blir en helig plats för förvandling."
+          }
+        },
+        "conclusion": "I enhetsfältet är det inte bara ett politiskt val att omdirigera resurser från konflikt till utforskning – det är en evolutionär nödvändighet. Vi förändrar inte bara vad vi gör; vi utvecklas till dem vi har kapacitet att bli."
+      }
+    },
+    "cta": {
+      "title": "Redo att utforska?",
+      "description": "Dessa filosofiska insikter väcks till liv genom direkt upplevelse. Utforska medvetandet, engagera dig i rymd och vetenskap, eller prova våra verktyg för att överskrida uppdelning.",
+      "explore": "Börja utforska",
+      "tools": "Prova våra verktyg"
+    },
+    "close": "Stäng"
   }
 }

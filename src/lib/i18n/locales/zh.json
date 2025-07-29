@@ -4,7 +4,14 @@
     "exploration": "探索",
     "experiments": "思维实验",
     "tools": "工具",
-    "frameworks": "框架"
+    "frameworks": "框架",
+    "philosophy": {
+      "bridge": {
+        "title": "了解我们的理念",
+        "description": "我们为何相信人类能够超越冲突？我们的哲学源于大自然的模式与意识的发展。",
+        "cta": "探索我们的哲学"
+      }
+    }
   },
   "share": {
     "share": "分享：",
