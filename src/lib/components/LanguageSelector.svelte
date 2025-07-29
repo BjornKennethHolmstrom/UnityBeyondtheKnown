@@ -54,7 +54,7 @@
 
   {#if isOpen}
     <div
-      class="absolute right-0 mt-2 py-2 w-48 bg-slate-800 rounded-lg shadow-xl z-50"
+      class="absolute left-0 mt-2 py-2 w-48 bg-slate-800 rounded-lg shadow-xl z-50"
     >
       {#each languages as language}
         <button
