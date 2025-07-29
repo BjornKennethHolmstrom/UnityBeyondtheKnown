@@ -2,7 +2,8 @@
   "nav": {
     "perspectives": "Perspektiv",
     "exploration": "Utforskning",
-    "experiments": "Experiment"
+    "experiments": "Experiment",
+    "frameworks": "Ramverken"
   },
   "home": {
     "title": "Enighet Bortom det Kända",
@@ -26,6 +27,23 @@
         "title": "Utforska Inre Rymden",
         "content": "Genom meditation, forskning och ansvarsfull användning av psykedelika kan vi kartlägga medvetandets gränser och upptäcka nya sätt att vara."
       }
+    },
+    "frameworks": {
+      "title": "Ritningen för Förändring",
+      "subtitle": "Från vision till verklighet: heltäckande ramverk för planetär omvandling",
+      "hardware": {
+        "title": "Hårdvaran",
+        "description": "Juridiska och institutionella reformer genom Fördraget för Vårt Enda Hem"
+      },
+      "heart": {
+        "title": "Hjärtat",
+        "description": "Urfolksvisdom och traditionell kunskap som vår etiska kompass"
+      },
+      "nervous": {
+        "title": "Nervsystemet",
+        "description": "Meta-styrningskoordination som möjliggör globalt samarbete"
+      },
+      "cta": "Utforska de Globala Styrningsramverken"
     }
   },
   "footer": {

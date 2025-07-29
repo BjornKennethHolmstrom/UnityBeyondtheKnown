@@ -2,7 +2,8 @@
   "nav": {
     "perspectives": "Perspectives",
     "exploration": "Exploration",
-    "experiments": "Experiments"
+    "experiments": "Experiments",
+    "frameworks": "The Frameworks"
   },
   "home": {
     "title": "Unity Beyond the Known",
@@ -26,6 +27,23 @@
         "title": "Exploring Inner Space",
         "content": "Through meditation, research, and responsible use of psychedelics, we can map the frontiers of consciousness and discover new ways of being."
       }
+    },
+    "frameworks": {
+      "title": "The Blueprint for Change",
+      "subtitle": "From vision to reality: comprehensive frameworks for planetary transformation",
+      "hardware": {
+        "title": "The Hardware",
+        "description": "Legal and institutional reforms through the Treaty for Our Only Home"
+      },
+      "heart": {
+        "title": "The Heart", 
+        "description": "Indigenous wisdom and traditional knowledge as our ethical compass"
+      },
+      "nervous": {
+        "title": "The Nervous System",
+        "description": "Meta-governance coordination enabling global cooperation"
+      },
+      "cta": "Explore the Global Governance Frameworks"
     }
   },
   "footer": {

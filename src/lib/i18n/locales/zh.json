@@ -2,7 +2,8 @@
   "nav": {
     "perspectives": "视角",
     "exploration": "探索",
-    "experiments": "思维实验"
+    "experiments": "思维实验",
+    "frameworks": "框架"
   },
   "home": {
     "title": "超越已知的团结",
@@ -26,6 +27,23 @@
         "title": "探索内在世界",
         "content": "通过冥想、研究和负责任地使用迷幻药物，我们可以探索意识的边界，发现存在的新方式。"
       }
+    },
+    "frameworks": {
+      "title": "变革蓝图",
+      "subtitle": "从愿景到现实：实现全球转型的综合框架",
+      "hardware": {
+        "title": "硬件",
+        "description": "通过《我们唯一的家园条约》进行法律和制度改革"
+      },
+      "heart": {
+        "title": "核心",
+        "description": "以原住民智慧和传统知识作为我们的道德指南针"
+      },
+      "nervous": {
+        "title": "神经系统",
+        "description": "实现全球合作的元治理协调"
+      },
+      "cta": "探索全球治理框架"
     }
   },
   "footer": {
