@@ -1064,5 +1064,298 @@
         "note": "* 各阶段可以重叠 • 根据您社区的节奏调整时间线 • 有些项目进展更快，其他则需要更多时间"
       }
     }
+  },
+  "frameworks": {
+    "meta": {
+      "title": "框架",
+      "description": "从愿景到现实：探索展示人类如何将资源从冲突转向探索的全面框架。"
+    },
+    "hero": {
+      "badge": "从愿景到现实",
+      "title": "行星转型的蓝图",
+      "subtitle": "您已经探索了将人类资源从冲突转向探索的愿景。现在，请探索展示我们如何将其变为现实的全面框架。"
+    },
+    "journey": {
+      "title": "您的旅程",
+      "vision": {
+        "title": "愿景",
+        "description": "将2.4万亿美元从军事转向探索"
+      },
+      "philosophy": {
+        "title": "哲学",
+        "description": "理解超越左派-右派的意识进化"
+      },
+      "tools": {
+        "title": "工具",
+        "description": "在您的社区中弥合分歧的实用方法"
+      },
+      "frameworks": {
+        "title": "框架",
+        "description": "实现这一目标的制度蓝图"
+      },
+      "conclusion": "框架是灵感变为实施的地方。它们详细、全面，并准备好适应您的具体情况。"
+    },
+    "architecture": {
+      "title": "架构",
+      "subtitle": "如同建筑一样，框架从基础到专业应用分层组织"
+    },
+    "tiers": {
+      "tier0": {
+        "title": "第0层：宪法基础"
+      },
+      "tier1": {
+        "title": "第1层：核心操作系统"
+      },
+      "tier2": {
+        "title": "第2层：专业应用"
+      }
+    },
+    "clusters": {
+      "explore": "探索",
+      "whyMatters": "为何重要：",
+      "exploreFramework": "探索此框架",
+      "close": "关闭",
+      "constitutional": {
+        "title": "我们唯一家园的条约",
+        "description": "提供法律授权、执法机制和全球公地基金的宪法基础，为所有其他框架提供支持"
+      },
+      "golden-triangle": {
+        "title": "黄金三角",
+        "description": "硬件（条约改革）、核心（原住民智慧）和神经系统（元治理协调）",
+        "frameworks": [
+          {
+            "title": "我们唯一家园的条约",
+            "subtitle": "硬件",
+            "description": "使合作成为自然路径的法律和制度结构",
+            "url": "https://globalgovernanceframeworks.org/frameworks/treaty-for-our-only-home",
+            "why": "还记得那2.4万亿美元的军事开支吗？该框架展示了我们如何重组机构，将这些资源重新定向到探索和再生。"
+          },
+          {
+            "title": "原住民治理与传统知识",
+            "subtitle": "核心",
+            "description": "确保解决方案尊重所有生命的传统智慧",
+            "url": "https://globalgovernanceframeworks.org/frameworks/indigenous-governance-and-traditional-knowledge",
+            "why": "您所发现的意识探索需要道德基础。原住民智慧为确保技术服务于生命提供了指南。"
+          },
+          {
+            "title": "元治理",
+            "subtitle": "神经系统",
+            "description": "不同系统间无支配的协调",
+            "url": "https://globalgovernanceframeworks.org/frameworks/meta-governance",
+            "why": "我们如何协调全球探索工作而不创造新的等级制度？元治理是连接所有部分的神经系统。"
+          }
+        ]
+      },
+      "data-os": {
+        "title": "数据操作系统",
+        "description": "全球数据治理规则，包括抗量子网络安全和原住民数据主权",
+        "frameworks": [
+          {
+            "title": "曙光协议 (Aurora Accord)",
+            "subtitle": "数据治理",
+            "description": "数字优先的世界数据治理规则，具备抗量子安全性",
+            "url": "https://globalgovernanceframeworks.org/frameworks/aurora-accord",
+            "why": "您所探索的所有数字基础设施——从“爱心分类账”到食物森林登记处——都需要安全、合乎道德的数据治理。"
+          }
+        ]
+      },
+      "technology-os": {
+        "title": "技术操作系统",
+        "description": "针对人工智能、合成生物学和新兴技术的道德治理",
+        "frameworks": [
+          {
+            "title": "技术治理",
+            "subtitle": "人工智能伦理与监督",
+            "description": "用于道德技术开发和人工智能治理的综合框架",
+            "url": "https://globalgovernanceframeworks.org/frameworks/technology-governance",
+            "why": "在我们探索意识和发展人工智能时，我们需要治理来确保技术为人类和生物圈服务。"
+          },
+          {
+            "title": "埃塞尔雷德协议 (Aethelred Accord)",
+            "subtitle": "合成生物学",
+            "description": "针对合成生物学和先进生物技术应用的治理",
+            "url": "https://globalgovernanceframeworks.org/frameworks/aethelred-accord",
+            "why": "生物技术可以治愈生态系统，也可能损害它们。该框架确保它们服务于再生。"
+          }
+        ]
+      },
+      "justice-os": {
+        "title": "司法操作系统",
+        "description": "法治基础设施，包括和平框架、司法系统和跨国犯罪预防",
+        "frameworks": [
+          {
+            "title": "和平与冲突解决",
+            "subtitle": "基于价值观的转型",
+            "description": "基于意识发展阶段转变冲突的框架",
+            "url": "https://globalgovernanceframeworks.org/frameworks/peace-and-conflict-resolution",
+            "why": "还记得我们关于政治蜕变的哲学吗？这个框架将其应用于实际的冲突解决。"
+          },
+          {
+            "title": "司法系统",
+            "subtitle": "全球法治",
+            "description": "公平全球司法系统的综合框架",
+            "url": "https://globalgovernanceframeworks.org/frameworks/justice-systems",
+            "why": "公平的司法系统对于您所设想的从冲突到合作的过渡至关重要。"
+          },
+          {
+            "title": "盾牌协议 (The Shield Protocol)",
+            "subtitle": "跨国犯罪",
+            "description": "根除有组织犯罪和网络犯罪的框架",
+            "url": "https://globalgovernanceframeworks.org/frameworks/shield-protocol",
+            "why": "从军事转向探索需要通过司法而非战争来应对跨国威胁。"
+          }
+        ]
+      },
+      "economic-systems": {
+        "title": "经济系统",
+        "description": "新价值货币（“爱心”与“绿叶”）、适应性全民基本收入(AUBI)、再生型企业和贸易框架",
+        "frameworks": [
+          {
+            "title": "适应性全民基本收入 (AUBI)",
+            "subtitle": "保障与目标",
+            "description": "探索内部和外部前沿的自由",
+            "url": "https://globalgovernanceframeworks.org/frameworks/adaptive-universal-basic-income",
+            "why": "如果每个人都有安全保障去追求意识发展或为太空任务做贡献呢？AUBI 创造了这样的基础。"
+          },
+          {
+            "title": "金融系统",
+            "subtitle": "“爱心”与“绿叶” (Hearts & Leaves)",
+            "description": "奖励护理工作和生态管理的新价值货币",
+            "url": "https://globalgovernanceframeworks.org/frameworks/financial-systems",
+            "why": "还记得我们如何评估军事开支与太空探索的价值吗？这些货币使再生性工作在经济上变得可行。"
+          },
+          {
+            "title": "解放性工作",
+            "subtitle": "超越工作",
+            "description": "有意义的贡献，而非雇佣劳动",
+            "url": "https://globalgovernanceframeworks.org/frameworks/work-in-liberation",
+            "why": "您所探索的食物森林和社区项目成为可行的职业道路，而不仅仅是爱好。"
+          },
+          {
+            "title": "盖亚贸易",
+            "subtitle": "再生型商业",
+            "description": "优先考虑生态健康和社会公平的贸易框架",
+            "url": "https://globalgovernanceframeworks.org/frameworks/gaian-trade",
+            "why": "在正确原则的指导下，全球贸易可以服务于再生而非榨取。"
+          }
+        ]
+      },
+      "property-stewardship": {
+        "title": "财产与管理权",
+        "description": "炉石协议 (Hearthstone Protocol) 将所有权转变为再生型管理权",
+        "frameworks": [
+          {
+            "title": "炉石协议 (The Hearthstone Protocol)",
+            "subtitle": "公地转型",
+            "description": "从榨取性所有权到再生型管理权的法律路径",
+            "url": "https://globalgovernanceframeworks.org/frameworks/hearthstone-protocol",
+            "why": "我们如何在不造成混乱的情况下将土地、水和资源转变为公地？“炉石”提供了路线图。"
+          }
+        ]
+      },
+      "infrastructure": {
+        "title": "共享基础设施",
+        "description": "管道协议 (Conduit Protocol)，用于弹性的能源、数据和水利基础设施作为公地",
+        "frameworks": [
+          {
+            "title": "管道协议 (The Conduit Protocol)",
+            "subtitle": "基础设施公地",
+            "description": "清洁能源、安全数据和清洁用水的统一全球公地",
+            "url": "https://globalgovernanceframeworks.org/frameworks/conduit-protocol",
+            "why": "将资源重新定向到探索需要强大、共享的基础设施来服务全人类。"
+          }
+        ]
+      },
+      "human-flourishing": {
+        "title": "人类繁荣",
+        "description": "健康、教育、意识发展和生活质量框架",
+        "frameworks": [
+          {
+            "title": "意识与内在发展",
+            "subtitle": "人类潜能",
+            "description": "意识和领导能力的系统性发展",
+            "url": "https://globalgovernanceframeworks.org/frameworks/consciousness-and-inner-development",
+            "why": "您的冥想练习和意识探索成为全球人类发展框架的一部分。"
+          },
+          {
+            "title": "道德操作系统",
+            "subtitle": "所有存在的权利",
+            "description": "为人类、动物、生态系统和人工智能定义权利",
+            "url": "https://globalgovernanceframeworks.org/frameworks/moral-operating-system",
+            "why": "当我们探索太空和发展人工智能时，什么样的道德框架在指导我们？MOS 提供了基础。"
+          },
+          {
+            "title": "全球卫生系统",
+            "subtitle": "人人享有健康",
+            "description": "全民健康覆盖和流行病预防的综合框架",
+            "url": "https://globalgovernanceframeworks.org/frameworks/global-health-systems",
+            "why": "健康的人口对于从冲突过渡到探索和创新至关重要。"
+          }
+        ]
+      }
+    },
+    "pathways": {
+      "title": "如果您对...感兴趣",
+      "items": [
+        {
+          "icon": "🛡️",
+          "title": "地球防御力量",
+          "description": "太空探索和行星保护",
+          "url": "https://globalgovernanceframeworks.org/frameworks/treaty-for-our-only-home",
+          "linkText": "我们唯一家园的条约（硬件）",
+          "color": "#3b82f6"
+        },
+        {
+          "icon": "🧘",
+          "title": "意识发展",
+          "description": "系统性的内在发展和冥想",
+          "url": "https://globalgovernanceframeworks.org/frameworks/consciousness-and-inner-development",
+          "linkText": "内在发展与领导力协议",
+          "color": "#a855f7"
+        },
+        {
+          "icon": "🌱",
+          "title": "食物森林与本地项目",
+          "description": "使再生性工作在经济上变得可行",
+          "url": "https://globalgovernanceframeworks.org/frameworks/financial-systems",
+          "linkText": "“爱心”与“绿叶”货币系统",
+          "color": "#10b981"
+        },
+        {
+          "icon": "🦋",
+          "title": "政治蜕变",
+          "description": "超越左派-右派的分歧",
+          "links": [
+            {
+              "url": "https://www.spiralize.org",
+              "linkText": "Spiralize - 互动式螺旋动力学",
+              "description": "探索您在意识发展旅程中的位置",
+              "hint": "了解第二序 / 黄色阶段思维"
+            },
+            {
+              "url": "https://globalgovernanceframeworks.org/frameworks/peace-and-conflict-resolution",
+              "linkText": "和平与冲突解决框架",
+              "description": "将意识发展应用于冲突转化"
+            }
+          ],
+          "color": "#eab308"
+        }
+      ]
+    },
+    "cta": {
+      "title": "准备好探索完整的框架了吗？",
+      "description": "完整的框架网站包含详细的文档、实施指南以及行星转型的完整愿景。",
+      "explore": "探索全球治理框架",
+      "back": "返回 Unity Beyond the Known",
+      "share": "分享这座连接愿景与现实的桥梁："
+    },
+    "share": {
+      "title": "行星转型的蓝图",
+      "description": "探索展示人类如何将资源从冲突转向探索的全面框架。从愿景到实施。",
+      "hashtags": "GlobalGovernanceFrameworks,PlanetaryTransformation,SystemsChange,UnityBeyondTheKnown"
+    },
+    "navigation": {
+      "returnToUBTK": "返回 Unity Beyond the Known"
+    }
   }
 }

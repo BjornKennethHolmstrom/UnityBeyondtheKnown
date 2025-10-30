@@ -1274,5 +1274,298 @@
       "tools": "Prova våra verktyg"
     },
     "close": "Stäng"
+  },
+"frameworks": {
+    "meta": {
+      "title": "Ramverken",
+      "description": "Från vision till verklighet: Upptäck de omfattande ramverken som visar hur mänskligheten kan omdirigera resurser från konflikt till utforskning."
+    },
+    "hero": {
+      "badge": "Från vision till verklighet",
+      "title": "Ritningen för planetär omvandling",
+      "subtitle": "Du har utforskat visionen om att omdirigera mänsklighetens resurser från konflikt till utforskning. Upptäck nu de omfattande ramverken som visar exakt hur vi förverkligar den."
+    },
+    "journey": {
+      "title": "Din resa hittills",
+      "vision": {
+        "title": "Visionen",
+        "description": "Omdirigera 2,4 biljoner dollar från militär till utforskning"
+      },
+      "philosophy": {
+        "title": "Filosofin",
+        "description": "Förståelse för medvetandeevolution bortom höger-vänster"
+      },
+      "tools": {
+        "title": "Verktygen",
+        "description": "Praktiska sätt att överbrygga klyftor i ditt samhälle"
+      },
+      "frameworks": {
+        "title": "Ramverken",
+        "description": "Den institutionella ritningen för att få det att hända"
+      },
+      "conclusion": "Ramverken är där inspiration blir implementering. De är detaljerade, omfattande och redo att anpassas till din kontext."
+    },
+    "architecture": {
+      "title": "Arkitekturen",
+      "subtitle": "Likt en byggnad är ramverken organiserade i nivåer från grund till specialiserade tillämpningar"
+    },
+    "tiers": {
+      "tier0": {
+        "title": "Nivå 0: Konstitutionell grund"
+      },
+      "tier1": {
+        "title": "Nivå 1: Kärnoperativsystem"
+      },
+      "tier2": {
+        "title": "Nivå 2: Specialiserade tillämpningar"
+      }
+    },
+    "clusters": {
+      "explore": "Utforska",
+      "whyMatters": "Varför detta är viktigt:",
+      "exploreFramework": "Utforska detta ramverk",
+      "close": "Stäng",
+      "constitutional": {
+        "title": "Fördraget för vårt enda hem",
+        "description": "Den konstitutionella grunden som tillhandahåller juridisk auktoritet, efterlevnadsmekanismer och Global Commons Fund som möjliggör alla andra ramverk"
+      },
+      "golden-triangle": {
+        "title": "Den gyllene triangeln",
+        "description": "Hårdvaran (fördragsreformer), hjärtat (ursprungsbefolkningars visdom) och nervsystemet (meta-styrningskoordination)",
+        "frameworks": [
+          {
+            "title": "Fördraget för vårt enda hem",
+            "subtitle": "Hårdvaran",
+            "description": "Juridiska och institutionella strukturer som gör samarbete till den naturliga vägen",
+            "url": "https://globalgovernanceframeworks.org/frameworks/treaty-for-our-only-home",
+            "why": "Kommer du ihåg de 2,4 biljonerna dollar i militärutgifter? Detta ramverk visar hur vi omstrukturerar institutioner för att omdirigera dessa resurser till utforskning och återuppbyggnad."
+          },
+          {
+            "title": "Ursprungsbefolkningars styre & traditionell kunskap",
+            "subtitle": "Hjärtat",
+            "description": "Traditionell visdom som säkerställer att lösningar hedrar allt liv",
+            "url": "https://globalgovernanceframeworks.org/frameworks/indigenous-governance-and-traditional-knowledge",
+            "why": "Den medvetandeutforskning du upptäckte behöver etisk grund. Ursprungsbefolkningars visdom ger kompassen för att säkerställa att tekniken tjänar livet."
+          },
+          {
+            "title": "Metastyrning",
+            "subtitle": "Nervsystemet",
+            "description": "Samordning utan dominans mellan olika system",
+            "url": "https://globalgovernanceframeworks.org/frameworks/meta-governance",
+            "why": "Hur samordnar vi globala utforskningsinsatser utan att skapa nya hierarkier? Metastyrning är nervsystemet som förbinder alla delar."
+          }
+        ]
+      },
+      "data-os": {
+        "title": "Dataoperativsystem",
+        "description": "Globala regler för datahantering inklusive kvantresistent cybersäkerhet och ursprungsbefolkningars datasuveränitet",
+        "frameworks": [
+          {
+            "title": "Aurora-överenskommelsen",
+            "subtitle": "Datahantering",
+            "description": "Digital-först-världens datahanteringsregler med kvantresistent säkerhet",
+            "url": "https://globalgovernanceframeworks.org/frameworks/aurora-accord",
+            "why": "All den digitala infrastruktur du har utforskat – från 'Love Ledger' till register över skogsmatträdgårdar – behöver säker, etisk datahantering."
+          }
+        ]
+      },
+      "technology-os": {
+        "title": "Teknologioperativsystem",
+        "description": "Etisk styrning för AI, syntetisk biologi och framväxande teknologier",
+        "frameworks": [
+          {
+            "title": "Teknologiskt styre",
+            "subtitle": "AI-etik & tillsyn",
+            "description": "Omfattande ramverk för etisk teknikutveckling och AI-styrning",
+            "url": "https://globalgovernanceframeworks.org/frameworks/technology-governance",
+            "why": "När vi utforskar medvetande och utvecklar AI behöver vi styrning som säkerställer att tekniken tjänar mänskligheten och biosfären."
+          },
+          {
+            "title": "Aethelred-överenskommelsen",
+            "subtitle": "Syntetisk biologi",
+            "description": "Styrning för syntetisk biologi och avancerade biotekniktillämpningar",
+            "url": "https://globalgovernanceframeworks.org/frameworks/aethelred-accord",
+            "why": "Biologiska teknologier kan läka ekosystem eller skada dem. Detta ramverk säkerställer att de tjänar återuppbyggnad."
+          }
+        ]
+      },
+      "justice-os": {
+        "title": "Rättviseoperativsystem",
+        "description": "Rättsstatlig infrastruktur inklusive fredsramverk, rättssystem och förebyggande av gränsöverskridande brottslighet",
+        "frameworks": [
+          {
+            "title": "Freds- & konfliktlösning",
+            "subtitle": "Värdebaserad omvandling",
+            "description": "Ramverk för att omvandla konflikter baserat på medvetandeutvecklingsstadier",
+            "url": "https://globalgovernanceframeworks.org/frameworks/peace-and-conflict-resolution",
+            "why": "Kommer du ihåg vår filosofi om politisk metamorfos? Detta ramverk tillämpar den på faktisk konfliktlösning."
+          },
+          {
+            "title": "Rättssystem",
+            "subtitle": "Global rättsstatlighet",
+            "description": "Omfattande ramverk för rättvisa globala rättssystem",
+            "url": "https://globalgovernanceframeworks.org/frameworks/justice-systems",
+            "why": "Rättvisa rättssystem är avgörande för övergången från konflikt till samarbete som du har föreställt dig."
+          },
+          {
+            "title": "Shield-protokollet",
+            "subtitle": "Gränsöverskridande brottslighet",
+            "description": "Ramverk för att utrota organiserad brottslighet och cyberbrottslighet",
+            "url": "https://globalgovernanceframeworks.org/frameworks/shield-protocol",
+            "why": "Att omdirigera från militär till utforskning kräver att man hanterar transnationella hot genom rättvisa, inte krig."
+          }
+        ]
+      },
+      "economic-systems": {
+        "title": "Ekonomiska system",
+        "description": "Nya värdevalutor (Hearts & Leaves), AUBI, regenerativt företagande och handelsramverk",
+        "frameworks": [
+          {
+            "title": "Adaptiv universell basinkomst",
+            "subtitle": "Trygghet & syfte",
+            "description": "Frihet att utforska inre och yttre gränser",
+            "url": "https://globalgovernanceframeworks.org/frameworks/adaptive-universal-basic-income",
+            "why": "Tänk om alla hade tryggheten att ägna sig åt medvetandeutveckling eller bidra till rymdmissioner? AUBI skapar den grunden."
+          },
+          {
+            "title": "Finansiella system",
+            "subtitle": "Hearts & Leaves",
+            "description": "Nya värdevalutor som belönar omsorgsarbete och ekologiskt förvaltarskap",
+            "url": "https://globalgovernanceframeworks.org/frameworks/financial-systems",
+            "why": "Kommer du ihåg hur vi värderade militärutgifter kontra rymdutforskning? Dessa valutor gör regenerativt arbete ekonomiskt bärkraftigt."
+          },
+          {
+            "title": "Arbete i befrielse",
+            "subtitle": "Bortom jobb",
+            "description": "Meningsfullt bidrag istället för lönearbete",
+            "url": "https://globalgovernanceframeworks.org/frameworks/work-in-liberation",
+            "why": "De skogsmatträdgårdar och gemenskapsprojekt du utforskade blir livskraftiga karriärvägar, inte bara hobbies."
+          },
+          {
+            "title": "Gaiansk handel",
+            "subtitle": "Regenerativ handel",
+            "description": "Handelsramverk som prioriterar ekologisk hälsa och social rättvisa",
+            "url": "https://globalgovernanceframeworks.org/frameworks/gaian-trade",
+            "why": "Global handel kan tjäna återuppbyggnad snarare än utvinning när den styrs av rätt principer."
+          }
+        ]
+      },
+      "property-stewardship": {
+        "title": "Egendom & förvaltarskap",
+        "description": "Hearthstone-protokollet som omvandlar ägande till regenerativt förvaltarskap",
+        "frameworks": [
+          {
+            "title": "Hearthstone-protokollet",
+            "subtitle": "Övergång till allmänning",
+            "description": "Juridiska vägar från extraktivt ägande till regenerativt förvaltarskap",
+            "url": "https://globalgovernanceframeworks.org/frameworks/hearthstone-protocol",
+            "why": "Hur övergår vi till att mark, vatten och resurser blir allmänningar utan att skapa kaos? Hearthstone tillhandahåller färdplanen."
+          }
+        ]
+      },
+      "infrastructure": {
+        "title": "Delad infrastruktur",
+        "description": "Conduit-protokollet för resilient energi-, data- och vatteninfrastruktur som allmänningar",
+        "frameworks": [
+          {
+            "title": "Conduit-protokollet",
+            "subtitle": "Infrastrukturallmänningar",
+            "description": "Enad global allmänning för ren energi, säker data och rent vatten",
+            "url": "https://globalgovernanceframeworks.org/frameworks/conduit-protocol",
+            "why": "Att omdirigera resurser till utforskning kräver robust, delad infrastruktur som tjänar hela mänskligheten."
+          }
+        ]
+      },
+      "human-flourishing": {
+        "title": "Mänskligt blomstrande",
+        "description": "Hälsa, utbildning, medvetandeutveckling och livskvalitetsramverk",
+        "frameworks": [
+          {
+            "title": "Medvetande & inre utveckling",
+            "subtitle": "Mänsklig potential",
+            "description": "Systematisk utveckling av medvetande och ledarskapsförmåga",
+            "url": "https://globalgovernanceframeworks.org/frameworks/consciousness-and-inner-development",
+            "why": "Din meditationsövning och medvetandeutforskning blir en del av ett globalt ramverk för mänsklig utveckling."
+          },
+          {
+            "title": "Moraliskt operativsystem",
+            "subtitle": "Alla varelsers rättigheter",
+            "description": "Definiera rättigheter för människor, djur, ekosystem och AI",
+            "url": "https://globalgovernanceframeworks.org/frameworks/moral-operating-system",
+            "why": "När vi utforskar rymden och utvecklar AI, vilket etiskt ramverk vägleder oss? MOS ger grunden."
+          },
+          {
+            "title": "Globala hälsosystem",
+            "subtitle": "Hälsa för alla",
+            "description": "Omfattande ramverk för universell hälso- och sjukvård och pandemiförebyggande",
+            "url": "https://globalgovernanceframeworks.org/frameworks/global-health-systems",
+            "why": "Friska befolkningar är avgörande för övergången från konflikt till utforskning och innovation."
+          }
+        ]
+      }
+    },
+    "pathways": {
+      "title": "Om du är intresserad av...",
+      "items": [
+        {
+          "icon": "🛡️",
+          "title": "Jordens försvarsstyrka",
+          "description": "Rymdutforskning och planetärt skydd",
+          "url": "https://globalgovernanceframeworks.org/frameworks/treaty-for-our-only-home",
+          "linkText": "Fördraget för vårt enda hem (Hårdvaran)",
+          "color": "#3b82f6"
+        },
+        {
+          "icon": "🧘",
+          "title": "Medvetandeutveckling",
+          "description": "Systematisk inre utveckling och meditation",
+          "url": "https://globalgovernanceframeworks.org/frameworks/consciousness-and-inner-development",
+          "linkText": "Protokoll för inre utveckling & ledarskap",
+          "color": "#a855f7"
+        },
+        {
+          "icon": "🌱",
+          "title": "Skogsmatträdgårdar & lokala projekt",
+          "description": "Göra regenerativt arbete ekonomiskt bärkraftigt",
+          "url": "https://globalgovernanceframeworks.org/frameworks/financial-systems",
+          "linkText": "Valutasystemet Hearts & Leaves",
+          "color": "#10b981"
+        },
+        {
+          "icon": "🦋",
+          "title": "Politisk metamorfos",
+          "description": "Att röra sig bortom höger-vänster-klyftor",
+          "links": [
+            {
+              "url": "https://www.spiralize.org",
+              "linkText": "Spiralize - Interaktiv Spiral Dynamics",
+              "description": "Utforska var du befinner dig på resan för medvetandeutveckling",
+              "hint": "Lär dig om Nivå 2 / Gult stadium-tänkande"
+            },
+            {
+              "url": "https://globalgovernanceframeworks.org/frameworks/peace-and-conflict-resolution",
+              "linkText": "Ramverk för freds- & konfliktlösning",
+              "description": "Tillämpa medvetandeutveckling på konfliktomvandling"
+            }
+          ],
+          "color": "#eab308"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Redo att utforska de fullständiga ramverken?",
+      "description": "Den kompletta ramverkssajten innehåller detaljerad dokumentation, implementeringsguider och den fullständiga visionen för planetär omvandling.",
+      "explore": "Utforska Global Governance Frameworks",
+      "back": "Tillbaka till Unity Beyond the Known",
+      "share": "Dela denna bro mellan vision och verklighet:"
+    },
+    "share": {
+      "title": "Ritningen för planetär omvandling",
+      "description": "Upptäck de omfattande ramverken som visar hur mänskligheten kan omdirigera resurser från konflikt till utforskning. Från vision till implementering.",
+      "hashtags": "GlobalGovernanceFrameworks,PlanetaryTransformation,SystemsChange,UnityBeyondTheKnown"
+    },
+    "navigation": {
+      "returnToUBTK": "Återgå till Unity Beyond the Known"
+    }
   }
 }

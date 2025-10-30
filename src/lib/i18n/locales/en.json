@@ -1243,5 +1243,298 @@
       "tools": "Try Our Tools"
     },
     "close": "Close"
+  },
+  "frameworks": {
+    "meta": {
+      "title": "The frameworks",
+      "description": "From vision to reality: Discover the comprehensive frameworks that show how humanity can redirect resources from conflict to exploration."
+    },
+    "hero": {
+      "badge": "From vision to reality",
+      "title": "The blueprint for planetary transformation",
+      "subtitle": "You've explored the vision of redirecting humanity's resources from conflict to exploration. Now discover the comprehensive frameworks that show exactly how we make it real."
+    },
+    "journey": {
+      "title": "Your journey so far",
+      "vision": {
+        "title": "The vision",
+        "description": "Redirecting $2.4T from military to exploration"
+      },
+      "philosophy": {
+        "title": "The philosophy",
+        "description": "Understanding consciousness evolution beyond left-right"
+      },
+      "tools": {
+        "title": "The tools",
+        "description": "Practical ways to bridge divides in your community"
+      },
+      "frameworks": {
+        "title": "The frameworks",
+        "description": "The institutional blueprint for making it happen"
+      },
+      "conclusion": "The frameworks are where inspiration becomes implementation. They're detailed, comprehensive, and ready to adapt to your context."
+    },
+    "architecture": {
+      "title": "The architecture",
+      "subtitle": "Like a building, the frameworks are organized in tiers from foundation to specialized applications"
+    },
+    "tiers": {
+      "tier0": {
+        "title": "Tier 0: Constitutional foundation"
+      },
+      "tier1": {
+        "title": "Tier 1: Core operating systems"
+      },
+      "tier2": {
+        "title": "Tier 2: Specialized applications"
+      }
+    },
+    "clusters": {
+      "explore": "Explore",
+      "whyMatters": "Why this matters:",
+      "exploreFramework": "Explore this framework",
+      "close": "Close",
+      "constitutional": {
+        "title": "The Treaty for Our Only Home",
+        "description": "The constitutional foundation providing legal authority, enforcement mechanisms, and the Global Commons Fund that enables all other frameworks"
+      },
+      "golden-triangle": {
+        "title": "The golden triangle",
+        "description": "The Hardware (Treaty reforms), The Heart (Indigenous wisdom), and The Nervous System (Meta-governance coordination)",
+        "frameworks": [
+          {
+            "title": "The Treaty for Our Only Home",
+            "subtitle": "The hardware",
+            "description": "Legal and institutional structures that make cooperation the natural path",
+            "url": "https://globalgovernanceframeworks.org/frameworks/treaty-for-our-only-home",
+            "why": "Remember the $2.4 trillion in military spending? This framework shows how we restructure institutions to redirect those resources toward exploration and regeneration."
+          },
+          {
+            "title": "Indigenous governance & traditional knowledge",
+            "subtitle": "The heart",
+            "description": "Traditional wisdom ensuring solutions honor all life",
+            "url": "https://globalgovernanceframeworks.org/frameworks/indigenous-governance-and-traditional-knowledge",
+            "why": "The consciousness exploration you discovered needs ethical grounding. Indigenous wisdom provides the compass for ensuring technology serves life."
+          },
+          {
+            "title": "Meta-governance",
+            "subtitle": "The nervous system",
+            "description": "Coordination without domination between diverse systems",
+            "url": "https://globalgovernanceframeworks.org/frameworks/meta-governance",
+            "why": "How do we coordinate global exploration efforts without creating new hierarchies? Meta-governance is the nervous system connecting all parts."
+          }
+        ]
+      },
+      "data-os": {
+        "title": "Data operating system",
+        "description": "Global data governance rules including quantum-resistant cybersecurity and Indigenous data sovereignty",
+        "frameworks": [
+          {
+            "title": "Aurora Accord",
+            "subtitle": "Data governance",
+            "description": "Digital-first world data governance rules with quantum-resistant security",
+            "url": "https://globalgovernanceframeworks.org/frameworks/aurora-accord",
+            "why": "All the digital infrastructure you've explored—from the Love Ledger to food forest registries—needs secure, ethical data governance."
+          }
+        ]
+      },
+      "technology-os": {
+        "title": "Technology operating system",
+        "description": "Ethical governance for AI, synthetic biology, and emerging technologies",
+        "frameworks": [
+          {
+            "title": "Technology governance",
+            "subtitle": "AI ethics & oversight",
+            "description": "Comprehensive framework for ethical technology development and AI governance",
+            "url": "https://globalgovernanceframeworks.org/frameworks/technology-governance",
+            "why": "As we explore consciousness and develop AI, we need governance ensuring technology serves humanity and the biosphere."
+          },
+          {
+            "title": "Aethelred Accord",
+            "subtitle": "Synthetic biology",
+            "description": "Governance for synthetic biology and advanced biotech applications",
+            "url": "https://globalgovernanceframeworks.org/frameworks/aethelred-accord",
+            "why": "Biological technologies could heal ecosystems or harm them. This framework ensures they serve regeneration."
+          }
+        ]
+      },
+      "justice-os": {
+        "title": "Justice operating system",
+        "description": "Rule of law infrastructure including peace frameworks, justice systems, and transnational crime prevention",
+        "frameworks": [
+          {
+            "title": "Peace & conflict resolution",
+            "subtitle": "Values-based transformation",
+            "description": "Framework for transforming conflict based on consciousness development stages",
+            "url": "https://globalgovernanceframeworks.org/frameworks/peace-and-conflict-resolution",
+            "why": "Remember our philosophy about political metamorphosis? This framework applies it to actual conflict resolution."
+          },
+          {
+            "title": "Justice systems",
+            "subtitle": "Global rule of law",
+            "description": "Comprehensive framework for equitable global justice systems",
+            "url": "https://globalgovernanceframeworks.org/frameworks/justice-systems",
+            "why": "Fair justice systems are essential for the transition from conflict to cooperation you've envisioned."
+          },
+          {
+            "title": "The Shield Protocol",
+            "subtitle": "Transnational crime",
+            "description": "Framework for eradicating organized crime and cybercrime",
+            "url": "https://globalgovernanceframeworks.org/frameworks/shield-protocol",
+            "why": "Redirecting from military to exploration requires addressing transnational threats through justice, not war."
+          }
+        ]
+      },
+      "economic-systems": {
+        "title": "Economic systems",
+        "description": "New value currencies (Hearts & Leaves), AUBI, regenerative enterprise, and trade frameworks",
+        "frameworks": [
+          {
+            "title": "Adaptive universal basic income",
+            "subtitle": "Security & purpose",
+            "description": "Freedom to explore inner and outer frontiers",
+            "url": "https://globalgovernanceframeworks.org/frameworks/adaptive-universal-basic-income",
+            "why": "What if everyone had the security to pursue consciousness development or contribute to space missions? AUBI creates that foundation."
+          },
+          {
+            "title": "Financial systems",
+            "subtitle": "Hearts & Leaves",
+            "description": "New value currencies rewarding care work and ecological stewardship",
+            "url": "https://globalgovernanceframeworks.org/frameworks/financial-systems",
+            "why": "Remember how we valued military spending vs. space exploration? These currencies make regenerative work financially viable."
+          },
+          {
+            "title": "Work in liberation",
+            "subtitle": "Beyond jobs",
+            "description": "Purposeful contribution instead of wage labor",
+            "url": "https://globalgovernanceframeworks.org/frameworks/work-in-liberation",
+            "why": "The food forests and community projects you explored become viable career paths, not just hobbies."
+          },
+          {
+            "title": "Gaian trade",
+            "subtitle": "Regenerative commerce",
+            "description": "Trade framework prioritizing ecological health and social equity",
+            "url": "https://globalgovernanceframeworks.org/frameworks/gaian-trade",
+            "why": "Global trade can serve regeneration rather than extraction when guided by the right principles."
+          }
+        ]
+      },
+      "property-stewardship": {
+        "title": "Property & stewardship",
+        "description": "The Hearthstone Protocol transforming ownership into regenerative stewardship",
+        "frameworks": [
+          {
+            "title": "The Hearthstone Protocol",
+            "subtitle": "Commons transition",
+            "description": "Legal pathways from extractive ownership to regenerative stewardship",
+            "url": "https://globalgovernanceframeworks.org/frameworks/hearthstone-protocol",
+            "why": "How do we transition land, water, and resources into commons without creating chaos? Hearthstone provides the roadmap."
+          }
+        ]
+      },
+      "infrastructure": {
+        "title": "Shared infrastructure",
+        "description": "The Conduit Protocol for resilient energy, data, and water infrastructure as commons",
+        "frameworks": [
+          {
+            "title": "The Conduit Protocol",
+            "subtitle": "Infrastructure commons",
+            "description": "Unified global commons for clean energy, secure data, and clean water",
+            "url": "https://globalgovernanceframeworks.org/frameworks/conduit-protocol",
+            "why": "Redirecting resources to exploration requires robust, shared infrastructure that serves all of humanity."
+          }
+        ]
+      },
+      "human-flourishing": {
+        "title": "Human flourishing",
+        "description": "Health, education, consciousness development, and quality of life frameworks",
+        "frameworks": [
+          {
+            "title": "Consciousness & inner development",
+            "subtitle": "Human potential",
+            "description": "Systematic development of consciousness and leadership capacity",
+            "url": "https://globalgovernanceframeworks.org/frameworks/consciousness-and-inner-development",
+            "why": "Your meditation practice and consciousness exploration become part of a global framework for human development."
+          },
+          {
+            "title": "Moral operating system",
+            "subtitle": "Rights of all beings",
+            "description": "Defining rights for humans, animals, ecosystems, and AI",
+            "url": "https://globalgovernanceframeworks.org/frameworks/moral-operating-system",
+            "why": "As we explore space and develop AI, what ethical framework guides us? The MOS provides the foundation."
+          },
+          {
+            "title": "Global health systems",
+            "subtitle": "Health for all",
+            "description": "Comprehensive framework for universal health coverage and pandemic prevention",
+            "url": "https://globalgovernanceframeworks.org/frameworks/global-health-systems",
+            "why": "Healthy populations are essential for the transition from conflict to exploration and innovation."
+          }
+        ]
+      }
+    },
+    "pathways": {
+      "title": "If you're interested in...",
+      "items": [
+        {
+          "icon": "🛡️",
+          "title": "The Earth Defense Force",
+          "description": "Space exploration and planetary protection",
+          "url": "https://globalgovernanceframeworks.org/frameworks/treaty-for-our-only-home",
+          "linkText": "Treaty for Our Only Home (The Hardware)",
+          "color": "#3b82f6"
+        },
+        {
+          "icon": "🧘",
+          "title": "Consciousness development",
+          "description": "Systematic inner development and meditation",
+          "url": "https://globalgovernanceframeworks.org/frameworks/consciousness-and-inner-development",
+          "linkText": "Inner Development & Leadership Protocol",
+          "color": "#a855f7"
+        },
+        {
+          "icon": "🌱",
+          "title": "Food forests & local projects",
+          "description": "Making regenerative work financially viable",
+          "url": "https://globalgovernanceframeworks.org/frameworks/financial-systems",
+          "linkText": "Hearts & Leaves currency system",
+          "color": "#10b981"
+        },
+        {
+          "icon": "🦋",
+          "title": "Political metamorphosis",
+          "description": "Moving beyond left-right divisions",
+          "links": [
+            {
+              "url": "https://www.spiralize.org",
+              "linkText": "Spiralize - Interactive Spiral Dynamics",
+              "description": "Explore where you are in the consciousness development journey",
+              "hint": "Learn about Tier 2 / stage Yellow thinking"
+            },
+            {
+              "url": "https://globalgovernanceframeworks.org/frameworks/peace-and-conflict-resolution",
+              "linkText": "Peace & Conflict Resolution Framework",
+              "description": "Applying consciousness development to conflict transformation"
+            }
+          ],
+          "color": "#eab308"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to explore the full frameworks?",
+      "description": "The complete frameworks site contains detailed documentation, implementation guides, and the full vision for planetary transformation.",
+      "explore": "Explore Global Governance Frameworks",
+      "back": "Back to Unity Beyond the Known",
+      "share": "Share this bridge between vision and reality:"
+    },
+    "share": {
+      "title": "The blueprint for planetary transformation",
+      "description": "Discover the comprehensive frameworks showing how humanity can redirect resources from conflict to exploration. From vision to implementation.",
+      "hashtags": "GlobalGovernanceFrameworks,PlanetaryTransformation,SystemsChange,UnityBeyondTheKnown"
+    },
+    "navigation": {
+      "returnToUBTK": "Return to Unity Beyond the Known"
+    }
   }
 }
