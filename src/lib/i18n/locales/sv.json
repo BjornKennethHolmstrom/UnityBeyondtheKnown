@@ -1,5 +1,6 @@
 {
   "nav": {
+    "whyNow": "Varför nu?",
     "perspectives": "Perspektiv",
     "exploration": "Utforskning",
     "experiments": "Experiment",
@@ -1566,6 +1567,191 @@
     },
     "navigation": {
       "returnToUBTK": "Återgå till Unity Beyond the Known"
+    }
+  },
+  "whyNow": {
+    "badge": "Diagnostiklagret",
+    "title": "Varför uppgradera nu?",
+    "subtitle": "Det nuvarande civilisationella operativsystemet misslyckas inte av en slump — det lyckas med fel mål.",
+    "intro": "Det här är inte slumpmässig statistik om lidande. Det är symptom på en föråldrad arkitektur — omvända indikatorer på vad ett system på nästa nivå naturligt skulle optimera för. Varje datapunkt är en felrapport från en värld som kör gammal kod.",
+    "meta": {
+      "description": "Bevis på att vårt civilisationella operativsystem behöver en uppgradering — datapunkter domän för domän som visar systematiska designfel och hur ett system på nästa nivå skulle se ut."
+    },
+    "osFraming": {
+      "title": "Vi kör på föråldrad kod",
+      "paragraph1": "Spiral dynamics kartlägger hur mänskligt medvetande — och de samhällen det bygger — utvecklas genom stadier, där varje stadium löser föregående stadies problem samtidigt som nya blinda fläckar introduceras. Vår nuvarande värld körs främst på blå-orange logik: regelbaserade institutioner som skalas upp av marknader, briljanta på tillväxt men blinda för systemkostnader i sin helhet.",
+      "paragraph2": "Grönt växte fram som en korrigering — genom att uppmärksamma de exkluderade, de exploaterade och det skändade. Men grönt kämpar ofta med att integrera tekniska och ekonomiska realiteter. Nästa stadium, gul-turkos, är det första som ser helheten som den grundläggande enheten. Det lappar inte bara det gamla systemet — det designar om schemat. Faktan nedan visar hur det gamla schemat ser ut utifrån.",
+      "stages": {
+        "blue": {
+          "label": "Blå",
+          "description": "Ordning, regler, institutioner"
+        },
+        "orange": {
+          "label": "Orange",
+          "description": "Prestation, marknader, tillväxt"
+        },
+        "green": {
+          "label": "Grön",
+          "description": "Jämlikhet, omsorg, inkludering"
+        },
+        "yellow": {
+          "label": "Gul / Turkos",
+          "description": "System, integration, helhet"
+        }
+      }
+    },
+    "domains": {
+      "title": "Felrapporterna",
+      "subtitle": "Välj en domän för att se bevisen. Varje faktum är ett symptom — och en pekare mot uppgraderingen.",
+      "energy": {
+        "title": "Energi",
+        "summary": "Termodynamisk dumhet inbyggd i infrastrukturen",
+        "facts": [
+          {
+            "stat": "~36 %",
+            "label": "av den globala primärenergin producerar nyttigt arbete. Resten slösas bort som värme.",
+            "diagnosis": "Det orangea arvet av elnät byggdes kring centraliserade värmekraftverk. Regulatorisk maktutövning fortsätter att subventionera dessa förluster trots att renare alternativ finns. Det nuvarande systemet bygger in avsiktlig entropi.",
+            "upgrade": "Gul: Ett helt elektrifierat, förnyelsebart system kan uppnå betydligt högre verkningsgrad — genom att designa om nätet, inte genom att lappa det."
+          },
+          {
+            "stat": "7 biljoner dollar",
+            "label": "i globala subventioner för fossila bränslen under 2022 — 7,1 % av BNP (IMF:s uppskattning).",
+            "diagnosis": "Samma värld som våndas över kostnaden för att mätta barn eller städa upp plast betalar 7 biljoner dollar för att bränna saker ineffektivt. Orange frågar 'vad kostar det i dollar?'. Gul-turkos frågar 'vad kostar hela värdecykeln, och vem betalar i form av lidande?'.",
+            "upgrade": "Gul: Redovisning av hela livscykeln som inkluderar planetära och sociala externaliteter i varje kostnadskalkyl."
+          }
+        ]
+      },
+      "human": {
+        "title": "Mänsklig potential",
+        "summary": "Katastrofalt slöseri med kreativitet, mening och uppmärksamhet",
+        "facts": [
+          {
+            "stat": "85 %",
+            "label": "av människor världen över är oengagerade i sitt arbete (Gallup).",
+            "diagnosis": "Blå-orange optimerade för efterlevnad och produktion, inte flöde eller mening. Grönt sökte syfte men ignorerade ofta strukturella incitament. En oengagemangsgrad på 85 % är en katastrofal förlust av kollektiv intelligens som inget väldesignat system skulle tolerera.",
+            "upgrade": "Gul: Design för bidrag och mening som kärnutdata, inte som biprodukter."
+          },
+          {
+            "stat": "85 miljoner",
+            "label": "beräknad global brist på tech-arbetare till 2030 — samtidigt som miljoner förlorar sin kompetens i meningsfulla roller.",
+            "diagnosis": "Systemet kan inte se omsorg, ekologisk restaurering eller samhällsbyggande som 'produktivt' eftersom dess bokföring (BNP) föddes i ett blå-orange paradigm som värderade utvinning och transaktioner högre än liv.",
+            "upgrade": "Turkos: Nya värdevalutor som gör regenerativt arbete ekonomiskt hållbart — som Hearts & Leaves-systemet."
+          }
+        ]
+      },
+      "food": {
+        "title": "Mat och jord",
+        "summary": "En trasig ämnesomsättning: näringsämnen flödar till deponi, inte tillbaka till jorden",
+        "facts": [
+          {
+            "stat": "⅓ + ⅓",
+            "label": "En tredjedel av all mat som produceras slängs. En tredjedel av all åkermark har gått förlorad på 40 år.",
+            "diagnosis": "Orange linjärt 'utvinn-tillverka-släng'-jordbruk bryter bokstavligen jorden som en ändlig resurs. Näringsämnen flödar från jord till deponi istället för att cykla tillbaka. Turkos känner en skändning av den planetära kroppen.",
+            "upgrade": "Gul: Cirkulärt materialflöde — att designa om matsystem så att avfall från en loop föder nästa."
+          },
+          {
+            "stat": "3:e största",
+            "label": "Om matavfall vore ett land skulle det vara den tredje största utsläpparen av växthusgaser efter Kina och USA.",
+            "diagnosis": "Ett enda faktum som binder samman ekologisk kollaps, moraliskt misslyckande och energislöseri till en tydlig systeminsikt. Det nuvarande operativsystemet kan inte se detta som ett enda problem eftersom dess avdelningar inte pratar med varandra.",
+            "upgrade": "Gul: Integrerad bokföring som kopplar samman mat, klimat, vatten och ekonomi i ett enda synligt system."
+          }
+        ]
+      },
+      "health": {
+        "title": "Hälsa",
+        "summary": "Briljant teknik, perversa incitament — ett system för sjukvård, inte hälsa",
+        "facts": [
+          {
+            "stat": "18 % av BNP",
+            "label": "USA spenderar nästan 18 % av BNP på hälsovård — dubbelt så mycket som OECD-snittet — med den lägsta förväntade livslängden bland höginkomstländer.",
+            "diagnosis": "Orange medicinsk teknik är briljant. Blå-orange incitament för försäkringar och sjukhus skapar ett system för sjukdomshantering, inte ett hälsosystem. Vi betalar en massiv 'sjukdomshanteringsskatt' för att operativsystemet inte kan se bakomliggande orsaker.",
+            "upgrade": "Gul: Design för friska år (health-span), inte bara livslängd — genom att integrera mat, miljö, gemenskap och syfte."
+          },
+          {
+            "stat": "= 15 cigaretter/dag",
+            "label": "Ensamhet ökar risken för tidig död med 26–29 % — jämförbart med att röka 15 cigaretter om dagen.",
+            "diagnosis": "Vi har allestädes närvarande digital uppkoppling (orange) och egalitära ideal (grönt), ändå har vi designat vår fysiska miljö och våra appar för att atomisera oss. Den sociala väven är kritisk infrastruktur — men den syns inte i någon balansräkning.",
+            "upgrade": "Turkos: Att behandla social kontakt som infrastruktur — designad, finansierad och mätt precis som vägar eller elnät."
+          }
+        ]
+      },
+      "housing": {
+        "title": "Bostäder",
+        "summary": "Tomma skal lagras medan medlemmar saknar tak över huvudet",
+        "facts": [
+          {
+            "stat": "5 till 1",
+            "label": "Det finns ungefär fem tomma hem i USA för varje hemlös person.",
+            "diagnosis": "Orange finansialisering behandlar bostäder som ett tillgångsslag, inte som ett grundläggande mänskligt behov av trygghet. Gul frågar: 'Vad är protokollet för lagerhantering för en art som lagrar tomma skal medan medlemmar saknar skydd?'. Turkos känner såret i den kollektiva själen.",
+            "upgrade": "Gul: Omdesign av incitament för ägande så att bostäder tjänar livsuppehållande syften före spekulation."
+          }
+        ]
+      },
+      "information": {
+        "title": "Information",
+        "summary": "En kognitiv atmosfär förorenad av utvinning av uppmärksamhet",
+        "facts": [
+          {
+            "stat": "4 000–10 000",
+            "label": "Annonser som genomsnittspersonen ser per dag. Vår kognitiva allmänning är en förorenad resurs.",
+            "diagnosis": "Övervakningskapitalism utvinner uppmärksamhet och formar beteenden för vinst. Orange såg en marknad. Grönt såg manipulation. Gul ser en neurokemisk kapning som förstör den kollektiva förmågan att skapa mening.",
+            "upgrade": "Gul-turkos: Att behandla infosfären som en allmänning — med regenerativ signaldesign och minimalt brus."
+          },
+          {
+            "stat": "6× snabbare",
+            "label": "Desinformation sprids sex gånger snabbare än sanning på sociala medier.",
+            "diagnosis": "Viralitetens arkitektur optimerar för upprördhet och nyhetsvärde, inte sanningshalt. Detta är ett direkt hot mot demokratin (blå-orange politiskt operativsystem) och kräver systemisk omdesign, inte bara lappande i form av innehållsmoderering.",
+            "upgrade": "Gul: Omdesign av hur vi rankar, rekommenderar och belönar information — på arkitekturnivå."
+          }
+        ]
+      },
+      "economics": {
+        "title": "Ekonomi",
+        "summary": "Ett system kodat för att koncentrera, inte cirkulera",
+        "facts": [
+          {
+            "stat": "⅔",
+            "label": "Den rikaste procenten lade beslag på nästan två tredjedelar av all ny rikedom som skapats sedan 2020 (Oxfam).",
+            "diagnosis": "Orange lovade 'trickle-down'. Grönt protesterade mot orättvisan. Gul frågar: hur kodades systemets feedback-loopar och maktlagar för att koncentrera snarare än att cirkulera värde? Pengar är en system-token — när de samlas i döda zoner kan de inte utföra arbete där de behövs.",
+            "upgrade": "Gul: Omdesign av feedback-loopar så att värde cirkulerar snarare än koncentreras — inte genom omfördelningslappar, utan genom schemaändring."
+          },
+          {
+            "stat": "1,75 jordklot",
+            "label": "Vår globala ekonomi kräver 1,75 jordklot för att upprätthålla sitt materialavtryck.",
+            "diagnosis": "Vi kör ett operativsystem som behandlar planetens livsuppehållande förmåga som en oändlig externalitet. Varje operativsystem som inte körs inom sin regenerativa budget är en långsam självmordspakt.",
+            "upgrade": "Turkos: Planetära gränser som absoluta begränsningar i ekonomisk design — inte som valfria tillägg."
+          }
+        ]
+      },
+      "education": {
+        "title": "Utbildning",
+        "summary": "En motor för att reducera nyfikenhet till mätbar konformitet",
+        "facts": [
+          {
+            "stat": "Preussisk → 2024",
+            "label": "De flesta utbildningssystem tränar fortfarande studenter för jobb som kanske inte finns, med metoder som AI redan kan överträffa.",
+            "diagnosis": "Den blå modellen designades för att producera fogliga fabriksarbetare. Även nu försummar vi kärnkompetenserna i gul-turkos: systemtänkande, bekvämlighet med komplexitet, djup empati, ekologisk läskunnighet och förmågan att forma sitt eget medvetande.",
+            "upgrade": "Gul: Utbildning omdesignad kring adaptiv kapacitet — inte kunskapsöverföring utan förmågan att navigera i komplexitet."
+          },
+          {
+            "stat": "100 → ~10",
+            "label": "Den genomsnittliga förskolebarnet ställer ~100 frågor om dagen. Vid högstadiet sjunker den siffran dramatiskt.",
+            "diagnosis": "Det nuvarande systemet är en motor för att reducera nyfikenhet — vår främsta evolutionära fördel — till mätbar konformitet. Gul ser detta som ett katastrofalt misslyckande för den adaptiva förmågan. Turkos sörjer krympandet av själar.",
+            "upgrade": "Turkos: Nyfikenhet som det primära resultatet av utbildning — skyddad, närd och mätt."
+          }
+        ]
+      }
+    },
+    "conclusion": {
+      "title": "Designfel, inte resursbrist",
+      "paragraph1": "Dessa är inte problem med brist eller ens onda avsikter. Världen har tillräckligt med mat, tillräckligt med bostäder, tillräckligt med energi, tillräckligt med mänsklig kreativitet. Vad den har är ett civilisationellt operativsystem som är briljant på att optimera delar men blint för helheter — som ser priset på allt men värdet av inget bortom räkenskapsboken.",
+      "paragraph2": "Gul-turkos är det första stadiet av medvetande som ser helheten som den grundläggande enheten för överlevnad och blomstring. Uppgraderingen handlar inte om att lägga till bättre moduler till den befintliga arkitekturen. Det handlar om att ändra schemat — vad som räknas som verkligt, vad som räknas som värdefullt och vad som räknas som sammankopplat."
+    },
+    "cta": {
+      "title": "Redo att utforska vägen mot uppgradering?",
+      "perspectives": "Se resursredirekteringar",
+      "frameworks": "Utforska ramverken",
+      "philosophy": "Förstå filosofin"
     }
   }
 }

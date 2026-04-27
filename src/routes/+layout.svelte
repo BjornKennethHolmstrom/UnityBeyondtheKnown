@@ -36,6 +36,9 @@
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center space-x-8">
+          <a href="{base}/why-now" class="hover:text-blue-400 transition-colors">
+            {$t('nav.whyNow')}
+          </a>
           <a href="{base}/perspectives" class="hover:text-blue-400 transition-colors">
             {$t('nav.perspectives')}
           </a>

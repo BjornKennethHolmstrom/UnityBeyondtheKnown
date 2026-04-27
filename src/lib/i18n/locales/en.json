@@ -1,5 +1,6 @@
 {
   "nav": {
+    "whyNow": "Why Now?",
     "perspectives": "Perspectives",
     "exploration": "Exploration",
     "experiments": "Experiments",
@@ -1535,6 +1536,191 @@
     },
     "navigation": {
       "returnToUBTK": "Return to Unity Beyond the Known"
+    }
+  },
+  "whyNow": {
+    "badge": "The Diagnostic Layer",
+    "title": "Why Upgrade Now?",
+    "subtitle": "The current civilizational OS isn't failing by accident — it's succeeding at the wrong goals.",
+    "intro": "These aren't random statistics about suffering. They are symptoms of outdated architecture — reverse indicators of what a next-stage system would naturally optimise for. Each data point is a bug report from a world running legacy code.",
+    "meta": {
+      "description": "Evidence that our civilizational operating system needs an upgrade — domain by domain data points showing systemic design failures and what a next-stage system would look like."
+    },
+    "osFraming": {
+      "title": "We're Running Legacy Code",
+      "paragraph1": "Spiral Dynamics maps how human consciousness — and the societies it builds — evolves through stages, each solving the problems of the previous one while introducing new blind spots. Our current world runs primarily on blue-orange logic: rule-based institutions scaled by markets, brilliant at growth but blind to whole-system costs.",
+      "paragraph2": "Green emerged as a corrective — noticing the excluded, the exploited, the desecrated. But green often struggles to integrate technical and economic realities. The next stage, yellow-turquoise, is the first to see the whole as the fundamental unit. It doesn't just patch the old system — it redesigns the schema. The facts below are what the old schema looks like from the outside.",
+      "stages": {
+        "blue": {
+          "label": "Blue",
+          "description": "Order, rules, institutions"
+        },
+        "orange": {
+          "label": "Orange",
+          "description": "Achievement, markets, growth"
+        },
+        "green": {
+          "label": "Green",
+          "description": "Equality, care, inclusion"
+        },
+        "yellow": {
+          "label": "Yellow / Turquoise",
+          "description": "Systems, integration, whole"
+        }
+      }
+    },
+    "domains": {
+      "title": "The Bug Reports",
+      "subtitle": "Select a domain to see the evidence. Each fact is a symptom — and a pointer toward the upgrade.",
+      "energy": {
+        "title": "Energy",
+        "summary": "Thermodynamic stupidity baked into infrastructure",
+        "facts": [
+          {
+            "stat": "~36%",
+            "label": "of global primary energy produces useful work. The rest is wasted as heat.",
+            "diagnosis": "The orange legacy grid was built around centralised thermal plants. Regulatory capture keeps subsidising those losses even as cleaner alternatives exist. The current system bakes in deliberate entropy.",
+            "upgrade": "Yellow: A fully electrified, renewables-based system can achieve far higher useful-energy efficiency — by redesigning the grid, not patching it."
+          },
+          {
+            "stat": "$7 trillion",
+            "label": "in global fossil fuel subsidies in 2022 — 7.1% of GDP (IMF estimate).",
+            "diagnosis": "The same world that agonises over the cost of feeding children or cleaning up plastic pays $7 trillion to burn things inefficiently. Orange asks 'how much does it cost in dollars?' Yellow-turquoise asks 'what does the whole value cycle cost, and who is paying in suffering?'",
+            "upgrade": "Yellow: Whole-life accounting that includes planetary and social externalities in every cost calculation."
+          }
+        ]
+      },
+      "human": {
+        "title": "Human Potential",
+        "summary": "Catastrophic waste of creativity, purpose and attention",
+        "facts": [
+          {
+            "stat": "85%",
+            "label": "of people worldwide are disengaged from their work (Gallup).",
+            "diagnosis": "Blue-orange optimised for compliance and output, not flow or meaning. Green sought purpose but often ignored structural incentives. An 85% disengagement rate is a catastrophic loss of collective intelligence that no well-designed system would tolerate.",
+            "upgrade": "Yellow: Designing for contribution and meaning as core outputs, not byproducts."
+          },
+          {
+            "stat": "85 million",
+            "label": "projected global shortage of tech workers by 2030 — while millions are deskilled out of purpose-rich roles.",
+            "diagnosis": "The system cannot see care, ecological restoration, or community-building as 'productive' because its accounting (GDP) was born in a blue-orange paradigm that valued extraction and transaction over life.",
+            "upgrade": "Turquoise: New value currencies that make regenerative work financially viable — like the Hearts & Leaves system."
+          }
+        ]
+      },
+      "food": {
+        "title": "Food & Soil",
+        "summary": "A broken metabolism: nutrients flow to landfill, not back to soil",
+        "facts": [
+          {
+            "stat": "⅓ + ⅓",
+            "label": "One third of food produced is wasted. One third of arable land lost in 40 years.",
+            "diagnosis": "Orange's linear 'take-make-waste' agriculture literally mines the skin of the Earth. Nutrients flow from soil to landfill instead of cycling back. Turquoise senses a desecration of the planetary body.",
+            "upgrade": "Yellow: Circular material flow — redesigning food systems so waste from one loop feeds the next."
+          },
+          {
+            "stat": "3rd largest",
+            "label": "If food waste were a country, it would be the third-largest greenhouse gas emitter after China and the US.",
+            "diagnosis": "A single fact that ties ecological collapse, moral failure, and energy waste into one elegant systems insight. The current OS cannot see this as one problem because its departments don't talk to each other.",
+            "upgrade": "Yellow: Integrated accounting that connects food, climate, water and economy into a single visible system."
+          }
+        ]
+      },
+      "health": {
+        "title": "Health",
+        "summary": "Brilliant technology, perverse incentives — a sick-care system",
+        "facts": [
+          {
+            "stat": "18% of GDP",
+            "label": "The US spends nearly 18% of GDP on healthcare — double the OECD average — with the lowest life expectancy among high-income peers.",
+            "diagnosis": "Orange medical technology is brilliant. Blue-orange insurance and hospital incentives create a sick-care system, not a health system. We pay a massive 'disease management tax' because the OS can't see upstream causes.",
+            "upgrade": "Yellow: Designing for health-span, not just life-span — integrating food, environment, community and purpose."
+          },
+          {
+            "stat": "= 15 cigarettes/day",
+            "label": "Loneliness increases early death risk by 26–29% — comparable to smoking 15 cigarettes a day.",
+            "diagnosis": "We have ubiquitous digital connectivity (orange) and egalitarian ideals (green), yet we've designed our physical environment and apps to atomise us. Social fabric is critical infrastructure — but it doesn't appear on any balance sheet.",
+            "upgrade": "Turquoise: Treating social connection as infrastructure — designed for, funded, and measured like roads or power grids."
+          }
+        ]
+      },
+      "housing": {
+        "title": "Housing",
+        "summary": "Empty shells stored while members lack shelter",
+        "facts": [
+          {
+            "stat": "5 to 1",
+            "label": "There are roughly five empty homes in the US for every one homeless person.",
+            "diagnosis": "Orange financialisation treats housing as an asset vehicle, not a basic human nesting need. Yellow asks: 'What's the inventory management protocol for a species that stores empty shells while members lack shelter?' Turquoise feels the wound to the collective soul.",
+            "upgrade": "Yellow: Redesigning ownership incentives so housing serves life support before speculation."
+          }
+        ]
+      },
+      "information": {
+        "title": "Information",
+        "summary": "A cognitive atmosphere polluted by attention extraction",
+        "facts": [
+          {
+            "stat": "4,000–10,000",
+            "label": "Ads the average person sees per day. Our cognitive commons is a polluted resource.",
+            "diagnosis": "Surveillance capitalism extracts attention and shapes behaviour for profit. Orange saw a market. Green saw manipulation. Yellow sees a neurochemical hijack that destroys collective sense-making capacity.",
+            "upgrade": "Yellow-Turquoise: Treating the infosphere as a commons — with regenerative signal design and minimal noise."
+          },
+          {
+            "stat": "6× faster",
+            "label": "Misinformation spreads six times faster than truth on social media.",
+            "diagnosis": "The architecture of virality optimises for outrage and novelty, not veracity. This is a direct threat to democracy (blue-orange's political OS) and requires systemic redesign, not content moderation patches.",
+            "upgrade": "Yellow: Redesigning how we rank, recommend and reward information — at the architecture level."
+          }
+        ]
+      },
+      "economics": {
+        "title": "Economics",
+        "summary": "A system coded to concentrate, not circulate",
+        "facts": [
+          {
+            "stat": "⅔",
+            "label": "The richest 1% captured nearly two-thirds of all new wealth created since 2020 (Oxfam).",
+            "diagnosis": "Orange promised trickle-down. Green protested the injustice. Yellow asks: how were the system's feedback loops and power laws coded to concentrate rather than circulate value? The money is a system token — when it pools in dead zones, it can't do work where it's needed.",
+            "upgrade": "Yellow: Redesigning feedback loops so value circulates rather than concentrating — not through redistribution patches, but schema change."
+          },
+          {
+            "stat": "1.75 Earths",
+            "label": "Our global economy requires 1.75 Earths to sustain its materials footprint.",
+            "diagnosis": "We are running an OS that treats the planet's life-support capacity as an infinite external. Any OS that doesn't run within its regenerative budget is a slow suicide pact.",
+            "upgrade": "Turquoise: Planetary boundaries as hard constraints in economic design — not optional add-ons."
+          }
+        ]
+      },
+      "education": {
+        "title": "Education",
+        "summary": "An engine for reducing curiosity to measurable conformity",
+        "facts": [
+          {
+            "stat": "Prussian → 2024",
+            "label": "Most education systems still train students for jobs that may not exist, using methods AI can already outperform.",
+            "diagnosis": "The blue model was designed to produce compliant factory workers. Even now, we neglect the core yellow-turquoise competencies: systems thinking, comfort with complexity, deep empathy, ecological literacy, and the capacity to shape one's own consciousness.",
+            "upgrade": "Yellow: Education redesigned around adaptive capacity — not knowledge transfer but the ability to navigate complexity."
+          },
+          {
+            "stat": "100 → ~10",
+            "label": "The average preschooler asks ~100 questions a day. By middle school, that number plummets.",
+            "diagnosis": "The current system is an engine for reducing curiosity — our primary evolutionary edge — to measurable conformity. Yellow sees this as a catastrophic failure of adaptive capacity. Turquoise grieves the shrinking of souls.",
+            "upgrade": "Turquoise: Curiosity as the primary educational output — protected, nurtured, and measured."
+          }
+        ]
+      }
+    },
+    "conclusion": {
+      "title": "Design Error, Not Resource Shortage",
+      "paragraph1": "These aren't problems of scarcity or even bad intentions. The world has enough food, enough housing, enough energy, enough human creativity. What it has is a civilizational operating system that is brilliant at optimising parts and blind to wholes — that sees the price of everything and the value of nothing beyond the ledger.",
+      "paragraph2": "Yellow-turquoise is the first stage of consciousness that sees the whole as the fundamental unit of survival and flourishing. The upgrade isn't about adding better modules to the existing architecture. It's about changing the schema — what counts as real, what counts as valuable, and what counts as connected."
+    },
+    "cta": {
+      "title": "Ready to explore the upgrade path?",
+      "perspectives": "See Resource Redirections",
+      "frameworks": "Explore the Frameworks",
+      "philosophy": "Understand the Philosophy"
     }
   }
 }
