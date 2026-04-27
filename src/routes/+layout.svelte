@@ -78,6 +78,13 @@
         <div class="md:hidden bg-slate-800 py-4">
           <div class="flex flex-col space-y-4 px-4">
             <a 
+              href="{base}/why-now" 
+              class="hover:text-blue-400 transition-colors"
+              on:click={() => isMenuOpen = false}
+            >
+              {$t('nav.whyNow')}
+            </a>
+            <a 
               href="{base}/perspectives" 
               class="hover:text-blue-400 transition-colors"
               on:click={() => isMenuOpen = false}
